@@ -1,0 +1,36 @@
+item_name,text,type,answers,values,score:paq_total,score:paq_ndif,score:paq_pdif,score:paq_nddf,score:paq_pddf,score:paq_geot,optional,side_text,
+instructions1,"<span style='color:#006699'><span style='font-size:20px'>This questionnaire asks about how you perceive and experience your emotions. Please score the following statements according to how much you agree or disagree that the statement is true of you. Circle one answer for each statement.<br>
+<br>Some questions mention <b><u>bad</u></b> or <b><u>unpleasant</u></b> emotions, this means emotions like sadness, anger, or fear. Some questions mention <b><u>good</u></b> or <b><u>pleasant</u></b> emotions, this means emotions like happiness, amusement, or excitement.</span></span>",instruct,,,,,,,,,,,
+paq1,"When I’m feeling <i>bad</i> (feeling an unpleasant emotion), I can’t find the right words to describe those feelings.",likert,1|2|3|4|5|6|7,1|2|3|4|5|6|7,1,,,1,,,no,Strongly Disagree|Strongly Agree,
+paq2,"When I’m feeling <i>bad</i>, I can’t tell whether
+I’m sad, angry, or scared.",likert,1|2|3|4|5|6|7,1|2|3|4|5|6|7,1,1,,,,,no,Strongly Disagree|Strongly Agree,
+paq3,I tend to ignore how I feel.,likert,1|2|3|4|5|6|7,1|2|3|4|5|6|7,1,,,,,1,no,Strongly Disagree|Strongly Agree,
+paq4,"When I’m feeling <i>good</i> (feeling a pleasant
+emotion), I can’t find the right words todescribe those feelings.",likert,1|2|3|4|5|6|7,1|2|3|4|5|6|7,1,,,,1,,no,Strongly Disagree|Strongly Agree,
+paq5,"When I’m feeling <i>good</i>, I can’t tell whether I’m happy, excited, or amused.",likert,1|2|3|4|5|6|7,1|2|3|4|5|6|7,1,,1,,,,no,Strongly Disagree|Strongly Agree,
+paq6,"I prefer to just let my feelings happen in the background, rather than focus on them.",likert,1|2|3|4|5|6|7,1|2|3|4|5|6|7,1,,,,,1,no,Strongly Disagree|Strongly Agree,
+paq7,"When I’m feeling <i>bad</i>, I can’t talk about those feelings in much depth or detail.",likert,1|2|3|4|5|6|7,1|2|3|4|5|6|7,1,,,1,,,no,Strongly Disagree|Strongly Agree,
+paq8,"When I’m feeling <i>bad</i>, I can’t make sense of those feelings.",likert,1|2|3|4|5|6|7,1|2|3|4|5|6|7,1,1,,,,,no,Strongly Disagree|Strongly Agree,
+paq9,I don’t pay attention to my emotions.,likert,1|2|3|4|5|6|7,1|2|3|4|5|6|7,1,,,,,1,no,Strongly Disagree|Strongly Agree,
+paq10,"When I’m feeling <i>good</i>, I can’t talk about those feelings in much depth or detail.",likert,1|2|3|4|5|6|7,1|2|3|4|5|6|7,1,,,,1,,no,Strongly Disagree|Strongly Agree,
+paq11,"When I’m feeling <i>good</i>, I can’t make sense of those feelings.",likert,1|2|3|4|5|6|7,1|2|3|4|5|6|7,1,,1,,,,no,Strongly Disagree|Strongly Agree,
+paq12,"Usually, I try to avoid thinking about what
+I’m feeling.",likert,1|2|3|4|5|6|7,1|2|3|4|5|6|7,1,,,,,1,no,Strongly Disagree|Strongly Agree,
+paq13,"When something <i>bad</i> happens, it’s hard for me to put into words how I’m feeling.",likert,1|2|3|4|5|6|7,1|2|3|4|5|6|7,1,,,1,,,no,Strongly Disagree|Strongly Agree,
+paq14,"When I’m feeling <i>bad</i>, I get confused about what emotion it is.",likert,1|2|3|4|5|6|7,1|2|3|4|5|6|7,1,1,,,,,no,Strongly Disagree|Strongly Agree,
+paq15,"I prefer to focus on things I can actually see
+or touch, rather than my emotions.",likert,1|2|3|4|5|6|7,1|2|3|4|5|6|7,1,,,,,1,no,Strongly Disagree|Strongly Agree,
+paq16,"When something <i>good</i> happens, it’s hard for me to put into words how I’m feeling.",likert,1|2|3|4|5|6|7,1|2|3|4|5|6|7,1,,,,1,,no,Strongly Disagree|Strongly Agree,
+paq17,"When I’m feeling <i>good</i>, I get confused about what emotion it is.",likert,1|2|3|4|5|6|7,1|2|3|4|5|6|7,1,,1,,,,no,Strongly Disagree|Strongly Agree,
+paq18,"I don’t try to be ‘in touch’ with my
+emotions.",likert,1|2|3|4|5|6|7,1|2|3|4|5|6|7,1,,,,,1,no,Strongly Disagree|Strongly Agree,
+paq19,"When I’m feeling <i>bad</i>, if I try to describe how I’m feeling I don’t know what to say.",likert,1|2|3|4|5|6|7,1|2|3|4|5|6|7,1,,,1,,,no,Strongly Disagree|Strongly Agree,
+paq20,"When I’m feeling <i>bad</i>, I’m puzzled by those
+feelings.",likert,1|2|3|4|5|6|7,1|2|3|4|5|6|7,1,1,,,,,no,Strongly Disagree|Strongly Agree,
+paq21,"It’s not important for me to know what I’m
+feeling.",likert,1|2|3|4|5|6|7,1|2|3|4|5|6|7,1,,,,,1,no,Strongly Disagree|Strongly Agree,
+paq22,"When I’m feeling <i>good</i>, if I try to describe how I’m feeling I don’t know what to say.",likert,1|2|3|4|5|6|7,1|2|3|4|5|6|7,1,,,,1,,no,Strongly Disagree|Strongly Agree,
+paq23,"When I’m feeling <i>good</i>, I’m puzzled by those feelings.",likert,1|2|3|4|5|6|7,1|2|3|4|5|6|7,1,,1,,,,no,Strongly Disagree|Strongly Agree,
+paq24,"It’s strange for me to think about my
+emotions.",likert,1|2|3|4|5|6|7,1|2|3|4|5|6|7,1,,,,,1,no,Strongly Disagree|Strongly Agree,
+,,,,,,,,,,,,,
