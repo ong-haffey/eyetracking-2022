@@ -2,11 +2,12 @@ trial,elements,image_1,image_1.src,text_1,
 1,"image_1,text_1","{
   ""type"": ""image"",
   ""height"": 600,
-  ""width"": 600,
+  ""width"": 441,
   ""onset"": 0,
   ""duration"": 2000,
   ""x"" : 0,
-  ""y"" : 0
+  ""y"" : 0,
+  ""end_trial"": ""yes""
 }",../User/KDEF_top5/angry/AF14ANS.JPG,"{
   ""type"": ""text"",
   ""text"": "" "",
@@ -17,7 +18,15 @@ trial,elements,image_1,image_1.src,text_1,
   ""width"": ""500px""
 }",
 2,"image_1,text_1","{
-  ""type"": ""image"",  ""height"": 600,  ""width"": 600,  ""onset"": 0,  ""duration"": 2000,  ""x"" : 0,  ""y"" : 0}",../User/KDEF_top5/disgusted/AF09DIS.JPG,"{
+  ""type"": ""image"",
+  ""height"": 762,
+  ""width"": 562,
+  ""onset"": 0,
+  ""duration"": 2000,
+  ""x"" : 0,
+  ""y"" : 0,
+  ""end_trial"": ""yes""
+}",../User/KDEF_top5/disgusted/AF09DIS.JPG,"{
   ""type"": ""text"",
   ""text"": "" "",
   ""onset"": ""0"",
