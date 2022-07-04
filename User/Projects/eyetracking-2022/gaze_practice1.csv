@@ -1,5 +1,5 @@
-trial,elements,image_1,image_1.src,
-1,image_1,"{
+trial,elements,image_1,image_1.src,text_1,
+1,"image_1,text_1","{
   ""type"": ""image"",
   ""height"": 600,
   ""width"": 600,
@@ -7,5 +7,23 @@ trial,elements,image_1,image_1.src,
   ""duration"": 2000,
   ""x"" : 0,
   ""y"" : 0
-}",../User/KDEF_top5/angry/AF14ANS.JPG,
-,,,,
+}",../User/KDEF_top5/angry/AF14ANS.JPG,"{
+  ""type"": ""text"",
+  ""text"": "" "",
+  ""onset"": ""0"",
+  ""x"": 0,
+  ""y"": 0,
+  ""duration"": ""2100"",
+  ""width"": ""500px""
+}",
+2,"image_1,text_1","{
+  ""type"": ""image"",  ""height"": 600,  ""width"": 600,  ""onset"": 0,  ""duration"": 2000,  ""x"" : 0,  ""y"" : 0}",../User/KDEF_top5/disgusted/AF09DIS.JPG,"{
+  ""type"": ""text"",
+  ""text"": "" "",
+  ""onset"": ""0"",
+  ""x"": 0,
+  ""y"": 0,
+  ""duration"": ""2100"",
+  ""width"": ""500px""
+}",
+,,,,,

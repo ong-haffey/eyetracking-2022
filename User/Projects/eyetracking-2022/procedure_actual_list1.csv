@@ -32,7 +32,7 @@ Now we will start a short practice (there is no calibration dot for practice).
 <br>
 </span>
 <button onclick=""Phase.submit()"">Proceed</button>",,0,text,,,,,,,,,,
-0,,user,"Please look at the cross.<br />A series of arrows will follow, but you only need to respond to the middle arrow. Press the ""Z"" key if the middle arrow is pointing left, and the ""M"" key if it is pointing right.",off,1,webgazer_3,13,no,stimuli,eyetracking_stim_v1.csv,1,1100px,400px,off,image_1,
+0,,user,"Please look at the cross.<br />A series of arrows will follow, but you only need to respond to the middle arrow. Press the ""Z"" key if the middle arrow is pointing left, and the ""M"" key if it is pointing right.",off,1,webgazer_3,13,yes,stimuli,gaze_practice1.csv,1,1100px,400px,off,image_1,
 0,,user,MAKE SURE TO USE A LAPTOP NOT A DESKTOP,off,1,instruct,,,,,,,,,,
 0,,user,Emotion recognition task,off,1,instruct,,,,,,,,,,
 0,urop_demographics.csv,user,,off,1,survey,,,,,,,,,,
