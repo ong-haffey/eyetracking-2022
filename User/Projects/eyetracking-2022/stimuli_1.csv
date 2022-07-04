@@ -1,4 +1,4 @@
-cue,answer,
-a,ant,
-b,bug,
-,,
+cue,answer,emotion_picture,
+a,ant,../User/KDEF_top5/angry/AF14ANS.JPG,
+b,bug,../User/KDEF_top5/disgusted/AF09DIS.JPG,
+,,,
