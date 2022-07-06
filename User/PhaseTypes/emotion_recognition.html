@@ -147,12 +147,11 @@ body{
   <input id='canvas_element_3'    class='end_trial emotion_response update_name' type='button' value='Surprise' />
   <input id='neutral_response'    class='end_trial emotion_response update_name' type='button' value='Neutral' />
   <input id='fearful_response'    class='end_trial emotion_response update_name' type='button' value='Fearful' />
-  <input id='angry_response'      class='end_trial button_response update_name' type='button' value='Angry' />
-  <input id='disgusted_response'  class='end_trial button_response update_name' type='button' value='Disgusted' />
+  <input id='angry_response'      class='end_trial emotion_response update_name' type='button' value='Angry' />
+  <input id='disgusted_response'  class='end_trial emotion_response update_name' type='button' value='Disgusted' />
   <button id='emotion_picture' value='' class='image_response update_name' style='border:0; background-color:transparent'><img style='width:100%;height:100%' src='{{emotion_picture}}'></button>
 </div>
 <input type='hidden' name='emotion_response' />
-<input type='hidden' name='button_response' />
 <input type='hidden' name='image_response' />
 <script>
 $('.update_name').on('click',function(){
