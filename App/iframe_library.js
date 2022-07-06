@@ -19,7 +19,7 @@
 */
 
 var libraries =
-  '<!DOCTYPE html>' +
+  //'<!DOCTYPE html>' +
   '<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />' +
   "<scr" +
   'ipt src="libraries/jquery.min.js"></scr' +
