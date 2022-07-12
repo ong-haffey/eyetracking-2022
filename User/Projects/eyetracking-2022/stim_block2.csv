@@ -1,0 +1,72 @@
+elements,image_1,image_1.src,cond,emo,encoder_gender,block,trial,
+image_1,"{
+  ""type"": ""image"",  ""height"": 600,  ""width"": 441,  ""onset"": 0,  ""duration"": 2000,  ""x"" : 0,  ""y"" : 0,  ""end_trial"": ""yes""    }",../User/KDEF_top5/all/U_AM14AFS.JPG,unmasked,AFS,M,2,1,
+image_1,"{
+  ""type"": ""image"",  ""height"": 600,  ""width"": 441,  ""onset"": 0,  ""duration"": 2000,  ""x"" : 0,  ""y"" : 0,  ""end_trial"": ""yes""    }",../User/KDEF_top5/all/U_AM10NES.JPG,unmasked,NES,M,2,2,
+image_1,"{
+  ""type"": ""image"",  ""height"": 600,  ""width"": 441,  ""onset"": 0,  ""duration"": 2000,  ""x"" : 0,  ""y"" : 0,  ""end_trial"": ""yes""    }",../User/KDEF_top5/all/M_AF13DIS.JPG,masked,DIS,F,2,3,
+image_1,"{
+  ""type"": ""image"",  ""height"": 600,  ""width"": 441,  ""onset"": 0,  ""duration"": 2000,  ""x"" : 0,  ""y"" : 0,  ""end_trial"": ""yes""    }",../User/KDEF_top5/all/U_AF31ANS.JPG,unmasked,ANS,F,2,4,
+image_1,"{
+  ""type"": ""image"",  ""height"": 600,  ""width"": 441,  ""onset"": 0,  ""duration"": 2000,  ""x"" : 0,  ""y"" : 0,  ""end_trial"": ""yes""    }",../User/KDEF_top5/all/M_AM07HAS.JPG,masked,HAS,M,2,5,
+image_1,"{
+  ""type"": ""image"",  ""height"": 600,  ""width"": 441,  ""onset"": 0,  ""duration"": 2000,  ""x"" : 0,  ""y"" : 0,  ""end_trial"": ""yes""    }",../User/KDEF_top5/all/M_AF22SUS.JPG,masked,SUS,F,2,6,
+image_1,"{
+  ""type"": ""image"",  ""height"": 600,  ""width"": 441,  ""onset"": 0,  ""duration"": 2000,  ""x"" : 0,  ""y"" : 0,  ""end_trial"": ""yes""    }",../User/KDEF_top5/all/U_AM32HAS.JPG,unmasked,HAS,M,2,7,
+image_1,"{
+  ""type"": ""image"",  ""height"": 600,  ""width"": 441,  ""onset"": 0,  ""duration"": 2000,  ""x"" : 0,  ""y"" : 0,  ""end_trial"": ""yes""    }",../User/KDEF_top5/all/U_AM11SAS.JPG,unmasked,SAS,M,2,8,
+image_1,"{
+  ""type"": ""image"",  ""height"": 600,  ""width"": 441,  ""onset"": 0,  ""duration"": 2000,  ""x"" : 0,  ""y"" : 0,  ""end_trial"": ""yes""    }",../User/KDEF_top5/all/U_AF14AFS.JPG,unmasked,AFS,F,2,9,
+image_1,"{
+  ""type"": ""image"",  ""height"": 600,  ""width"": 441,  ""onset"": 0,  ""duration"": 2000,  ""x"" : 0,  ""y"" : 0,  ""end_trial"": ""yes""    }",../User/KDEF_top5/all/U_AF05NES.JPG,unmasked,NES,F,2,10,
+image_1,"{
+  ""type"": ""image"",  ""height"": 600,  ""width"": 441,  ""onset"": 0,  ""duration"": 2000,  ""x"" : 0,  ""y"" : 0,  ""end_trial"": ""yes""    }",../User/KDEF_top5/all/M_AF05NES.JPG,masked,NES,F,2,11,
+image_1,"{
+  ""type"": ""image"",  ""height"": 600,  ""width"": 441,  ""onset"": 0,  ""duration"": 2000,  ""x"" : 0,  ""y"" : 0,  ""end_trial"": ""yes""    }",../User/KDEF_top5/all/M_AF21DIS.JPG,masked,DIS,F,2,12,
+image_1,"{
+  ""type"": ""image"",  ""height"": 600,  ""width"": 441,  ""onset"": 0,  ""duration"": 2000,  ""x"" : 0,  ""y"" : 0,  ""end_trial"": ""yes""    }",../User/KDEF_top5/all/M_AF13SAS.JPG,masked,SAS,F,2,13,
+image_1,"{
+  ""type"": ""image"",  ""height"": 600,  ""width"": 441,  ""onset"": 0,  ""duration"": 2000,  ""x"" : 0,  ""y"" : 0,  ""end_trial"": ""yes""    }",../User/KDEF_top5/all/U_AF09DIS.JPG,unmasked,DIS,F,2,14,
+image_1,"{
+  ""type"": ""image"",  ""height"": 600,  ""width"": 441,  ""onset"": 0,  ""duration"": 2000,  ""x"" : 0,  ""y"" : 0,  ""end_trial"": ""yes""    }",../User/KDEF_top5/all/M_AF32SUS.JPG,masked,SUS,F,2,15,
+image_1,"{
+  ""type"": ""image"",  ""height"": 600,  ""width"": 441,  ""onset"": 0,  ""duration"": 2000,  ""x"" : 0,  ""y"" : 0,  ""end_trial"": ""yes""    }",../User/KDEF_top5/all/M_AF14ANS.JPG,masked,ANS,F,2,16,
+image_1,"{
+  ""type"": ""image"",  ""height"": 600,  ""width"": 441,  ""onset"": 0,  ""duration"": 2000,  ""x"" : 0,  ""y"" : 0,  ""end_trial"": ""yes""    }",../User/KDEF_top5/all/M_AM11SAS.JPG,masked,SAS,M,2,17,
+image_1,"{
+  ""type"": ""image"",  ""height"": 600,  ""width"": 441,  ""onset"": 0,  ""duration"": 2000,  ""x"" : 0,  ""y"" : 0,  ""end_trial"": ""yes""    }",../User/KDEF_top5/all/U_AM07HAS.JPG,unmasked,HAS,M,2,18,
+image_1,"{
+  ""type"": ""image"",  ""height"": 600,  ""width"": 441,  ""onset"": 0,  ""duration"": 2000,  ""x"" : 0,  ""y"" : 0,  ""end_trial"": ""yes""    }",../User/KDEF_top5/all/M_AM09SUS.JPG,masked,SUS,M,2,19,
+image_1,"{
+  ""type"": ""image"",  ""height"": 600,  ""width"": 441,  ""onset"": 0,  ""duration"": 2000,  ""x"" : 0,  ""y"" : 0,  ""end_trial"": ""yes""    }",../User/KDEF_top5/all/M_AF35SUS.JPG,masked,SUS,F,2,20,
+image_1,"{
+  ""type"": ""image"",  ""height"": 600,  ""width"": 441,  ""onset"": 0,  ""duration"": 2000,  ""x"" : 0,  ""y"" : 0,  ""end_trial"": ""yes""    }",../User/KDEF_top5/all/U_AF11HAS.JPG,unmasked,HAS,F,2,21,
+image_1,"{
+  ""type"": ""image"",  ""height"": 600,  ""width"": 441,  ""onset"": 0,  ""duration"": 2000,  ""x"" : 0,  ""y"" : 0,  ""end_trial"": ""yes""    }",../User/KDEF_top5/all/U_AM11ANS.JPG,unmasked,ANS,M,2,22,
+image_1,"{
+  ""type"": ""image"",  ""height"": 600,  ""width"": 441,  ""onset"": 0,  ""duration"": 2000,  ""x"" : 0,  ""y"" : 0,  ""end_trial"": ""yes""    }",../User/KDEF_top5/all/M_AF28AFS.JPG,masked,AFS,F,2,23,
+image_1,"{
+  ""type"": ""image"",  ""height"": 600,  ""width"": 441,  ""onset"": 0,  ""duration"": 2000,  ""x"" : 0,  ""y"" : 0,  ""end_trial"": ""yes""    }",../User/KDEF_top5/all/U_AF16AFS.JPG,unmasked,AFS,F,2,24,
+image_1,"{
+  ""type"": ""image"",  ""height"": 600,  ""width"": 441,  ""onset"": 0,  ""duration"": 2000,  ""x"" : 0,  ""y"" : 0,  ""end_trial"": ""yes""    }",../User/KDEF_top5/all/M_AF22ANS.JPG,masked,ANS,F,2,25,
+image_1,"{
+  ""type"": ""image"",  ""height"": 600,  ""width"": 441,  ""onset"": 0,  ""duration"": 2000,  ""x"" : 0,  ""y"" : 0,  ""end_trial"": ""yes""    }",../User/KDEF_top5/all/M_AM11SUS.JPG,masked,SUS,M,2,26,
+image_1,"{
+  ""type"": ""image"",  ""height"": 600,  ""width"": 441,  ""onset"": 0,  ""duration"": 2000,  ""x"" : 0,  ""y"" : 0,  ""end_trial"": ""yes""    }",../User/KDEF_top5/all/M_AM10NES.JPG,masked,NES,M,2,27,
+image_1,"{
+  ""type"": ""image"",  ""height"": 600,  ""width"": 441,  ""onset"": 0,  ""duration"": 2000,  ""x"" : 0,  ""y"" : 0,  ""end_trial"": ""yes""    }",../User/KDEF_top5/all/M_AF17DIS.JPG,masked,DIS,F,2,28,
+image_1,"{
+  ""type"": ""image"",  ""height"": 600,  ""width"": 441,  ""onset"": 0,  ""duration"": 2000,  ""x"" : 0,  ""y"" : 0,  ""end_trial"": ""yes""    }",../User/KDEF_top5/all/U_AM12DIS.JPG,unmasked,DIS,M,2,29,
+image_1,"{
+  ""type"": ""image"",  ""height"": 600,  ""width"": 441,  ""onset"": 0,  ""duration"": 2000,  ""x"" : 0,  ""y"" : 0,  ""end_trial"": ""yes""    }",../User/KDEF_top5/all/U_AM31NES.JPG,unmasked,NES,M,2,30,
+image_1,"{
+  ""type"": ""image"",  ""height"": 600,  ""width"": 441,  ""onset"": 0,  ""duration"": 2000,  ""x"" : 0,  ""y"" : 0,  ""end_trial"": ""yes""    }",../User/KDEF_top5/all/U_AM32SAS.JPG,unmasked,SAS,M,2,31,
+image_1,"{
+  ""type"": ""image"",  ""height"": 600,  ""width"": 441,  ""onset"": 0,  ""duration"": 2000,  ""x"" : 0,  ""y"" : 0,  ""end_trial"": ""yes""    }",../User/KDEF_top5/all/M_AF23SUS.JPG,masked,SUS,F,2,32,
+image_1,"{
+  ""type"": ""image"",  ""height"": 600,  ""width"": 441,  ""onset"": 0,  ""duration"": 2000,  ""x"" : 0,  ""y"" : 0,  ""end_trial"": ""yes""    }",../User/KDEF_top5/all/U_AM31DIS.JPG,unmasked,DIS,M,2,33,
+image_1,"{
+  ""type"": ""image"",  ""height"": 600,  ""width"": 441,  ""onset"": 0,  ""duration"": 2000,  ""x"" : 0,  ""y"" : 0,  ""end_trial"": ""yes""    }",../User/KDEF_top5/all/M_AM13NES.JPG,masked,NES,M,2,34,
+image_1,"{
+  ""type"": ""image"",  ""height"": 600,  ""width"": 441,  ""onset"": 0,  ""duration"": 2000,  ""x"" : 0,  ""y"" : 0,  ""end_trial"": ""yes""    }",../User/KDEF_top5/all/U_AF22AFS.JPG,unmasked,AFS,F,2,35,
+,,,,,,,,

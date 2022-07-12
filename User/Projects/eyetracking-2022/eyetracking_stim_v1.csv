@@ -1,5 +1,5 @@
-trial,elements,image_1,image_1.src,cond,emo,encoder_gender,
-1,image_1,"{
+elements,image_1,image_1.src,cond,emo,encoder_gender,block,trial,
+image_1,"{
   ""type"": ""image"",
   ""height"": 600,
   ""width"": 441,
@@ -8,8 +8,8 @@ trial,elements,image_1,image_1.src,cond,emo,encoder_gender,
   ""x"" : 0,
   ""y"" : 0,
   ""end_trial"": ""yes""
-    }",../User/KDEF_top5/all/AM35SUS.JPG,unmasked,SUS,M,
-2,image_1,"{
+    }",../User/KDEF_top5/all/U_AM13NES.JPG,unmasked,NES,M,1,1,
+image_1,"{
   ""type"": ""image"",
   ""height"": 600,
   ""width"": 441,
@@ -18,8 +18,8 @@ trial,elements,image_1,image_1.src,cond,emo,encoder_gender,
   ""x"" : 0,
   ""y"" : 0,
   ""end_trial"": ""yes""
-    }",../User/KDEF_top5/all/AF01SUS.JPG,unmasked,SUS,F,
-3,image_1,"{
+    }",../User/KDEF_top5/all/U_AF23SUS.JPG,unmasked,SUS,F,1,2,
+image_1,"{
   ""type"": ""image"",
   ""height"": 600,
   ""width"": 441,
@@ -28,8 +28,8 @@ trial,elements,image_1,image_1.src,cond,emo,encoder_gender,
   ""x"" : 0,
   ""y"" : 0,
   ""end_trial"": ""yes""
-    }",../User/KDEF_top5/all/AF05NES.JPG,unmasked,NES,F,
-4,image_1,"{
+    }",../User/KDEF_top5/all/M_AM16SAS.JPG,masked,SAS,M,1,3,
+image_1,"{
   ""type"": ""image"",
   ""height"": 600,
   ""width"": 441,
@@ -38,8 +38,8 @@ trial,elements,image_1,image_1.src,cond,emo,encoder_gender,
   ""x"" : 0,
   ""y"" : 0,
   ""end_trial"": ""yes""
-    }",../User/KDEF_top5/all/AF05SAS.JPG,unmasked,SAS,F,
-5,image_1,"{
+    }",../User/KDEF_top5/all/M_AF13NES.JPG,masked,NES,F,1,4,
+image_1,"{
   ""type"": ""image"",
   ""height"": 600,
   ""width"": 441,
@@ -48,8 +48,8 @@ trial,elements,image_1,image_1.src,cond,emo,encoder_gender,
   ""x"" : 0,
   ""y"" : 0,
   ""end_trial"": ""yes""
-    }",../User/KDEF_top5/all/AF06HAS.JPG,unmasked,HAS,F,
-6,image_1,"{
+    }",../User/KDEF_top5/all/M_AM09ANS.JPG,masked,ANS,M,1,5,
+image_1,"{
   ""type"": ""image"",
   ""height"": 600,
   ""width"": 441,
@@ -58,8 +58,8 @@ trial,elements,image_1,image_1.src,cond,emo,encoder_gender,
   ""x"" : 0,
   ""y"" : 0,
   ""end_trial"": ""yes""
-    }",../User/KDEF_top5/all/AF06NES.JPG,unmasked,NES,F,
-7,image_1,"{
+    }",../User/KDEF_top5/all/U_AM28SUS.JPG,unmasked,SUS,M,1,6,
+image_1,"{
   ""type"": ""image"",
   ""height"": 600,
   ""width"": 441,
@@ -68,8 +68,8 @@ trial,elements,image_1,image_1.src,cond,emo,encoder_gender,
   ""x"" : 0,
   ""y"" : 0,
   ""end_trial"": ""yes""
-    }",../User/KDEF_top5/all/AF09DIS.JPG,unmasked,DIS,F,
-8,image_1,"{
+    }",../User/KDEF_top5/all/U_AF13DIS.JPG,unmasked,DIS,F,1,7,
+image_1,"{
   ""type"": ""image"",
   ""height"": 600,
   ""width"": 441,
@@ -78,8 +78,8 @@ trial,elements,image_1,image_1.src,cond,emo,encoder_gender,
   ""x"" : 0,
   ""y"" : 0,
   ""end_trial"": ""yes""
-    }",../User/KDEF_top5/all/AF09SAS.JPG,unmasked,SAS,F,
-9,image_1,"{
+    }",../User/KDEF_top5/all/U_AM19AFS.JPG,unmasked,AFS,M,1,8,
+image_1,"{
   ""type"": ""image"",
   ""height"": 600,
   ""width"": 441,
@@ -88,8 +88,8 @@ trial,elements,image_1,image_1.src,cond,emo,encoder_gender,
   ""x"" : 0,
   ""y"" : 0,
   ""end_trial"": ""yes""
-    }",../User/KDEF_top5/all/AF11HAS.JPG,unmasked,HAS,F,
-10,image_1,"{
+    }",../User/KDEF_top5/all/U_AM11SUS.JPG,unmasked,SUS,M,1,9,
+image_1,"{
   ""type"": ""image"",
   ""height"": 600,
   ""width"": 441,
@@ -98,8 +98,8 @@ trial,elements,image_1,image_1.src,cond,emo,encoder_gender,
   ""x"" : 0,
   ""y"" : 0,
   ""end_trial"": ""yes""
-    }",../User/KDEF_top5/all/AF12DIS.JPG,unmasked,DIS,F,
-11,image_1,"{
+    }",../User/KDEF_top5/all/U_AF20ANS.JPG,unmasked,ANS,F,1,10,
+image_1,"{
   ""type"": ""image"",
   ""height"": 600,
   ""width"": 441,
@@ -108,8 +108,8 @@ trial,elements,image_1,image_1.src,cond,emo,encoder_gender,
   ""x"" : 0,
   ""y"" : 0,
   ""end_trial"": ""yes""
-    }",../User/KDEF_top5/all/AF13DIS.JPG,unmasked,DIS,F,
-12,image_1,"{
+    }",../User/KDEF_top5/all/M_AM31NES.JPG,masked,NES,M,1,11,
+image_1,"{
   ""type"": ""image"",
   ""height"": 600,
   ""width"": 441,
@@ -118,8 +118,8 @@ trial,elements,image_1,image_1.src,cond,emo,encoder_gender,
   ""x"" : 0,
   ""y"" : 0,
   ""end_trial"": ""yes""
-    }",../User/KDEF_top5/all/AF13NES.JPG,unmasked,NES,F,
-13,image_1,"{
+    }",../User/KDEF_top5/all/M_AF11HAS.JPG,masked,HAS,F,1,12,
+image_1,"{
   ""type"": ""image"",
   ""height"": 600,
   ""width"": 441,
@@ -128,8 +128,8 @@ trial,elements,image_1,image_1.src,cond,emo,encoder_gender,
   ""x"" : 0,
   ""y"" : 0,
   ""end_trial"": ""yes""
-    }",../User/KDEF_top5/all/AF13SAS.JPG,unmasked,SAS,F,
-14,image_1,"{
+    }",../User/KDEF_top5/all/U_AM16SAS.JPG,unmasked,SAS,M,1,13,
+image_1,"{
   ""type"": ""image"",
   ""height"": 600,
   ""width"": 441,
@@ -138,8 +138,8 @@ trial,elements,image_1,image_1.src,cond,emo,encoder_gender,
   ""x"" : 0,
   ""y"" : 0,
   ""end_trial"": ""yes""
-    }",../User/KDEF_top5/all/AF14AFS.JPG,unmasked,AFS,F,
-15,image_1,"{
+    }",../User/KDEF_top5/all/U_AF17DIS.JPG,unmasked,DIS,F,1,14,
+image_1,"{
   ""type"": ""image"",
   ""height"": 600,
   ""width"": 441,
@@ -148,8 +148,8 @@ trial,elements,image_1,image_1.src,cond,emo,encoder_gender,
   ""x"" : 0,
   ""y"" : 0,
   ""end_trial"": ""yes""
-    }",../User/KDEF_top5/all/AF14ANS.JPG,unmasked,ANS,F,
-16,image_1,"{
+    }",../User/KDEF_top5/all/U_AF22ANS.JPG,unmasked,ANS,F,1,15,
+image_1,"{
   ""type"": ""image"",
   ""height"": 600,
   ""width"": 441,
@@ -158,8 +158,8 @@ trial,elements,image_1,image_1.src,cond,emo,encoder_gender,
   ""x"" : 0,
   ""y"" : 0,
   ""end_trial"": ""yes""
-    }",../User/KDEF_top5/all/AF16AFS.JPG,unmasked,AFS,F,
-17,image_1,"{
+    }",../User/KDEF_top5/all/U_AF32SAS.JPG,unmasked,SAS,F,1,16,
+image_1,"{
   ""type"": ""image"",
   ""height"": 600,
   ""width"": 441,
@@ -168,8 +168,8 @@ trial,elements,image_1,image_1.src,cond,emo,encoder_gender,
   ""x"" : 0,
   ""y"" : 0,
   ""end_trial"": ""yes""
-    }",../User/KDEF_top5/all/AF17DIS.JPG,unmasked,DIS,F,
-18,image_1,"{
+    }",../User/KDEF_top5/all/M_AM05SAS.JPG,masked,SAS,M,1,17,
+image_1,"{
   ""type"": ""image"",
   ""height"": 600,
   ""width"": 441,
@@ -178,8 +178,8 @@ trial,elements,image_1,image_1.src,cond,emo,encoder_gender,
   ""x"" : 0,
   ""y"" : 0,
   ""end_trial"": ""yes""
-    }",../User/KDEF_top5/all/AF19NES.JPG,unmasked,NES,F,
-19,image_1,"{
+    }",../User/KDEF_top5/all/M_AF32SAS.JPG,masked,SAS,F,1,18,
+image_1,"{
   ""type"": ""image"",
   ""height"": 600,
   ""width"": 441,
@@ -188,8 +188,8 @@ trial,elements,image_1,image_1.src,cond,emo,encoder_gender,
   ""x"" : 0,
   ""y"" : 0,
   ""end_trial"": ""yes""
-    }",../User/KDEF_top5/all/AF20ANS.JPG,unmasked,ANS,F,
-20,image_1,"{
+    }",../User/KDEF_top5/all/U_AM25HAS.JPG,unmasked,HAS,M,1,19,
+image_1,"{
   ""type"": ""image"",
   ""height"": 600,
   ""width"": 441,
@@ -198,8 +198,8 @@ trial,elements,image_1,image_1.src,cond,emo,encoder_gender,
   ""x"" : 0,
   ""y"" : 0,
   ""end_trial"": ""yes""
-    }",../User/KDEF_top5/all/AF20HAS.JPG,unmasked,HAS,F,
-21,image_1,"{
+    }",../User/KDEF_top5/all/U_AM24DIS.JPG,unmasked,DIS,M,1,20,
+image_1,"{
   ""type"": ""image"",
   ""height"": 600,
   ""width"": 441,
@@ -208,8 +208,8 @@ trial,elements,image_1,image_1.src,cond,emo,encoder_gender,
   ""x"" : 0,
   ""y"" : 0,
   ""end_trial"": ""yes""
-    }",../User/KDEF_top5/all/AF20SAS.JPG,unmasked,SAS,F,
-22,image_1,"{
+    }",../User/KDEF_top5/all/U_AF09SAS.JPG,unmasked,SAS,F,1,21,
+image_1,"{
   ""type"": ""image"",
   ""height"": 600,
   ""width"": 441,
@@ -218,8 +218,8 @@ trial,elements,image_1,image_1.src,cond,emo,encoder_gender,
   ""x"" : 0,
   ""y"" : 0,
   ""end_trial"": ""yes""
-    }",../User/KDEF_top5/all/AF21DIS.JPG,unmasked,DIS,F,
-23,image_1,"{
+    }",../User/KDEF_top5/all/M_AF06NES.JPG,masked,NES,F,1,22,
+image_1,"{
   ""type"": ""image"",
   ""height"": 600,
   ""width"": 441,
@@ -228,8 +228,8 @@ trial,elements,image_1,image_1.src,cond,emo,encoder_gender,
   ""x"" : 0,
   ""y"" : 0,
   ""end_trial"": ""yes""
-    }",../User/KDEF_top5/all/AF22AFS.JPG,unmasked,AFS,F,
-24,image_1,"{
+    }",../User/KDEF_top5/all/M_AM19AFS.JPG,masked,AFS,M,1,23,
+image_1,"{
   ""type"": ""image"",
   ""height"": 600,
   ""width"": 441,
@@ -238,8 +238,8 @@ trial,elements,image_1,image_1.src,cond,emo,encoder_gender,
   ""x"" : 0,
   ""y"" : 0,
   ""end_trial"": ""yes""
-    }",../User/KDEF_top5/all/AF22ANS.JPG,unmasked,ANS,F,
-25,image_1,"{
+    }",../User/KDEF_top5/all/U_AM17ANS.JPG,unmasked,ANS,M,1,24,
+image_1,"{
   ""type"": ""image"",
   ""height"": 600,
   ""width"": 441,
@@ -248,8 +248,8 @@ trial,elements,image_1,image_1.src,cond,emo,encoder_gender,
   ""x"" : 0,
   ""y"" : 0,
   ""end_trial"": ""yes""
-    }",../User/KDEF_top5/all/AF22HAS.JPG,unmasked,HAS,F,
-26,image_1,"{
+    }",../User/KDEF_top5/all/M_AM25HAS.JPG,masked,HAS,M,1,25,
+image_1,"{
   ""type"": ""image"",
   ""height"": 600,
   ""width"": 441,
@@ -258,8 +258,8 @@ trial,elements,image_1,image_1.src,cond,emo,encoder_gender,
   ""x"" : 0,
   ""y"" : 0,
   ""end_trial"": ""yes""
-    }",../User/KDEF_top5/all/AF22SUS.JPG,unmasked,SUS,F,
-27,image_1,"{
+    }",../User/KDEF_top5/all/M_AM18DIS.JPG,masked,DIS,M,1,26,
+image_1,"{
   ""type"": ""image"",
   ""height"": 600,
   ""width"": 441,
@@ -268,8 +268,8 @@ trial,elements,image_1,image_1.src,cond,emo,encoder_gender,
   ""x"" : 0,
   ""y"" : 0,
   ""end_trial"": ""yes""
-    }",../User/KDEF_top5/all/AF23ANS.JPG,unmasked,ANS,F,
-28,image_1,"{
+    }",../User/KDEF_top5/all/M_AF09SAS.JPG,masked,SAS,F,1,27,
+image_1,"{
   ""type"": ""image"",
   ""height"": 600,
   ""width"": 441,
@@ -278,8 +278,8 @@ trial,elements,image_1,image_1.src,cond,emo,encoder_gender,
   ""x"" : 0,
   ""y"" : 0,
   ""end_trial"": ""yes""
-    }",../User/KDEF_top5/all/AF23SUS.JPG,unmasked,SUS,F,
-29,image_1,"{
+    }",../User/KDEF_top5/all/M_AM26HAS.JPG,masked,HAS,M,1,28,
+image_1,"{
   ""type"": ""image"",
   ""height"": 600,
   ""width"": 441,
@@ -288,8 +288,8 @@ trial,elements,image_1,image_1.src,cond,emo,encoder_gender,
   ""x"" : 0,
   ""y"" : 0,
   ""end_trial"": ""yes""
-    }",../User/KDEF_top5/all/AF28AFS.JPG,unmasked,AFS,F,
-30,image_1,"{
+    }",../User/KDEF_top5/all/M_AM19SAS.JPG,masked,SAS,M,1,29,
+image_1,"{
   ""type"": ""image"",
   ""height"": 600,
   ""width"": 441,
@@ -298,8 +298,8 @@ trial,elements,image_1,image_1.src,cond,emo,encoder_gender,
   ""x"" : 0,
   ""y"" : 0,
   ""end_trial"": ""yes""
-    }",../User/KDEF_top5/all/AF29NES.JPG,unmasked,NES,F,
-31,image_1,"{
+    }",../User/KDEF_top5/all/U_AM01NES.JPG,unmasked,NES,M,1,30,
+image_1,"{
   ""type"": ""image"",
   ""height"": 600,
   ""width"": 441,
@@ -308,8 +308,8 @@ trial,elements,image_1,image_1.src,cond,emo,encoder_gender,
   ""x"" : 0,
   ""y"" : 0,
   ""end_trial"": ""yes""
-    }",../User/KDEF_top5/all/AF31ANS.JPG,unmasked,ANS,F,
-32,image_1,"{
+    }",../User/KDEF_top5/all/U_AM05ANS.JPG,unmasked,ANS,M,1,31,
+image_1,"{
   ""type"": ""image"",
   ""height"": 600,
   ""width"": 441,
@@ -318,8 +318,8 @@ trial,elements,image_1,image_1.src,cond,emo,encoder_gender,
   ""x"" : 0,
   ""y"" : 0,
   ""end_trial"": ""yes""
-    }",../User/KDEF_top5/all/AF32SAS.JPG,unmasked,SAS,F,
-33,image_1,"{
+    }",../User/KDEF_top5/all/U_AM09ANS.JPG,unmasked,ANS,M,1,32,
+image_1,"{
   ""type"": ""image"",
   ""height"": 600,
   ""width"": 441,
@@ -328,8 +328,8 @@ trial,elements,image_1,image_1.src,cond,emo,encoder_gender,
   ""x"" : 0,
   ""y"" : 0,
   ""end_trial"": ""yes""
-    }",../User/KDEF_top5/all/AF32SUS.JPG,unmasked,SUS,F,
-34,image_1,"{
+    }",../User/KDEF_top5/all/U_AM10ANS.JPG,unmasked,ANS,M,1,33,
+image_1,"{
   ""type"": ""image"",
   ""height"": 600,
   ""width"": 441,
@@ -338,8 +338,8 @@ trial,elements,image_1,image_1.src,cond,emo,encoder_gender,
   ""x"" : 0,
   ""y"" : 0,
   ""end_trial"": ""yes""
-    }",../User/KDEF_top5/all/AF33AFS.JPG,unmasked,AFS,F,
-35,image_1,"{
+    }",../User/KDEF_top5/all/U_AF22SUS.JPG,unmasked,SUS,F,1,34,
+image_1,"{
   ""type"": ""image"",
   ""height"": 600,
   ""width"": 441,
@@ -348,8 +348,8 @@ trial,elements,image_1,image_1.src,cond,emo,encoder_gender,
   ""x"" : 0,
   ""y"" : 0,
   ""end_trial"": ""yes""
-    }",../User/KDEF_top5/all/AF33HAS.JPG,unmasked,HAS,F,
-36,image_1,"{
+    }",../User/KDEF_top5/all/M_AM14AFS.JPG,masked,AFS,M,1,35,
+image_1,"{
   ""type"": ""image"",
   ""height"": 600,
   ""width"": 441,
@@ -358,8 +358,8 @@ trial,elements,image_1,image_1.src,cond,emo,encoder_gender,
   ""x"" : 0,
   ""y"" : 0,
   ""end_trial"": ""yes""
-    }",../User/KDEF_top5/all/AF35SUS.JPG,unmasked,SUS,F,
-37,image_1,"{
+    }",../User/KDEF_top5/all/U_AM14AFS.JPG,unmasked,AFS,M,2,1,
+image_1,"{
   ""type"": ""image"",
   ""height"": 600,
   ""width"": 441,
@@ -368,8 +368,8 @@ trial,elements,image_1,image_1.src,cond,emo,encoder_gender,
   ""x"" : 0,
   ""y"" : 0,
   ""end_trial"": ""yes""
-    }",../User/KDEF_top5/all/AM01NES.JPG,unmasked,NES,M,
-38,image_1,"{
+    }",../User/KDEF_top5/all/U_AM10NES.JPG,unmasked,NES,M,2,2,
+image_1,"{
   ""type"": ""image"",
   ""height"": 600,
   ""width"": 441,
@@ -378,8 +378,8 @@ trial,elements,image_1,image_1.src,cond,emo,encoder_gender,
   ""x"" : 0,
   ""y"" : 0,
   ""end_trial"": ""yes""
-    }",../User/KDEF_top5/all/AM05ANS.JPG,unmasked,ANS,M,
-39,image_1,"{
+    }",../User/KDEF_top5/all/M_AF13DIS.JPG,masked,DIS,F,2,3,
+image_1,"{
   ""type"": ""image"",
   ""height"": 600,
   ""width"": 441,
@@ -388,8 +388,8 @@ trial,elements,image_1,image_1.src,cond,emo,encoder_gender,
   ""x"" : 0,
   ""y"" : 0,
   ""end_trial"": ""yes""
-    }",../User/KDEF_top5/all/AM05SAS.JPG,unmasked,SAS,M,
-40,image_1,"{
+    }",../User/KDEF_top5/all/U_AF31ANS.JPG,unmasked,ANS,F,2,4,
+image_1,"{
   ""type"": ""image"",
   ""height"": 600,
   ""width"": 441,
@@ -398,8 +398,8 @@ trial,elements,image_1,image_1.src,cond,emo,encoder_gender,
   ""x"" : 0,
   ""y"" : 0,
   ""end_trial"": ""yes""
-    }",../User/KDEF_top5/all/AM07HAS.JPG,unmasked,HAS,M,
-41,image_1,"{
+    }",../User/KDEF_top5/all/M_AM07HAS.JPG,masked,HAS,M,2,5,
+image_1,"{
   ""type"": ""image"",
   ""height"": 600,
   ""width"": 441,
@@ -408,8 +408,8 @@ trial,elements,image_1,image_1.src,cond,emo,encoder_gender,
   ""x"" : 0,
   ""y"" : 0,
   ""end_trial"": ""yes""
-    }",../User/KDEF_top5/all/AM09ANS.JPG,unmasked,ANS,M,
-42,image_1,"{
+    }",../User/KDEF_top5/all/M_AF22SUS.JPG,masked,SUS,F,2,6,
+image_1,"{
   ""type"": ""image"",
   ""height"": 600,
   ""width"": 441,
@@ -418,8 +418,8 @@ trial,elements,image_1,image_1.src,cond,emo,encoder_gender,
   ""x"" : 0,
   ""y"" : 0,
   ""end_trial"": ""yes""
-    }",../User/KDEF_top5/all/AM09SUS.JPG,unmasked,SUS,M,
-43,image_1,"{
+    }",../User/KDEF_top5/all/U_AM32HAS.JPG,unmasked,HAS,M,2,7,
+image_1,"{
   ""type"": ""image"",
   ""height"": 600,
   ""width"": 441,
@@ -428,8 +428,8 @@ trial,elements,image_1,image_1.src,cond,emo,encoder_gender,
   ""x"" : 0,
   ""y"" : 0,
   ""end_trial"": ""yes""
-    }",../User/KDEF_top5/all/AM10ANS.JPG,unmasked,ANS,M,
-44,image_1,"{
+    }",../User/KDEF_top5/all/U_AM11SAS.JPG,unmasked,SAS,M,2,8,
+image_1,"{
   ""type"": ""image"",
   ""height"": 600,
   ""width"": 441,
@@ -438,8 +438,8 @@ trial,elements,image_1,image_1.src,cond,emo,encoder_gender,
   ""x"" : 0,
   ""y"" : 0,
   ""end_trial"": ""yes""
-    }",../User/KDEF_top5/all/AM10NES.JPG,unmasked,NES,M,
-45,image_1,"{
+    }",../User/KDEF_top5/all/U_AF14AFS.JPG,unmasked,AFS,F,2,9,
+image_1,"{
   ""type"": ""image"",
   ""height"": 600,
   ""width"": 441,
@@ -448,8 +448,8 @@ trial,elements,image_1,image_1.src,cond,emo,encoder_gender,
   ""x"" : 0,
   ""y"" : 0,
   ""end_trial"": ""yes""
-    }",../User/KDEF_top5/all/AM11AFS.JPG,unmasked,AFS,M,
-46,image_1,"{
+    }",../User/KDEF_top5/all/U_AF05NES.JPG,unmasked,NES,F,2,10,
+image_1,"{
   ""type"": ""image"",
   ""height"": 600,
   ""width"": 441,
@@ -458,8 +458,8 @@ trial,elements,image_1,image_1.src,cond,emo,encoder_gender,
   ""x"" : 0,
   ""y"" : 0,
   ""end_trial"": ""yes""
-    }",../User/KDEF_top5/all/AM11ANS.JPG,unmasked,ANS,M,
-47,image_1,"{
+    }",../User/KDEF_top5/all/M_AF05NES.JPG,masked,NES,F,2,11,
+image_1,"{
   ""type"": ""image"",
   ""height"": 600,
   ""width"": 441,
@@ -468,8 +468,8 @@ trial,elements,image_1,image_1.src,cond,emo,encoder_gender,
   ""x"" : 0,
   ""y"" : 0,
   ""end_trial"": ""yes""
-    }",../User/KDEF_top5/all/AM11NES.JPG,unmasked,NES,M,
-48,image_1,"{
+    }",../User/KDEF_top5/all/M_AF21DIS.JPG,masked,DIS,F,2,12,
+image_1,"{
   ""type"": ""image"",
   ""height"": 600,
   ""width"": 441,
@@ -478,8 +478,8 @@ trial,elements,image_1,image_1.src,cond,emo,encoder_gender,
   ""x"" : 0,
   ""y"" : 0,
   ""end_trial"": ""yes""
-    }",../User/KDEF_top5/all/AM11SAS.JPG,unmasked,SAS,M,
-49,image_1,"{
+    }",../User/KDEF_top5/all/M_AF13SAS.JPG,masked,SAS,F,2,13,
+image_1,"{
   ""type"": ""image"",
   ""height"": 600,
   ""width"": 441,
@@ -488,8 +488,8 @@ trial,elements,image_1,image_1.src,cond,emo,encoder_gender,
   ""x"" : 0,
   ""y"" : 0,
   ""end_trial"": ""yes""
-    }",../User/KDEF_top5/all/AM11SUS.JPG,unmasked,SUS,M,
-50,image_1,"{
+    }",../User/KDEF_top5/all/U_AF09DIS.JPG,unmasked,DIS,F,2,14,
+image_1,"{
   ""type"": ""image"",
   ""height"": 600,
   ""width"": 441,
@@ -498,8 +498,8 @@ trial,elements,image_1,image_1.src,cond,emo,encoder_gender,
   ""x"" : 0,
   ""y"" : 0,
   ""end_trial"": ""yes""
-    }",../User/KDEF_top5/all/AM12DIS.JPG,unmasked,DIS,M,
-51,image_1,"{
+    }",../User/KDEF_top5/all/M_AF32SUS.JPG,masked,SUS,F,2,15,
+image_1,"{
   ""type"": ""image"",
   ""height"": 600,
   ""width"": 441,
@@ -508,8 +508,8 @@ trial,elements,image_1,image_1.src,cond,emo,encoder_gender,
   ""x"" : 0,
   ""y"" : 0,
   ""end_trial"": ""yes""
-    }",../User/KDEF_top5/all/AM13NES.JPG,unmasked,NES,M,
-52,image_1,"{
+    }",../User/KDEF_top5/all/M_AF14ANS.JPG,masked,ANS,F,2,16,
+image_1,"{
   ""type"": ""image"",
   ""height"": 600,
   ""width"": 441,
@@ -518,8 +518,8 @@ trial,elements,image_1,image_1.src,cond,emo,encoder_gender,
   ""x"" : 0,
   ""y"" : 0,
   ""end_trial"": ""yes""
-    }",../User/KDEF_top5/all/AM14AFS.JPG,unmasked,AFS,M,
-53,image_1,"{
+    }",../User/KDEF_top5/all/M_AM11SAS.JPG,masked,SAS,M,2,17,
+image_1,"{
   ""type"": ""image"",
   ""height"": 600,
   ""width"": 441,
@@ -528,8 +528,8 @@ trial,elements,image_1,image_1.src,cond,emo,encoder_gender,
   ""x"" : 0,
   ""y"" : 0,
   ""end_trial"": ""yes""
-    }",../User/KDEF_top5/all/AM16SAS.JPG,unmasked,SAS,M,
-54,image_1,"{
+    }",../User/KDEF_top5/all/U_AM07HAS.JPG,unmasked,HAS,M,2,18,
+image_1,"{
   ""type"": ""image"",
   ""height"": 600,
   ""width"": 441,
@@ -538,8 +538,8 @@ trial,elements,image_1,image_1.src,cond,emo,encoder_gender,
   ""x"" : 0,
   ""y"" : 0,
   ""end_trial"": ""yes""
-    }",../User/KDEF_top5/all/AM16SUS.JPG,unmasked,SUS,M,
-55,image_1,"{
+    }",../User/KDEF_top5/all/M_AM09SUS.JPG,masked,SUS,M,2,19,
+image_1,"{
   ""type"": ""image"",
   ""height"": 600,
   ""width"": 441,
@@ -548,8 +548,8 @@ trial,elements,image_1,image_1.src,cond,emo,encoder_gender,
   ""x"" : 0,
   ""y"" : 0,
   ""end_trial"": ""yes""
-    }",../User/KDEF_top5/all/AM17AFS.JPG,unmasked,AFS,M,
-56,image_1,"{
+    }",../User/KDEF_top5/all/M_AF35SUS.JPG,masked,SUS,F,2,20,
+image_1,"{
   ""type"": ""image"",
   ""height"": 600,
   ""width"": 441,
@@ -558,8 +558,8 @@ trial,elements,image_1,image_1.src,cond,emo,encoder_gender,
   ""x"" : 0,
   ""y"" : 0,
   ""end_trial"": ""yes""
-    }",../User/KDEF_top5/all/AM17ANS.JPG,unmasked,ANS,M,
-57,image_1,"{
+    }",../User/KDEF_top5/all/U_AF11HAS.JPG,unmasked,HAS,F,2,21,
+image_1,"{
   ""type"": ""image"",
   ""height"": 600,
   ""width"": 441,
@@ -568,8 +568,8 @@ trial,elements,image_1,image_1.src,cond,emo,encoder_gender,
   ""x"" : 0,
   ""y"" : 0,
   ""end_trial"": ""yes""
-    }",../User/KDEF_top5/all/AM17HAS.JPG,unmasked,HAS,M,
-58,image_1,"{
+    }",../User/KDEF_top5/all/U_AM11ANS.JPG,unmasked,ANS,M,2,22,
+image_1,"{
   ""type"": ""image"",
   ""height"": 600,
   ""width"": 441,
@@ -578,8 +578,8 @@ trial,elements,image_1,image_1.src,cond,emo,encoder_gender,
   ""x"" : 0,
   ""y"" : 0,
   ""end_trial"": ""yes""
-    }",../User/KDEF_top5/all/AM18DIS.JPG,unmasked,DIS,M,
-59,image_1,"{
+    }",../User/KDEF_top5/all/M_AF28AFS.JPG,masked,AFS,F,2,23,
+image_1,"{
   ""type"": ""image"",
   ""height"": 600,
   ""width"": 441,
@@ -588,8 +588,8 @@ trial,elements,image_1,image_1.src,cond,emo,encoder_gender,
   ""x"" : 0,
   ""y"" : 0,
   ""end_trial"": ""yes""
-    }",../User/KDEF_top5/all/AM19AFS.JPG,unmasked,AFS,M,
-60,image_1,"{
+    }",../User/KDEF_top5/all/U_AF16AFS.JPG,unmasked,AFS,F,2,24,
+image_1,"{
   ""type"": ""image"",
   ""height"": 600,
   ""width"": 441,
@@ -598,8 +598,8 @@ trial,elements,image_1,image_1.src,cond,emo,encoder_gender,
   ""x"" : 0,
   ""y"" : 0,
   ""end_trial"": ""yes""
-    }",../User/KDEF_top5/all/AM19SAS.JPG,unmasked,SAS,M,
-61,image_1,"{
+    }",../User/KDEF_top5/all/M_AF22ANS.JPG,masked,ANS,F,2,25,
+image_1,"{
   ""type"": ""image"",
   ""height"": 600,
   ""width"": 441,
@@ -608,8 +608,8 @@ trial,elements,image_1,image_1.src,cond,emo,encoder_gender,
   ""x"" : 0,
   ""y"" : 0,
   ""end_trial"": ""yes""
-    }",../User/KDEF_top5/all/AM24DIS.JPG,unmasked,DIS,M,
-62,image_1,"{
+    }",../User/KDEF_top5/all/M_AM11SUS.JPG,masked,SUS,M,2,26,
+image_1,"{
   ""type"": ""image"",
   ""height"": 600,
   ""width"": 441,
@@ -618,8 +618,8 @@ trial,elements,image_1,image_1.src,cond,emo,encoder_gender,
   ""x"" : 0,
   ""y"" : 0,
   ""end_trial"": ""yes""
-    }",../User/KDEF_top5/all/AM25AFS.JPG,unmasked,AFS,M,
-63,image_1,"{
+    }",../User/KDEF_top5/all/M_AM10NES.JPG,masked,NES,M,2,27,
+image_1,"{
   ""type"": ""image"",
   ""height"": 600,
   ""width"": 441,
@@ -628,8 +628,8 @@ trial,elements,image_1,image_1.src,cond,emo,encoder_gender,
   ""x"" : 0,
   ""y"" : 0,
   ""end_trial"": ""yes""
-    }",../User/KDEF_top5/all/AM25HAS.JPG,unmasked,HAS,M,
-64,image_1,"{
+    }",../User/KDEF_top5/all/M_AF17DIS.JPG,masked,DIS,F,2,28,
+image_1,"{
   ""type"": ""image"",
   ""height"": 600,
   ""width"": 441,
@@ -638,8 +638,8 @@ trial,elements,image_1,image_1.src,cond,emo,encoder_gender,
   ""x"" : 0,
   ""y"" : 0,
   ""end_trial"": ""yes""
-    }",../User/KDEF_top5/all/AM26HAS.JPG,unmasked,HAS,M,
-65,image_1,"{
+    }",../User/KDEF_top5/all/U_AM12DIS.JPG,unmasked,DIS,M,2,29,
+image_1,"{
   ""type"": ""image"",
   ""height"": 600,
   ""width"": 441,
@@ -648,8 +648,8 @@ trial,elements,image_1,image_1.src,cond,emo,encoder_gender,
   ""x"" : 0,
   ""y"" : 0,
   ""end_trial"": ""yes""
-    }",../User/KDEF_top5/all/AM27DIS.JPG,unmasked,DIS,M,
-66,image_1,"{
+    }",../User/KDEF_top5/all/U_AM31NES.JPG,unmasked,NES,M,2,30,
+image_1,"{
   ""type"": ""image"",
   ""height"": 600,
   ""width"": 441,
@@ -658,8 +658,8 @@ trial,elements,image_1,image_1.src,cond,emo,encoder_gender,
   ""x"" : 0,
   ""y"" : 0,
   ""end_trial"": ""yes""
-    }",../User/KDEF_top5/all/AM28SUS.JPG,unmasked,SUS,M,
-67,image_1,"{
+    }",../User/KDEF_top5/all/U_AM32SAS.JPG,unmasked,SAS,M,2,31,
+image_1,"{
   ""type"": ""image"",
   ""height"": 600,
   ""width"": 441,
@@ -668,8 +668,8 @@ trial,elements,image_1,image_1.src,cond,emo,encoder_gender,
   ""x"" : 0,
   ""y"" : 0,
   ""end_trial"": ""yes""
-    }",../User/KDEF_top5/all/AM31DIS.JPG,unmasked,DIS,M,
-68,image_1,"{
+    }",../User/KDEF_top5/all/M_AF23SUS.JPG,masked,SUS,F,2,32,
+image_1,"{
   ""type"": ""image"",
   ""height"": 600,
   ""width"": 441,
@@ -678,8 +678,8 @@ trial,elements,image_1,image_1.src,cond,emo,encoder_gender,
   ""x"" : 0,
   ""y"" : 0,
   ""end_trial"": ""yes""
-    }",../User/KDEF_top5/all/AM31NES.JPG,unmasked,NES,M,
-69,image_1,"{
+    }",../User/KDEF_top5/all/U_AM31DIS.JPG,unmasked,DIS,M,2,33,
+image_1,"{
   ""type"": ""image"",
   ""height"": 600,
   ""width"": 441,
@@ -688,8 +688,8 @@ trial,elements,image_1,image_1.src,cond,emo,encoder_gender,
   ""x"" : 0,
   ""y"" : 0,
   ""end_trial"": ""yes""
-    }",../User/KDEF_top5/all/AM32HAS.JPG,unmasked,HAS,M,
-70,image_1,"{
+    }",../User/KDEF_top5/all/M_AM13NES.JPG,masked,NES,M,2,34,
+image_1,"{
   ""type"": ""image"",
   ""height"": 600,
   ""width"": 441,
@@ -698,5 +698,705 @@ trial,elements,image_1,image_1.src,cond,emo,encoder_gender,
   ""x"" : 0,
   ""y"" : 0,
   ""end_trial"": ""yes""
-    }",../User/KDEF_top5/all/AM32SAS.JPG,unmasked,SAS,M,
-,,,,,,,
+    }",../User/KDEF_top5/all/U_AF22AFS.JPG,unmasked,AFS,F,2,35,
+image_1,"{
+  ""type"": ""image"",
+  ""height"": 600,
+  ""width"": 441,
+  ""onset"": 0,
+  ""duration"": 2000,
+  ""x"" : 0,
+  ""y"" : 0,
+  ""end_trial"": ""yes""
+    }",../User/KDEF_top5/all/U_AF33HAS.JPG,unmasked,HAS,F,3,1,
+image_1,"{
+  ""type"": ""image"",
+  ""height"": 600,
+  ""width"": 441,
+  ""onset"": 0,
+  ""duration"": 2000,
+  ""x"" : 0,
+  ""y"" : 0,
+  ""end_trial"": ""yes""
+    }",../User/KDEF_top5/all/U_AF13NES.JPG,unmasked,NES,F,3,2,
+image_1,"{
+  ""type"": ""image"",
+  ""height"": 600,
+  ""width"": 441,
+  ""onset"": 0,
+  ""duration"": 2000,
+  ""x"" : 0,
+  ""y"" : 0,
+  ""end_trial"": ""yes""
+    }",../User/KDEF_top5/all/M_AF19NES.JPG,masked,NES,F,3,3,
+image_1,"{
+  ""type"": ""image"",
+  ""height"": 600,
+  ""width"": 441,
+  ""onset"": 0,
+  ""duration"": 2000,
+  ""x"" : 0,
+  ""y"" : 0,
+  ""end_trial"": ""yes""
+    }",../User/KDEF_top5/all/M_AM17HAS.JPG,masked,HAS,M,3,4,
+image_1,"{
+  ""type"": ""image"",
+  ""height"": 600,
+  ""width"": 441,
+  ""onset"": 0,
+  ""duration"": 2000,
+  ""x"" : 0,
+  ""y"" : 0,
+  ""end_trial"": ""yes""
+    }",../User/KDEF_top5/all/U_AF28AFS.JPG,unmasked,AFS,F,3,5,
+image_1,"{
+  ""type"": ""image"",
+  ""height"": 600,
+  ""width"": 441,
+  ""onset"": 0,
+  ""duration"": 2000,
+  ""x"" : 0,
+  ""y"" : 0,
+  ""end_trial"": ""yes""
+    }",../User/KDEF_top5/all/U_AM16SUS.JPG,unmasked,SUS,M,3,6,
+image_1,"{
+  ""type"": ""image"",
+  ""height"": 600,
+  ""width"": 441,
+  ""onset"": 0,
+  ""duration"": 2000,
+  ""x"" : 0,
+  ""y"" : 0,
+  ""end_trial"": ""yes""
+    }",../User/KDEF_top5/all/M_AM27DIS.JPG,masked,DIS,M,3,7,
+image_1,"{
+  ""type"": ""image"",
+  ""height"": 600,
+  ""width"": 441,
+  ""onset"": 0,
+  ""duration"": 2000,
+  ""x"" : 0,
+  ""y"" : 0,
+  ""end_trial"": ""yes""
+    }",../User/KDEF_top5/all/U_AF20HAS.JPG,unmasked,HAS,F,3,8,
+image_1,"{
+  ""type"": ""image"",
+  ""height"": 600,
+  ""width"": 441,
+  ""onset"": 0,
+  ""duration"": 2000,
+  ""x"" : 0,
+  ""y"" : 0,
+  ""end_trial"": ""yes""
+    }",../User/KDEF_top5/all/U_AF35SUS.JPG,unmasked,SUS,F,3,9,
+image_1,"{
+  ""type"": ""image"",
+  ""height"": 600,
+  ""width"": 441,
+  ""onset"": 0,
+  ""duration"": 2000,
+  ""x"" : 0,
+  ""y"" : 0,
+  ""end_trial"": ""yes""
+    }",../User/KDEF_top5/all/U_AF32SUS.JPG,unmasked,SUS,F,3,10,
+image_1,"{
+  ""type"": ""image"",
+  ""height"": 600,
+  ""width"": 441,
+  ""onset"": 0,
+  ""duration"": 2000,
+  ""x"" : 0,
+  ""y"" : 0,
+  ""end_trial"": ""yes""
+    }",../User/KDEF_top5/all/U_AM17AFS.JPG,unmasked,AFS,M,3,11,
+image_1,"{
+  ""type"": ""image"",
+  ""height"": 600,
+  ""width"": 441,
+  ""onset"": 0,
+  ""duration"": 2000,
+  ""x"" : 0,
+  ""y"" : 0,
+  ""end_trial"": ""yes""
+    }",../User/KDEF_top5/all/M_AF29NES.JPG,masked,NES,F,3,12,
+image_1,"{
+  ""type"": ""image"",
+  ""height"": 600,
+  ""width"": 441,
+  ""onset"": 0,
+  ""duration"": 2000,
+  ""x"" : 0,
+  ""y"" : 0,
+  ""end_trial"": ""yes""
+    }",../User/KDEF_top5/all/M_AF12DIS.JPG,masked,DIS,F,3,13,
+image_1,"{
+  ""type"": ""image"",
+  ""height"": 600,
+  ""width"": 441,
+  ""onset"": 0,
+  ""duration"": 2000,
+  ""x"" : 0,
+  ""y"" : 0,
+  ""end_trial"": ""yes""
+    }",../User/KDEF_top5/all/U_AM19SAS.JPG,unmasked,SAS,M,3,14,
+image_1,"{
+  ""type"": ""image"",
+  ""height"": 600,
+  ""width"": 441,
+  ""onset"": 0,
+  ""duration"": 2000,
+  ""x"" : 0,
+  ""y"" : 0,
+  ""end_trial"": ""yes""
+    }",../User/KDEF_top5/all/U_AF22HAS.JPG,unmasked,HAS,F,3,15,
+image_1,"{
+  ""type"": ""image"",
+  ""height"": 600,
+  ""width"": 441,
+  ""onset"": 0,
+  ""duration"": 2000,
+  ""x"" : 0,
+  ""y"" : 0,
+  ""end_trial"": ""yes""
+    }",../User/KDEF_top5/all/U_AF21DIS.JPG,unmasked,DIS,F,3,16,
+image_1,"{
+  ""type"": ""image"",
+  ""height"": 600,
+  ""width"": 441,
+  ""onset"": 0,
+  ""duration"": 2000,
+  ""x"" : 0,
+  ""y"" : 0,
+  ""end_trial"": ""yes""
+    }",../User/KDEF_top5/all/U_AF19NES.JPG,unmasked,NES,F,3,17,
+image_1,"{
+  ""type"": ""image"",
+  ""height"": 600,
+  ""width"": 441,
+  ""onset"": 0,
+  ""duration"": 2000,
+  ""x"" : 0,
+  ""y"" : 0,
+  ""end_trial"": ""yes""
+    }",../User/KDEF_top5/all/M_AM25AFS.JPG,masked,AFS,M,3,18,
+image_1,"{
+  ""type"": ""image"",
+  ""height"": 600,
+  ""width"": 441,
+  ""onset"": 0,
+  ""duration"": 2000,
+  ""x"" : 0,
+  ""y"" : 0,
+  ""end_trial"": ""yes""
+    }",../User/KDEF_top5/all/U_AF06HAS.JPG,unmasked,HAS,F,3,19,
+image_1,"{
+  ""type"": ""image"",
+  ""height"": 600,
+  ""width"": 441,
+  ""onset"": 0,
+  ""duration"": 2000,
+  ""x"" : 0,
+  ""y"" : 0,
+  ""end_trial"": ""yes""
+    }",../User/KDEF_top5/all/M_AM32SAS.JPG,masked,SAS,M,3,20,
+image_1,"{
+  ""type"": ""image"",
+  ""height"": 600,
+  ""width"": 441,
+  ""onset"": 0,
+  ""duration"": 2000,
+  ""x"" : 0,
+  ""y"" : 0,
+  ""end_trial"": ""yes""
+    }",../User/KDEF_top5/all/U_AF01SUS.JPG,unmasked,SUS,F,3,21,
+image_1,"{
+  ""type"": ""image"",
+  ""height"": 600,
+  ""width"": 441,
+  ""onset"": 0,
+  ""duration"": 2000,
+  ""x"" : 0,
+  ""y"" : 0,
+  ""end_trial"": ""yes""
+    }",../User/KDEF_top5/all/M_AF33HAS.JPG,masked,HAS,F,3,22,
+image_1,"{
+  ""type"": ""image"",
+  ""height"": 600,
+  ""width"": 441,
+  ""onset"": 0,
+  ""duration"": 2000,
+  ""x"" : 0,
+  ""y"" : 0,
+  ""end_trial"": ""yes""
+    }",../User/KDEF_top5/all/U_AF13SAS.JPG,unmasked,SAS,F,3,23,
+image_1,"{
+  ""type"": ""image"",
+  ""height"": 600,
+  ""width"": 441,
+  ""onset"": 0,
+  ""duration"": 2000,
+  ""x"" : 0,
+  ""y"" : 0,
+  ""end_trial"": ""yes""
+    }",../User/KDEF_top5/all/M_AM11NES.JPG,masked,NES,M,3,24,
+image_1,"{
+  ""type"": ""image"",
+  ""height"": 600,
+  ""width"": 441,
+  ""onset"": 0,
+  ""duration"": 2000,
+  ""x"" : 0,
+  ""y"" : 0,
+  ""end_trial"": ""yes""
+    }",../User/KDEF_top5/all/M_AF09DIS.JPG,masked,DIS,F,3,25,
+image_1,"{
+  ""type"": ""image"",
+  ""height"": 600,
+  ""width"": 441,
+  ""onset"": 0,
+  ""duration"": 2000,
+  ""x"" : 0,
+  ""y"" : 0,
+  ""end_trial"": ""yes""
+    }",../User/KDEF_top5/all/U_AF23ANS.JPG,unmasked,ANS,F,3,26,
+image_1,"{
+  ""type"": ""image"",
+  ""height"": 600,
+  ""width"": 441,
+  ""onset"": 0,
+  ""duration"": 2000,
+  ""x"" : 0,
+  ""y"" : 0,
+  ""end_trial"": ""yes""
+    }",../User/KDEF_top5/all/M_AF31ANS.JPG,masked,ANS,F,3,27,
+image_1,"{
+  ""type"": ""image"",
+  ""height"": 600,
+  ""width"": 441,
+  ""onset"": 0,
+  ""duration"": 2000,
+  ""x"" : 0,
+  ""y"" : 0,
+  ""end_trial"": ""yes""
+    }",../User/KDEF_top5/all/U_AF12DIS.JPG,unmasked,DIS,F,3,28,
+image_1,"{
+  ""type"": ""image"",
+  ""height"": 600,
+  ""width"": 441,
+  ""onset"": 0,
+  ""duration"": 2000,
+  ""x"" : 0,
+  ""y"" : 0,
+  ""end_trial"": ""yes""
+    }",../User/KDEF_top5/all/M_AM32HAS.JPG,masked,HAS,M,3,29,
+image_1,"{
+  ""type"": ""image"",
+  ""height"": 600,
+  ""width"": 441,
+  ""onset"": 0,
+  ""duration"": 2000,
+  ""x"" : 0,
+  ""y"" : 0,
+  ""end_trial"": ""yes""
+    }",../User/KDEF_top5/all/M_AF33AFS.JPG,masked,AFS,F,3,30,
+image_1,"{
+  ""type"": ""image"",
+  ""height"": 600,
+  ""width"": 441,
+  ""onset"": 0,
+  ""duration"": 2000,
+  ""x"" : 0,
+  ""y"" : 0,
+  ""end_trial"": ""yes""
+    }",../User/KDEF_top5/all/M_AF01SUS.JPG,masked,SUS,F,3,31,
+image_1,"{
+  ""type"": ""image"",
+  ""height"": 600,
+  ""width"": 441,
+  ""onset"": 0,
+  ""duration"": 2000,
+  ""x"" : 0,
+  ""y"" : 0,
+  ""end_trial"": ""yes""
+    }",../User/KDEF_top5/all/M_AM35SUS.JPG,masked,SUS,M,3,32,
+image_1,"{
+  ""type"": ""image"",
+  ""height"": 600,
+  ""width"": 441,
+  ""onset"": 0,
+  ""duration"": 2000,
+  ""x"" : 0,
+  ""y"" : 0,
+  ""end_trial"": ""yes""
+    }",../User/KDEF_top5/all/U_AF29NES.JPG,unmasked,NES,F,3,33,
+image_1,"{
+  ""type"": ""image"",
+  ""height"": 600,
+  ""width"": 441,
+  ""onset"": 0,
+  ""duration"": 2000,
+  ""x"" : 0,
+  ""y"" : 0,
+  ""end_trial"": ""yes""
+    }",../User/KDEF_top5/all/U_AF05SAS.JPG,unmasked,SAS,F,3,34,
+image_1,"{
+  ""type"": ""image"",
+  ""height"": 600,
+  ""width"": 441,
+  ""onset"": 0,
+  ""duration"": 2000,
+  ""x"" : 0,
+  ""y"" : 0,
+  ""end_trial"": ""yes""
+    }",../User/KDEF_top5/all/M_AM11ANS.JPG,masked,ANS,M,3,35,
+image_1,"{
+  ""type"": ""image"",
+  ""height"": 600,
+  ""width"": 441,
+  ""onset"": 0,
+  ""duration"": 2000,
+  ""x"" : 0,
+  ""y"" : 0,
+  ""end_trial"": ""yes""
+    }",../User/KDEF_top5/all/U_AF33AFS.JPG,unmasked,AFS,F,4,1,
+image_1,"{
+  ""type"": ""image"",
+  ""height"": 600,
+  ""width"": 441,
+  ""onset"": 0,
+  ""duration"": 2000,
+  ""x"" : 0,
+  ""y"" : 0,
+  ""end_trial"": ""yes""
+    }",../User/KDEF_top5/all/M_AF22AFS.JPG,masked,AFS,F,4,2,
+image_1,"{
+  ""type"": ""image"",
+  ""height"": 600,
+  ""width"": 441,
+  ""onset"": 0,
+  ""duration"": 2000,
+  ""x"" : 0,
+  ""y"" : 0,
+  ""end_trial"": ""yes""
+    }",../User/KDEF_top5/all/M_AF14AFS.JPG,masked,AFS,F,4,3,
+image_1,"{
+  ""type"": ""image"",
+  ""height"": 600,
+  ""width"": 441,
+  ""onset"": 0,
+  ""duration"": 2000,
+  ""x"" : 0,
+  ""y"" : 0,
+  ""end_trial"": ""yes""
+    }",../User/KDEF_top5/all/M_AM01NES.JPG,masked,NES,M,4,4,
+image_1,"{
+  ""type"": ""image"",
+  ""height"": 600,
+  ""width"": 441,
+  ""onset"": 0,
+  ""duration"": 2000,
+  ""x"" : 0,
+  ""y"" : 0,
+  ""end_trial"": ""yes""
+    }",../User/KDEF_top5/all/U_AM11NES.JPG,unmasked,NES,M,4,5,
+image_1,"{
+  ""type"": ""image"",
+  ""height"": 600,
+  ""width"": 441,
+  ""onset"": 0,
+  ""duration"": 2000,
+  ""x"" : 0,
+  ""y"" : 0,
+  ""end_trial"": ""yes""
+    }",../User/KDEF_top5/all/U_AM18DIS.JPG,unmasked,DIS,M,4,6,
+image_1,"{
+  ""type"": ""image"",
+  ""height"": 600,
+  ""width"": 441,
+  ""onset"": 0,
+  ""duration"": 2000,
+  ""x"" : 0,
+  ""y"" : 0,
+  ""end_trial"": ""yes""
+    }",../User/KDEF_top5/all/U_AF06NES.JPG,unmasked,NES,F,4,7,
+image_1,"{
+  ""type"": ""image"",
+  ""height"": 600,
+  ""width"": 441,
+  ""onset"": 0,
+  ""duration"": 2000,
+  ""x"" : 0,
+  ""y"" : 0,
+  ""end_trial"": ""yes""
+    }",../User/KDEF_top5/all/U_AM05SAS.JPG,unmasked,SAS,M,4,8,
+image_1,"{
+  ""type"": ""image"",
+  ""height"": 600,
+  ""width"": 441,
+  ""onset"": 0,
+  ""duration"": 2000,
+  ""x"" : 0,
+  ""y"" : 0,
+  ""end_trial"": ""yes""
+    }",../User/KDEF_top5/all/U_AF20SAS.JPG,unmasked,SAS,F,4,9,
+image_1,"{
+  ""type"": ""image"",
+  ""height"": 600,
+  ""width"": 441,
+  ""onset"": 0,
+  ""duration"": 2000,
+  ""x"" : 0,
+  ""y"" : 0,
+  ""end_trial"": ""yes""
+    }",../User/KDEF_top5/all/M_AF20ANS.JPG,masked,ANS,F,4,10,
+image_1,"{
+  ""type"": ""image"",
+  ""height"": 600,
+  ""width"": 441,
+  ""onset"": 0,
+  ""duration"": 2000,
+  ""x"" : 0,
+  ""y"" : 0,
+  ""end_trial"": ""yes""
+    }",../User/KDEF_top5/all/M_AM31DIS.JPG,masked,DIS,M,4,11,
+image_1,"{
+  ""type"": ""image"",
+  ""height"": 600,
+  ""width"": 441,
+  ""onset"": 0,
+  ""duration"": 2000,
+  ""x"" : 0,
+  ""y"" : 0,
+  ""end_trial"": ""yes""
+    }",../User/KDEF_top5/all/U_AM25AFS.JPG,unmasked,AFS,M,4,12,
+image_1,"{
+  ""type"": ""image"",
+  ""height"": 600,
+  ""width"": 441,
+  ""onset"": 0,
+  ""duration"": 2000,
+  ""x"" : 0,
+  ""y"" : 0,
+  ""end_trial"": ""yes""
+    }",../User/KDEF_top5/all/M_AM17ANS.JPG,masked,ANS,M,4,13,
+image_1,"{
+  ""type"": ""image"",
+  ""height"": 600,
+  ""width"": 441,
+  ""onset"": 0,
+  ""duration"": 2000,
+  ""x"" : 0,
+  ""y"" : 0,
+  ""end_trial"": ""yes""
+    }",../User/KDEF_top5/all/M_AF06HAS.JPG,masked,HAS,F,4,14,
+image_1,"{
+  ""type"": ""image"",
+  ""height"": 600,
+  ""width"": 441,
+  ""onset"": 0,
+  ""duration"": 2000,
+  ""x"" : 0,
+  ""y"" : 0,
+  ""end_trial"": ""yes""
+    }",../User/KDEF_top5/all/M_AF05SAS.JPG,masked,SAS,F,4,15,
+image_1,"{
+  ""type"": ""image"",
+  ""height"": 600,
+  ""width"": 441,
+  ""onset"": 0,
+  ""duration"": 2000,
+  ""x"" : 0,
+  ""y"" : 0,
+  ""end_trial"": ""yes""
+    }",../User/KDEF_top5/all/U_AM17HAS.JPG,unmasked,HAS,M,4,16,
+image_1,"{
+  ""type"": ""image"",
+  ""height"": 600,
+  ""width"": 441,
+  ""onset"": 0,
+  ""duration"": 2000,
+  ""x"" : 0,
+  ""y"" : 0,
+  ""end_trial"": ""yes""
+    }",../User/KDEF_top5/all/M_AM16SUS.JPG,masked,SUS,M,4,17,
+image_1,"{
+  ""type"": ""image"",
+  ""height"": 600,
+  ""width"": 441,
+  ""onset"": 0,
+  ""duration"": 2000,
+  ""x"" : 0,
+  ""y"" : 0,
+  ""end_trial"": ""yes""
+    }",../User/KDEF_top5/all/M_AF23ANS.JPG,masked,ANS,F,4,18,
+image_1,"{
+  ""type"": ""image"",
+  ""height"": 600,
+  ""width"": 441,
+  ""onset"": 0,
+  ""duration"": 2000,
+  ""x"" : 0,
+  ""y"" : 0,
+  ""end_trial"": ""yes""
+    }",../User/KDEF_top5/all/M_AM10ANS.JPG,masked,ANS,M,4,19,
+image_1,"{
+  ""type"": ""image"",
+  ""height"": 600,
+  ""width"": 441,
+  ""onset"": 0,
+  ""duration"": 2000,
+  ""x"" : 0,
+  ""y"" : 0,
+  ""end_trial"": ""yes""
+    }",../User/KDEF_top5/all/M_AF16AFS.JPG,masked,AFS,F,4,20,
+image_1,"{
+  ""type"": ""image"",
+  ""height"": 600,
+  ""width"": 441,
+  ""onset"": 0,
+  ""duration"": 2000,
+  ""x"" : 0,
+  ""y"" : 0,
+  ""end_trial"": ""yes""
+    }",../User/KDEF_top5/all/M_AF20HAS.JPG,masked,HAS,F,4,21,
+image_1,"{
+  ""type"": ""image"",
+  ""height"": 600,
+  ""width"": 441,
+  ""onset"": 0,
+  ""duration"": 2000,
+  ""x"" : 0,
+  ""y"" : 0,
+  ""end_trial"": ""yes""
+    }",../User/KDEF_top5/all/M_AM11AFS.JPG,masked,AFS,M,4,22,
+image_1,"{
+  ""type"": ""image"",
+  ""height"": 600,
+  ""width"": 441,
+  ""onset"": 0,
+  ""duration"": 2000,
+  ""x"" : 0,
+  ""y"" : 0,
+  ""end_trial"": ""yes""
+    }",../User/KDEF_top5/all/M_AM24DIS.JPG,masked,DIS,M,4,23,
+image_1,"{
+  ""type"": ""image"",
+  ""height"": 600,
+  ""width"": 441,
+  ""onset"": 0,
+  ""duration"": 2000,
+  ""x"" : 0,
+  ""y"" : 0,
+  ""end_trial"": ""yes""
+    }",../User/KDEF_top5/all/U_AM27DIS.JPG,unmasked,DIS,M,4,24,
+image_1,"{
+  ""type"": ""image"",
+  ""height"": 600,
+  ""width"": 441,
+  ""onset"": 0,
+  ""duration"": 2000,
+  ""x"" : 0,
+  ""y"" : 0,
+  ""end_trial"": ""yes""
+    }",../User/KDEF_top5/all/M_AM12DIS.JPG,masked,DIS,M,4,25,
+image_1,"{
+  ""type"": ""image"",
+  ""height"": 600,
+  ""width"": 441,
+  ""onset"": 0,
+  ""duration"": 2000,
+  ""x"" : 0,
+  ""y"" : 0,
+  ""end_trial"": ""yes""
+    }",../User/KDEF_top5/all/U_AM11AFS.JPG,unmasked,AFS,M,4,26,
+image_1,"{
+  ""type"": ""image"",
+  ""height"": 600,
+  ""width"": 441,
+  ""onset"": 0,
+  ""duration"": 2000,
+  ""x"" : 0,
+  ""y"" : 0,
+  ""end_trial"": ""yes""
+    }",../User/KDEF_top5/all/U_AF14ANS.JPG,unmasked,ANS,F,4,27,
+image_1,"{
+  ""type"": ""image"",
+  ""height"": 600,
+  ""width"": 441,
+  ""onset"": 0,
+  ""duration"": 2000,
+  ""x"" : 0,
+  ""y"" : 0,
+  ""end_trial"": ""yes""
+    }",../User/KDEF_top5/all/M_AM28SUS.JPG,masked,SUS,M,4,28,
+image_1,"{
+  ""type"": ""image"",
+  ""height"": 600,
+  ""width"": 441,
+  ""onset"": 0,
+  ""duration"": 2000,
+  ""x"" : 0,
+  ""y"" : 0,
+  ""end_trial"": ""yes""
+    }",../User/KDEF_top5/all/M_AM17AFS.JPG,masked,AFS,M,4,29,
+image_1,"{
+  ""type"": ""image"",
+  ""height"": 600,
+  ""width"": 441,
+  ""onset"": 0,
+  ""duration"": 2000,
+  ""x"" : 0,
+  ""y"" : 0,
+  ""end_trial"": ""yes""
+    }",../User/KDEF_top5/all/M_AM05ANS.JPG,masked,ANS,M,4,30,
+image_1,"{
+  ""type"": ""image"",
+  ""height"": 600,
+  ""width"": 441,
+  ""onset"": 0,
+  ""duration"": 2000,
+  ""x"" : 0,
+  ""y"" : 0,
+  ""end_trial"": ""yes""
+    }",../User/KDEF_top5/all/M_AF22HAS.JPG,masked,HAS,F,4,31,
+image_1,"{
+  ""type"": ""image"",
+  ""height"": 600,
+  ""width"": 441,
+  ""onset"": 0,
+  ""duration"": 2000,
+  ""x"" : 0,
+  ""y"" : 0,
+  ""end_trial"": ""yes""
+    }",../User/KDEF_top5/all/U_AM26HAS.JPG,unmasked,HAS,M,4,32,
+image_1,"{
+  ""type"": ""image"",
+  ""height"": 600,
+  ""width"": 441,
+  ""onset"": 0,
+  ""duration"": 2000,
+  ""x"" : 0,
+  ""y"" : 0,
+  ""end_trial"": ""yes""
+    }",../User/KDEF_top5/all/U_AM35SUS.JPG,unmasked,SUS,M,4,33,
+image_1,"{
+  ""type"": ""image"",
+  ""height"": 600,
+  ""width"": 441,
+  ""onset"": 0,
+  ""duration"": 2000,
+  ""x"" : 0,
+  ""y"" : 0,
+  ""end_trial"": ""yes""
+    }",../User/KDEF_top5/all/M_AF20SAS.JPG,masked,SAS,F,4,34,
+image_1,"{
+  ""type"": ""image"",
+  ""height"": 600,
+  ""width"": 441,
+  ""onset"": 0,
+  ""duration"": 2000,
+  ""x"" : 0,
+  ""y"" : 0,
+  ""end_trial"": ""yes""
+    }",../User/KDEF_top5/all/U_AM09SUS.JPG,unmasked,SUS,M,4,35,
+,,,,,,,,

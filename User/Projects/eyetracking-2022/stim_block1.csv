@@ -1,0 +1,352 @@
+elements,image_1,image_1.src,cond,emo,encoder_gender,block,trial,
+image_1,"{
+  ""type"": ""image"",
+  ""height"": 600,
+  ""width"": 441,
+  ""onset"": 0,
+  ""duration"": 2000,
+  ""x"" : 0,
+  ""y"" : 0,
+  ""end_trial"": ""yes""
+    }",../User/KDEF_top5/all/U_AM13NES.JPG,unmasked,NES,M,1,1,
+image_1,"{
+  ""type"": ""image"",
+  ""height"": 600,
+  ""width"": 441,
+  ""onset"": 0,
+  ""duration"": 2000,
+  ""x"" : 0,
+  ""y"" : 0,
+  ""end_trial"": ""yes""
+    }",../User/KDEF_top5/all/U_AF23SUS.JPG,unmasked,SUS,F,1,2,
+image_1,"{
+  ""type"": ""image"",
+  ""height"": 600,
+  ""width"": 441,
+  ""onset"": 0,
+  ""duration"": 2000,
+  ""x"" : 0,
+  ""y"" : 0,
+  ""end_trial"": ""yes""
+    }",../User/KDEF_top5/all/M_AM16SAS.JPG,masked,SAS,M,1,3,
+image_1,"{
+  ""type"": ""image"",
+  ""height"": 600,
+  ""width"": 441,
+  ""onset"": 0,
+  ""duration"": 2000,
+  ""x"" : 0,
+  ""y"" : 0,
+  ""end_trial"": ""yes""
+    }",../User/KDEF_top5/all/M_AF13NES.JPG,masked,NES,F,1,4,
+image_1,"{
+  ""type"": ""image"",
+  ""height"": 600,
+  ""width"": 441,
+  ""onset"": 0,
+  ""duration"": 2000,
+  ""x"" : 0,
+  ""y"" : 0,
+  ""end_trial"": ""yes""
+    }",../User/KDEF_top5/all/M_AM09ANS.JPG,masked,ANS,M,1,5,
+image_1,"{
+  ""type"": ""image"",
+  ""height"": 600,
+  ""width"": 441,
+  ""onset"": 0,
+  ""duration"": 2000,
+  ""x"" : 0,
+  ""y"" : 0,
+  ""end_trial"": ""yes""
+    }",../User/KDEF_top5/all/U_AM28SUS.JPG,unmasked,SUS,M,1,6,
+image_1,"{
+  ""type"": ""image"",
+  ""height"": 600,
+  ""width"": 441,
+  ""onset"": 0,
+  ""duration"": 2000,
+  ""x"" : 0,
+  ""y"" : 0,
+  ""end_trial"": ""yes""
+    }",../User/KDEF_top5/all/U_AF13DIS.JPG,unmasked,DIS,F,1,7,
+image_1,"{
+  ""type"": ""image"",
+  ""height"": 600,
+  ""width"": 441,
+  ""onset"": 0,
+  ""duration"": 2000,
+  ""x"" : 0,
+  ""y"" : 0,
+  ""end_trial"": ""yes""
+    }",../User/KDEF_top5/all/U_AM19AFS.JPG,unmasked,AFS,M,1,8,
+image_1,"{
+  ""type"": ""image"",
+  ""height"": 600,
+  ""width"": 441,
+  ""onset"": 0,
+  ""duration"": 2000,
+  ""x"" : 0,
+  ""y"" : 0,
+  ""end_trial"": ""yes""
+    }",../User/KDEF_top5/all/U_AM11SUS.JPG,unmasked,SUS,M,1,9,
+image_1,"{
+  ""type"": ""image"",
+  ""height"": 600,
+  ""width"": 441,
+  ""onset"": 0,
+  ""duration"": 2000,
+  ""x"" : 0,
+  ""y"" : 0,
+  ""end_trial"": ""yes""
+    }",../User/KDEF_top5/all/U_AF20ANS.JPG,unmasked,ANS,F,1,10,
+image_1,"{
+  ""type"": ""image"",
+  ""height"": 600,
+  ""width"": 441,
+  ""onset"": 0,
+  ""duration"": 2000,
+  ""x"" : 0,
+  ""y"" : 0,
+  ""end_trial"": ""yes""
+    }",../User/KDEF_top5/all/M_AM31NES.JPG,masked,NES,M,1,11,
+image_1,"{
+  ""type"": ""image"",
+  ""height"": 600,
+  ""width"": 441,
+  ""onset"": 0,
+  ""duration"": 2000,
+  ""x"" : 0,
+  ""y"" : 0,
+  ""end_trial"": ""yes""
+    }",../User/KDEF_top5/all/M_AF11HAS.JPG,masked,HAS,F,1,12,
+image_1,"{
+  ""type"": ""image"",
+  ""height"": 600,
+  ""width"": 441,
+  ""onset"": 0,
+  ""duration"": 2000,
+  ""x"" : 0,
+  ""y"" : 0,
+  ""end_trial"": ""yes""
+    }",../User/KDEF_top5/all/U_AM16SAS.JPG,unmasked,SAS,M,1,13,
+image_1,"{
+  ""type"": ""image"",
+  ""height"": 600,
+  ""width"": 441,
+  ""onset"": 0,
+  ""duration"": 2000,
+  ""x"" : 0,
+  ""y"" : 0,
+  ""end_trial"": ""yes""
+    }",../User/KDEF_top5/all/U_AF17DIS.JPG,unmasked,DIS,F,1,14,
+image_1,"{
+  ""type"": ""image"",
+  ""height"": 600,
+  ""width"": 441,
+  ""onset"": 0,
+  ""duration"": 2000,
+  ""x"" : 0,
+  ""y"" : 0,
+  ""end_trial"": ""yes""
+    }",../User/KDEF_top5/all/U_AF22ANS.JPG,unmasked,ANS,F,1,15,
+image_1,"{
+  ""type"": ""image"",
+  ""height"": 600,
+  ""width"": 441,
+  ""onset"": 0,
+  ""duration"": 2000,
+  ""x"" : 0,
+  ""y"" : 0,
+  ""end_trial"": ""yes""
+    }",../User/KDEF_top5/all/U_AF32SAS.JPG,unmasked,SAS,F,1,16,
+image_1,"{
+  ""type"": ""image"",
+  ""height"": 600,
+  ""width"": 441,
+  ""onset"": 0,
+  ""duration"": 2000,
+  ""x"" : 0,
+  ""y"" : 0,
+  ""end_trial"": ""yes""
+    }",../User/KDEF_top5/all/M_AM05SAS.JPG,masked,SAS,M,1,17,
+image_1,"{
+  ""type"": ""image"",
+  ""height"": 600,
+  ""width"": 441,
+  ""onset"": 0,
+  ""duration"": 2000,
+  ""x"" : 0,
+  ""y"" : 0,
+  ""end_trial"": ""yes""
+    }",../User/KDEF_top5/all/M_AF32SAS.JPG,masked,SAS,F,1,18,
+image_1,"{
+  ""type"": ""image"",
+  ""height"": 600,
+  ""width"": 441,
+  ""onset"": 0,
+  ""duration"": 2000,
+  ""x"" : 0,
+  ""y"" : 0,
+  ""end_trial"": ""yes""
+    }",../User/KDEF_top5/all/U_AM25HAS.JPG,unmasked,HAS,M,1,19,
+image_1,"{
+  ""type"": ""image"",
+  ""height"": 600,
+  ""width"": 441,
+  ""onset"": 0,
+  ""duration"": 2000,
+  ""x"" : 0,
+  ""y"" : 0,
+  ""end_trial"": ""yes""
+    }",../User/KDEF_top5/all/U_AM24DIS.JPG,unmasked,DIS,M,1,20,
+image_1,"{
+  ""type"": ""image"",
+  ""height"": 600,
+  ""width"": 441,
+  ""onset"": 0,
+  ""duration"": 2000,
+  ""x"" : 0,
+  ""y"" : 0,
+  ""end_trial"": ""yes""
+    }",../User/KDEF_top5/all/U_AF09SAS.JPG,unmasked,SAS,F,1,21,
+image_1,"{
+  ""type"": ""image"",
+  ""height"": 600,
+  ""width"": 441,
+  ""onset"": 0,
+  ""duration"": 2000,
+  ""x"" : 0,
+  ""y"" : 0,
+  ""end_trial"": ""yes""
+    }",../User/KDEF_top5/all/M_AF06NES.JPG,masked,NES,F,1,22,
+image_1,"{
+  ""type"": ""image"",
+  ""height"": 600,
+  ""width"": 441,
+  ""onset"": 0,
+  ""duration"": 2000,
+  ""x"" : 0,
+  ""y"" : 0,
+  ""end_trial"": ""yes""
+    }",../User/KDEF_top5/all/M_AM19AFS.JPG,masked,AFS,M,1,23,
+image_1,"{
+  ""type"": ""image"",
+  ""height"": 600,
+  ""width"": 441,
+  ""onset"": 0,
+  ""duration"": 2000,
+  ""x"" : 0,
+  ""y"" : 0,
+  ""end_trial"": ""yes""
+    }",../User/KDEF_top5/all/U_AM17ANS.JPG,unmasked,ANS,M,1,24,
+image_1,"{
+  ""type"": ""image"",
+  ""height"": 600,
+  ""width"": 441,
+  ""onset"": 0,
+  ""duration"": 2000,
+  ""x"" : 0,
+  ""y"" : 0,
+  ""end_trial"": ""yes""
+    }",../User/KDEF_top5/all/M_AM25HAS.JPG,masked,HAS,M,1,25,
+image_1,"{
+  ""type"": ""image"",
+  ""height"": 600,
+  ""width"": 441,
+  ""onset"": 0,
+  ""duration"": 2000,
+  ""x"" : 0,
+  ""y"" : 0,
+  ""end_trial"": ""yes""
+    }",../User/KDEF_top5/all/M_AM18DIS.JPG,masked,DIS,M,1,26,
+image_1,"{
+  ""type"": ""image"",
+  ""height"": 600,
+  ""width"": 441,
+  ""onset"": 0,
+  ""duration"": 2000,
+  ""x"" : 0,
+  ""y"" : 0,
+  ""end_trial"": ""yes""
+    }",../User/KDEF_top5/all/M_AF09SAS.JPG,masked,SAS,F,1,27,
+image_1,"{
+  ""type"": ""image"",
+  ""height"": 600,
+  ""width"": 441,
+  ""onset"": 0,
+  ""duration"": 2000,
+  ""x"" : 0,
+  ""y"" : 0,
+  ""end_trial"": ""yes""
+    }",../User/KDEF_top5/all/M_AM26HAS.JPG,masked,HAS,M,1,28,
+image_1,"{
+  ""type"": ""image"",
+  ""height"": 600,
+  ""width"": 441,
+  ""onset"": 0,
+  ""duration"": 2000,
+  ""x"" : 0,
+  ""y"" : 0,
+  ""end_trial"": ""yes""
+    }",../User/KDEF_top5/all/M_AM19SAS.JPG,masked,SAS,M,1,29,
+image_1,"{
+  ""type"": ""image"",
+  ""height"": 600,
+  ""width"": 441,
+  ""onset"": 0,
+  ""duration"": 2000,
+  ""x"" : 0,
+  ""y"" : 0,
+  ""end_trial"": ""yes""
+    }",../User/KDEF_top5/all/U_AM01NES.JPG,unmasked,NES,M,1,30,
+image_1,"{
+  ""type"": ""image"",
+  ""height"": 600,
+  ""width"": 441,
+  ""onset"": 0,
+  ""duration"": 2000,
+  ""x"" : 0,
+  ""y"" : 0,
+  ""end_trial"": ""yes""
+    }",../User/KDEF_top5/all/U_AM05ANS.JPG,unmasked,ANS,M,1,31,
+image_1,"{
+  ""type"": ""image"",
+  ""height"": 600,
+  ""width"": 441,
+  ""onset"": 0,
+  ""duration"": 2000,
+  ""x"" : 0,
+  ""y"" : 0,
+  ""end_trial"": ""yes""
+    }",../User/KDEF_top5/all/U_AM09ANS.JPG,unmasked,ANS,M,1,32,
+image_1,"{
+  ""type"": ""image"",
+  ""height"": 600,
+  ""width"": 441,
+  ""onset"": 0,
+  ""duration"": 2000,
+  ""x"" : 0,
+  ""y"" : 0,
+  ""end_trial"": ""yes""
+    }",../User/KDEF_top5/all/U_AM10ANS.JPG,unmasked,ANS,M,1,33,
+image_1,"{
+  ""type"": ""image"",
+  ""height"": 600,
+  ""width"": 441,
+  ""onset"": 0,
+  ""duration"": 2000,
+  ""x"" : 0,
+  ""y"" : 0,
+  ""end_trial"": ""yes""
+    }",../User/KDEF_top5/all/U_AF22SUS.JPG,unmasked,SUS,F,1,34,
+image_1,"{
+  ""type"": ""image"",
+  ""height"": 600,
+  ""width"": 441,
+  ""onset"": 0,
+  ""duration"": 2000,
+  ""x"" : 0,
+  ""y"" : 0,
+  ""end_trial"": ""yes""
+    }",../User/KDEF_top5/all/M_AM14AFS.JPG,masked,AFS,M,1,35,
+,,,,,,,,
