@@ -209,6 +209,10 @@ $( ".datepicker" ).datepicker({
 });
 */
 
+function valid_email(){
+  //email
+}
+
 $("#ExperimentContainer").css("transform", "scale(1,1)");
 $("#proceed_button").on("click", function () {
   var proceed = true;
