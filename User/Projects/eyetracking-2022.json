@@ -2,13 +2,17 @@
   "all_procs": {
     "procedure_1.csv": "item,survey,max_time,text,shuffle_1,phasetype,calibrations,calibration_skip,design_type,image_file,trials,min_width,min_height,skip_instruct,left_side,weight,\r\n0,,user,\"<h2>Debrief </h2>\r\n<span style='font-size:23'>Thank you for taking part in the CAASD lab eye-tracking emotion study. Your participation is extremely valued, and will help us to better understand how we process emotional voices and facial expressions.<br>\r\nThis study consists of two parts. In the first part, you will hear  emotional voices and see short videos, you will have to make the judgement of what emotion you perceive. We will use the webcam to track your attention, your video will not be saved, the location where you look will be saved anonymously. In the second part, we will ask you for some basic demographic details and to rate some statements that best describe you and how you feel.</span>\r\n<br><br>\r\n<br>\r\n<br>\r\nThis study, conducted by Dr Fang Liu, Dr Chen Zhao, Dr Anthony Haffey, and Kiera Stevens. School of Psychology & Clinical Language Sciences, University of Reading, has been reviewed by the University Research Ethics Committee and has been given a favourable ethical opinion for conduct. <br>\r\nIf you have any questions or wish to withdraw from the study, please contact us at: caasd@reading.ac.uk\r\n\r\n<a href=\"\"../User/Stimuli/SONA_ParticipantInfo.pdf\"\">Please download and read this information </a>\r\n<br>\r\n<button onclick=\"\"Phase.submit()\"\">Proceed</button>\r\n\",,text,,,,,,,,,,,\r\n0,urop_demographics.csv,user,,,survey,,,,,,,,,,0,\r\n0,,user,\"<span style='font-size:20'>Please choose a quiet and well-lit place to take part in the study so you can concentrate, as the quality of the data is very important to us. <br /><br>\r\n<span style='font-size:20'>In this part, you will hear emotional voices and see facial expressions. You will have to make judgements of what emotion you perceive, as quickly and accurately as possible, by pressing the key. We will go through some practice trials to familarise the procedure.\r\n<br>\r\n<br>After the calibration, please keep your head and body as still as possible, this is to ensure we have captured your attention accurately. When there is a cross on the screen please look at the centre of the cross.<br>\r\n<br>\r\nPlease use your headphones once you are ready to start. Here is a sound example, please adjust the volume to a comfortable level and <b>keep the same volume throughout the study</b>.<br> Note: this sound has added noise, so you should expect to hear a static-like sound. <br /><br></span>\r\n<audio controls>\r\n  <source src=\"\"../User/Stimuli/A_W14_N_Sp_D_-5.wav\"\" type=\"\"audio/wav\"\">\r\n  Your browser does not support the audio tag.\r\n</audio><br>\r\n<br>\r\n\r\n<span style='font-size:20'>Please note that you will be given opportunities to have breaks (about every 13 min), please only take breaks when the instruction shows on the screen, as any interruption of the study will require calibration for attention tracking.\r\n<br>\r\n\r\n<br>\r\n</span>\r\n<button onclick=\"\"Phase.submit()\"\">Proceed</button>\r\n\",,text,,,,,,,,,,,\r\n0,,user,\"Please look at the cross.<br />A video will follow.<br /><br />Do not move your head, <br />only use your eyes.\",off,webgazer_3,13,no,stimuli,gaze_practice.csv,4,1100px,400px,,,,\r\n0,,user,\"<style>\r\n#instructions{\r\n  margin:auto;\r\n  width:500px;\r\n  padding:50px;\r\n  height:600px;\r\n  text-align: center;    \r\n}\r\n</style>\r\n\r\n<div id=\"\"instructions\"\">This is the end of the practice, we will now proceed to the actual task.</div>\r\nPlease do not move your body or head.</div>\r\n</div>\r\n\r\n<button onclick=\"\"Phase.submit()\"\">Proceed</button>\",,text,,,,,,,,,,,",
     "procedure_1_reversed.csv": "item,survey,name,max_time,text,shuffle_1,weight,freeview_image_file,phasetype,calibration_skip,calibrations,design_type,calibration_skip*,image_height,image_width,save_script,stim_duration,trials,left_position,right_position,min_width,min_height,skip_instruct,backup_script_location,left_side,\r\n0,,DRINKERS ONLY,,\"This study asks questions about your alcoholic drinking habits. Please ONLY press \"\"proceed\"\" if you drink alcohol\",,,,instruct,,,,,,,,,,,,,,,,,\r\n0,info_jf1.csv,information,user,,off,1,,survey,,,,,,,,,,,,,,,,,\r\n0,consent_jf1.csv,consent,user,,off,1,,survey,,,,,,,,,,,,,,,,,\r\n0,,instruct,user,\"<span style='font-size:20px'>Thank you for participating - you are about to start an eye-tracking task. <br><br>\r\n In this task we will ask you to look at some dots to train the camera to know where your eyes are looking. <br><br>\r\n After this we will present you with pairs of images. You can look wherever you like on the screen.\r\n </span>\",off,1,,instruct,,,,,,,,,,,,,,,,,\r\n0,,webgazer,user,\"Please look at the cross.<br />A pair of images will follow. You are free <br />to look at either image.<br /><br />Do not move your head, <br />only use your eyes.\",off,1,gaze_pairs_a_sn_r1.csv,webgazer_3,no,13,freeview,no,300px,400px,,5000,40,-300px,300px,1100px,400px,off,,image_1,\r\n0,,instruct,user,Please take a break before starting the second half of the eyetracking task.,off,1,,instruct,,,,,,,,,,,,,,,,,\r\n0,,webgazer,user,\"Please look at the cross.<br />A pair of images will follow. You are free <br />to look at either image.<br /><br />Do not move your head, <br />only use your eyes.\",off,1,gaze_pairs_a_sn_r2.csv,webgazer_3,no,13,freeview,no,300px,400px,,5000,40,-300px,300px,1100px,400px,off,,image_1,\r\n0,modified_childhood_experiences.csv,childhood_experiences,user,,off,1,,survey,,,,,,,,,,,,,,,,,\r\n0,barratt-impulsiveness.csv,impulsiveness,user,,off,1,,survey,,,,,,,,,,,,,,,,,\r\n0,pathological_narcissism.csv,narcissism,user,,off,1,,survey,,,,,,,,,,,,,,,,,\r\n0,audit.csv,alcohol,user,,off,1,,survey,,,,,,,,,,,,,,,,,\r\n0,social_media_disorder.csv,social_networking,user,,off,1,,survey,,,,,,,,,,,,,,,,,\r\n0,phq_9_adjusted.csv,depression,user,,off,1,,survey,,,,,,,,,,,,,,,,,\r\n0,erq.csv,emotions,user,,off,1,,survey,,,,,,,,,,,,,,,,,\r\n0,debrief_jf1.csv,debrief,user,,off,1,,survey,,,,,,,,,,,,,,,,,\r\n0,sources_of_support_jf1.csv,support,user,,off,1,,survey,,,,,,,,,,,,,,,,,",
+<<<<<<< HEAD
+    "procedure_actual_list1.csv": "item,survey,max_time,text,shuffle_1,weight,phasetype,calibrations,calibration_skip,design_type,image_file,trials,min_width,min_height,skip_instruct,left_side,trial_order,\r\n0,,user,\"<h2>Study Information </h2>\r\n<span style='font-size:23'>Thank you for taking part in this eye-tracking study. Your participation is extremely valued, and will help us to better understand how we process facial expressions.<br>\r\nThis study consists of three parts. In the first part, you will see photographs of facial expressions and we will use the webcam to track your attention. Your video will not be saved; instead, the location where you look will be saved anonymously. In the second part, you will see some photographs and you will have to guess the emotion expressed in the photographs. Finally, in the third part, you will complete some questionnaires, such as rating some statements that best describe you and how you feel, and providing your demographic information.</span>\r\n<br><br>\r\n<br>\r\n<br>\r\nThis study, conducted by Dr Anthony Haffey and Dr Jia Hoong Ong, from theSchool of Psychology & Clinical Language Sciences, University of Reading. This study has been reviewed by the School Research Ethics Committee and has been given a favourable ethical opinion for conduct. <br>\r\nIf you have any questions or wish to withdraw from the study, please contact us at: a.haffey@reading.ac.uk\r\n\r\n<a href=\"\"../User/Stimuli/SONA_ParticipantInfo.pdf\"\">Please download and read this information </a>\r\n<br>\r\n<button onclick=\"\"Phase.submit()\"\">Proceed</button>\",,0,text,,,,,,,,,,,\r\n0,,user,\"<span style='font-size:20'>Please choose a quiet and well-lit place to take part in the study so you can concentrate, as the quality of the data is very important to us. <br /><br>\r\n<span style='font-size:20'>In this first part, you will see photographs of facial expressions and we will use the webcam to track your attention. Your video will not be saved; instead, the location where you look will be saved anonymously.  We will go through some practice trials to familarise the procedure.\r\n<br>\r\n<br>After the calibration, please keep your head and body as still as possible, this is to ensure we have captured your attention accurately. When there is a cross on the screen please look at the centre of the cross.<br>\r\n\r\n<span style='font-size:20'>Please note that you will be given opportunities to have breaks, please only take breaks when the instruction shows on the screen, as any interruption of the study will require calibration for attention tracking.\r\n<br>\r\n<br>\r\nNow we will start a short practice (there is no calibration dot for practice). \r\n\r\n<br>\r\n</span>\r\n<button onclick=\"\"Phase.submit()\"\">Proceed</button>\",,0,text,,,,,,,,,,,\r\n0,,user,THESE INSTRUCTIONS CAN BE CHANGED IN THE PROCEDURE SHEET IN THE TEXI COLUMN OF THE WEBGAZER ROW,eyetracking,1,webgazer_3,13,yes,stimuli,stim_block1.csv,3,1100px,400px,off,image_1,random,\r\n0,,user,THESE INSTRUCTIONS CAN BE CHANGED IN THE PROCEDURE SHEET IN THE TEXI COLUMN OF THE WEBGAZER ROW,eyetracking,1,webgazer_3,13,yes,stimuli,stim_block2.csv,3,1100px,400px,off,image_1,random,\r\n0,,user,THESE INSTRUCTIONS CAN BE CHANGED IN THE PROCEDURE SHEET IN THE TEXI COLUMN OF THE WEBGAZER ROW,eyetracking,1,webgazer_3,13,yes,stimuli,stim_block3.csv,3,1100px,400px,off,image_1,random,\r\n0,,user,THESE INSTRUCTIONS CAN BE CHANGED IN THE PROCEDURE SHEET IN THE TEXI COLUMN OF THE WEBGAZER ROW,eyetracking,1,webgazer_3,13,yes,stimuli,stim_block4.csv,3,1100px,400px,off,image_1,random,\r\n0,,user,MAKE SURE TO USE A LAPTOP NOT A DESKTOP,off,1,instruct,,,,,,,,,,,\r\n2 to 71,,user,beep,emotion_trials,0,emotion_recognition,,,,,,,,,,,\r\n0,eyetracking_demo.csv,user,,off,1,survey,,,,,,,,,,,\r\n0,autism_quotient.csv,user,,off,1,survey,,,,,,,,,,,\r\n0,perth_alexithymia.csv,user,,off,1,survey,,,,,,,,,,,",
+=======
     "procedure_actual_list1.csv": "item,survey,max_time,text,shuffle_1,weight,phasetype,calibrations,calibration_skip,design_type,image_file,trials,min_width,min_height,skip_instruct,left_side,trial_order,\r\n0,,user,\"<h2>Debrief </h2>\r\n<span style='font-size:23'>Thank you for taking part in the CAASD lab eye-tracking emotion study. Your participation is extremely valued, and will help us to better understand how we process emotional voices and facial expressions.<br>\r\nThis study consists of two parts. In the first part, you will hear  emotional voices and see short videos, you will have to make the judgement of what emotion you perceive. We will use the webcam to track your attention, your video will not be saved, the location where you look will be saved anonymously. In the second part, we will ask you for some basic demographic details and to rate some statements that best describe you and how you feel.</span>\r\n<br><br>\r\n<br>\r\n<br>\r\nThis study, conducted by Dr Fang Liu, Dr Chen Zhao, Dr Anthony Haffey, and Kiera Stevens. School of Psychology & Clinical Language Sciences, University of Reading, has been reviewed by the University Research Ethics Committee and has been given a favourable ethical opinion for conduct. <br>\r\nIf you have any questions or wish to withdraw from the study, please contact us at: caasd@reading.ac.uk\r\n\r\n<a href=\"\"../User/Stimuli/SONA_ParticipantInfo.pdf\"\">Please download and read this information </a>\r\n<br>\r\n<button onclick=\"\"Phase.submit()\"\">Proceed</button>\",,0,text,,,,,,,,,,,\r\n0,,user,\"<span style='font-size:20'>Please choose a quiet and well-lit place to take part in the study so you can concentrate, as the quality of the data is very important to us. <br /><br>\r\n<span style='font-size:20'>In this part, you will hear emotional voices and see facial expressions. You will have to make judgements of what emotion you perceive, as quickly and accurately as possible, by pressing the key. We will go through some practice trials to familarise the procedure.\r\n<br>\r\n<br>After the calibration, please keep your head and body as still as possible, this is to ensure we have captured your attention accurately. When there is a cross on the screen please look at the centre of the cross.<br>\r\n<br>\r\nPlease use your headphones once you are ready to start. Here is a sound example, please adjust the volume to a comfortable level and <b>keep the same volume throughout the study</b>.<br> Note: this sound has added noise, so you should expect to hear a static-like sound. <br /><br></span>\r\n<audio controls>\r\n  <source src=\"\"../User/Stimuli/A_W14_N_Sp_D_-5.wav\"\" type=\"\"audio/wav\"\">\r\n  Your browser does not support the audio tag.\r\n</audio><br>\r\n<br>\r\n\r\n<span style='font-size:20'>Please note that you will be given opportunities to have breaks, please only take breaks when the instruction shows on the screen, as any interruption of the study will require calibration for attention tracking.\r\n<br>\r\n<br>\r\nNow we will start a short practice (there is no calibration dot for practice). \r\n\r\n<br>\r\n</span>\r\n<button onclick=\"\"Phase.submit()\"\">Proceed</button>\",,0,text,,,,,,,,,,,\r\n0,,user,THESE INSTRUCTIONS CAN BE CHANGED IN THE PROCEDURE SHEET IN THE TEXI COLUMN OF THE WEBGAZER ROW,eyetracking,1,webgazer_3,13,yes,stimuli,stim_block1.csv,3,1100px,400px,off,image_1,random,\r\n0,,user,THESE INSTRUCTIONS CAN BE CHANGED IN THE PROCEDURE SHEET IN THE TEXI COLUMN OF THE WEBGAZER ROW,eyetracking,1,webgazer_3,13,yes,stimuli,stim_block2.csv,3,1100px,400px,off,image_1,random,\r\n0,,user,THESE INSTRUCTIONS CAN BE CHANGED IN THE PROCEDURE SHEET IN THE TEXI COLUMN OF THE WEBGAZER ROW,eyetracking,1,webgazer_3,13,yes,stimuli,stim_block3.csv,3,1100px,400px,off,image_1,random,\r\n0,,user,THESE INSTRUCTIONS CAN BE CHANGED IN THE PROCEDURE SHEET IN THE TEXI COLUMN OF THE WEBGAZER ROW,eyetracking,1,webgazer_3,13,yes,stimuli,stim_block4.csv,3,1100px,400px,off,image_1,random,\r\n0,,user,MAKE SURE TO USE A LAPTOP NOT A DESKTOP,off,1,instruct,,,,,,,,,,,\r\n2 to 71,,user,,emotion_trials,0,emotion_recognition,,,,,,,,,,,\r\n0,demographics_2022.csv,user,,off,1,survey,,,,,,,,,,,\r\n0,autism_quotient.csv,user,,off,1,survey,,,,,,,,,,,",
+>>>>>>> a5e5c9201c0725c8de30d30fea5a8ea12d6cc0d1
     "procedure_actual_list2.csv": "item,survey,max_time,text,shuffle_1,phasetype,calibrations,calibration_skip,design_type,image_file,trials,min_width,min_height,skip_instruct,left_side,\r\n0,,user,\"<h2>Debrief </h2>\r\n<span style='font-size:23'>Thank you for taking part in the CAASD lab eye-tracking emotion study. Your participation is extremely valued, and will help us to better understand how we process emotional voices and facial expressions.<br>\r\nThis study consists of two parts. In the first part, you will hear  emotional voices and see short videos, you will have to make the judgement of what emotion you perceive. We will use the webcam to track your attention, your video will not be saved, the location where you look will be saved anonymously. In the second part, we will ask you for some basic demographic details and to rate some statements that best describe you and how you feel.</span>\r\n<br><br>\r\n<br>\r\n<br>\r\nThis study, conducted by Dr Fang Liu, Dr Chen Zhao, Dr Anthony Haffey, and Kiera Stevens. School of Psychology & Clinical Language Sciences, University of Reading, has been reviewed by the University Research Ethics Committee and has been given a favourable ethical opinion for conduct. <br>\r\nIf you have any questions or wish to withdraw from the study, please contact us at: caasd@reading.ac.uk\r\n\r\n<a href=\"\"../User/Stimuli/SONA_ParticipantInfo.pdf\"\">Please download and read this information </a>\r\n<br>\r\n<button onclick=\"\"Phase.submit()\"\">Proceed</button>\r\n\",,text,,,,,,,,,,\r\n0,,user,\"<span style='font-size:20'>Please choose a quiet and well-lit place to take part in the study so you can concentrate, as the quality of the data is very important to us. <br /><br>\r\n<span style='font-size:20'>In this part, you will hear emotional voices and see facial expressions. You will have to make judgements of what emotion you perceive, as quickly and accurately as possible, by pressing the key. We will go through some practice trials to familarise the procedure.\r\n<br>\r\n<br>After the calibration, please keep your head and body as still as possible, this is to ensure we have captured your attention accurately. When there is a cross on the screen please look at the centre of the cross.<br>\r\n<br>\r\nPlease use your headphones once you are ready to start. Here is a sound example, please adjust the volume to a comfortable level and <b>keep the same volume throughout the study</b>.<br> Note: this sound has added noise, so you should expect to hear a static-like sound. <br /><br></span>\r\n<audio controls>\r\n  <source src=\"\"../User/Stimuli/A_W14_N_Sp_D_-5.wav\"\" type=\"\"audio/wav\"\">\r\n  Your browser does not support the audio tag.\r\n</audio><br>\r\n<br>\r\n\r\n<span style='font-size:20'>Please note that you will be given opportunities to have breaks, please only take breaks when the instruction shows on the screen, as any interruption of the study will require calibration for attention tracking.\r\n<br>\r\n<br>\r\nNow we will start a short practice (there is no calibration dot for practice). \r\n\r\n<br>\r\n</span>\r\n<button onclick=\"\"Phase.submit()\"\">Proceed</button>\",,text,,,,,,,,,,\r\n0,,user,\"Please look at the cross.<br />A video will follow.<br /><br />Do not move your head, <br />only use your eyes.\",off,webgazer_3,13,yes,stimuli,gaze_practice2.csv,4,1100px,400px,off,image_1,\r\n0,,user,\"<style><br>\r\n#instructions{<br>\r\n  margin:auto;<br>\r\n  width:500px;<br>\r\n  padding:50px;<br>\r\n  height:600px;<br>\r\n  text-align: center;    <br>\r\n}<br>\r\n</style><br>\r\n<br>\r\n<div id=\"\"instructions\"\">This is the end of the practice, we will now proceed to the task.<br>\r\nPlease do not move your body or head.</div><br>\r\n</div><br>\r\n<br>\r\n<button onclick=\"\"Phase.submit()\"\">Proceed</button>\",,text,,,,,,,,,,\r\n0,,user,\"Please look at the cross.<br />A video will follow.<br /><br />Do not move your head, <br />only use your eyes.\",off,webgazer_3,13,no,stimuli,gaze_actual_list2a.csv,80,1100px,400px,off,image_1,\r\n0,,user,\"<style>\r\n#instructions{\r\n  margin:auto;\r\n  width:500px;\r\n  padding:50px;\r\n  height:600px;\r\n  text-align: center;    \r\n}\r\n</style>\r\n\r\n<div id=\"\"instructions\"\">Please take a break, we have one session left.</div>\r\n\r\n\r\n<button onclick=\"\"Phase.submit()\"\">Proceed</button>\",,text,,,,,,,,,,\r\n0,,user,\"Please look at the cross.<br />A video will follow.<br /><br />Do not move your head, <br />only use your eyes.\",off,webgazer_3,13,no,stimuli,gaze_actual_list2b.csv,80,1100px,400px,off,image_1,\r\n0,,user,\"<style><br>\r\n#instructions{<br>\r\n  margin:auto;<br>\r\n  width:500px;<br>\r\n  padding:50px;<br>\r\n  height:600px;<br>\r\n  text-align: center;    <br>\r\n}<br>\r\n</style><br>\r\n<br>\r\n<div id=\"\"instructions\"\">This is the end of first part, please take a break.<br>\r\nIn the second part we will ask you some questions.</div><br>\r\n<br>\r\n<br>\r\n<button onclick=\"\"Phase.submit()\"\">Proceed</button>\",,text,,,,,,,,,,\r\n0,urop_demographics.csv,user,,off,survey,,,,,,,,,,\r\n0,autism_quotient.csv,user,,off,survey,,,,,,,,,,\r\n0,urop_panas.csv,user,,off,survey,,,,,,,,,,",
     "procedure_actual_list3.csv": "item,survey,max_time,text,shuffle_1,phasetype,calibrations,calibration_skip,design_type,image_file,trials,min_width,min_height,skip_instruct,left_side,\r\n0,,user,\"<h2>Debrief </h2>\r\n<span style='font-size:23'>Thank you for taking part in the CAASD lab eye-tracking emotion study. Your participation is extremely valued, and will help us to better understand how we process emotional voices and facial expressions.<br>\r\nThis study consists of two parts. In the first part, you will hear  emotional voices and see short videos, you will have to make the judgement of what emotion you perceive. We will use the webcam to track your attention, your video will not be saved, the location where you look will be saved anonymously. In the second part, we will ask you for some basic demographic details and to rate some statements that best describe you and how you feel.</span>\r\n<br><br>\r\n<br>\r\n<br>\r\nThis study, conducted by Dr Fang Liu, Dr Chen Zhao, Dr Anthony Haffey, and Kiera Stevens. School of Psychology & Clinical Language Sciences, University of Reading, has been reviewed by the University Research Ethics Committee and has been given a favourable ethical opinion for conduct. <br>\r\nIf you have any questions or wish to withdraw from the study, please contact us at: caasd@reading.ac.uk\r\n\r\n<a href=\"\"../User/Stimuli/SONA_ParticipantInfo.pdf\"\">Please download and read this information </a>\r\n<br>\r\n<button onclick=\"\"Phase.submit()\"\">Proceed</button>\r\n\",,text,,,,,,,,,,\r\n0,,user,\"<span style='font-size:20'>Please choose a quiet and well-lit place to take part in the study so you can concentrate, as the quality of the data is very important to us. <br /><br>\r\n<span style='font-size:20'>In this part, you will hear emotional voices and see facial expressions. You will have to make judgements of what emotion you perceive, as quickly and accurately as possible, by pressing the key. We will go through some practice trials to familarise the procedure.\r\n<br>\r\n<br>After the calibration, please keep your head and body as still as possible, this is to ensure we have captured your attention accurately. When there is a cross on the screen please look at the centre of the cross.<br>\r\n<br>\r\nPlease use your headphones once you are ready to start. Here is a sound example, please adjust the volume to a comfortable level and <b>keep the same volume throughout the study</b>.<br> Note: this sound has added noise, so you should expect to hear a static-like sound. <br /><br></span>\r\n<audio controls>\r\n  <source src=\"\"../User/Stimuli/A_W14_N_Sp_D_-5.wav\"\" type=\"\"audio/wav\"\">\r\n  Your browser does not support the audio tag.\r\n</audio><br>\r\n<br>\r\n\r\n<span style='font-size:20'>Please note that you will be given opportunities to have breaks, please only take breaks when the instruction shows on the screen, as any interruption of the study will require calibration for attention tracking.\r\n<br>\r\n<br>\r\nNow we will start a short practice (there is no calibration dot for practice). \r\n\r\n<br>\r\n</span>\r\n<button onclick=\"\"Phase.submit()\"\">Proceed</button>\",,text,,,,,,,,,,\r\n0,,user,\"Please look at the cross.<br />A video will follow.<br /><br />Do not move your head, <br />only use your eyes.\",off,webgazer_3,13,yes,stimuli,gaze_practice3.csv,4,1100px,400px,off,image_1,\r\n0,,user,\"<style><br>\r\n#instructions{<br>\r\n  margin:auto;<br>\r\n  width:500px;<br>\r\n  padding:50px;<br>\r\n  height:600px;<br>\r\n  text-align: center;    <br>\r\n}<br>\r\n</style><br>\r\n<br>\r\n<div id=\"\"instructions\"\">This is the end of the practice, we will now proceed to the task.<br>\r\nPlease do not move your body or head.</div><br>\r\n</div><br>\r\n<br>\r\n<button onclick=\"\"Phase.submit()\"\">Proceed</button>\",,text,,,,,,,,,,\r\n0,,user,\"Please look at the cross.<br />A video will follow.<br /><br />Do not move your head, <br />only use your eyes.\",off,webgazer_3,13,no,stimuli,gaze_actual_list3a.csv,80,1100px,400px,off,image_1,\r\n0,,user,\"<style>\r\n#instructions{\r\n  margin:auto;\r\n  width:500px;\r\n  padding:50px;\r\n  height:600px;\r\n  text-align: center;    \r\n}\r\n</style>\r\n\r\n<div id=\"\"instructions\"\">Please take a break, we have one session left.</div>\r\n\r\n\r\n<button onclick=\"\"Phase.submit()\"\">Proceed</button>\",,text,,,,,,,,,,\r\n0,,user,\"Please look at the cross.<br />A video will follow.<br /><br />Do not move your head, <br />only use your eyes.\",off,webgazer_3,13,no,stimuli,gaze_actual_list3b.csv,80,1100px,400px,off,image_1,\r\n0,,user,\"<style><br>\r\n#instructions{<br>\r\n  margin:auto;<br>\r\n  width:500px;<br>\r\n  padding:50px;<br>\r\n  height:600px;<br>\r\n  text-align: center;    <br>\r\n}<br>\r\n</style><br>\r\n<br>\r\n<div id=\"\"instructions\"\">This is the end of first part, please take a break.<br>\r\nIn the second part we will ask you some questions.</div><br>\r\n<br>\r\n<br>\r\n<button onclick=\"\"Phase.submit()\"\">Proceed</button>\",,text,,,,,,,,,,\r\n0,urop_demographics.csv,user,,off,survey,,,,,,,,,,\r\n0,autism_quotient.csv,user,,off,survey,,,,,,,,,,\r\n0,urop_panas.csv,user,,off,survey,,,,,,,,,,",
     "procedure_actual_list4.csv": "item,survey,max_time,text,shuffle_1,phasetype,calibrations,calibration_skip,design_type,image_file,trials,min_width,min_height,skip_instruct,left_side,\r\n0,,user,\"<h2>Debrief </h2>\r\n<span style='font-size:23'>Thank you for taking part in the CAASD lab eye-tracking emotion study. Your participation is extremely valued, and will help us to better understand how we process emotional voices and facial expressions.<br>\r\nThis study consists of two parts. In the first part, you will hear  emotional voices and see short videos, you will have to make the judgement of what emotion you perceive. We will use the webcam to track your attention, your video will not be saved, the location where you look will be saved anonymously. In the second part, we will ask you for some basic demographic details and to rate some statements that best describe you and how you feel.</span>\r\n<br><br>\r\n<br>\r\n<br>\r\nThis study, conducted by Dr Fang Liu, Dr Chen Zhao, Dr Anthony Haffey, and Kiera Stevens. School of Psychology & Clinical Language Sciences, University of Reading, has been reviewed by the University Research Ethics Committee and has been given a favourable ethical opinion for conduct. <br>\r\nIf you have any questions or wish to withdraw from the study, please contact us at: caasd@reading.ac.uk\r\n\r\n<a href=\"\"../User/Stimuli/SONA_ParticipantInfo.pdf\"\">Please download and read this information </a>\r\n<br>\r\n<button onclick=\"\"Phase.submit()\"\">Proceed</button>\r\n\",,text,,,,,,,,,,\r\n0,,user,\"<span style='font-size:20'>Please choose a quiet and well-lit place to take part in the study so you can concentrate, as the quality of the data is very important to us. <br /><br>\r\n<span style='font-size:20'>In this part, you will hear emotional voices and see facial expressions. You will have to make judgements of what emotion you perceive, as quickly and accurately as possible, by pressing the key. We will go through some practice trials to familarise the procedure.\r\n<br>\r\n<br>After the calibration, please keep your head and body as still as possible, this is to ensure we have captured your attention accurately. When there is a cross on the screen please look at the centre of the cross.<br>\r\n<br>\r\nPlease use your headphones once you are ready to start. Here is a sound example, please adjust the volume to a comfortable level and <b>keep the same volume throughout the study</b>.<br> Note: this sound has added noise, so you should expect to hear a static-like sound. <br /><br></span>\r\n<audio controls>\r\n  <source src=\"\"../User/Stimuli/A_W14_N_Sp_D_-5.wav\"\" type=\"\"audio/wav\"\">\r\n  Your browser does not support the audio tag.\r\n</audio><br>\r\n<br>\r\n\r\n<span style='font-size:20'>Please note that you will be given opportunities to have breaks, please only take breaks when the instruction shows on the screen, as any interruption of the study will require calibration for attention tracking.\r\n<br>\r\n<br>\r\nNow we will start a short practice (there is no calibration dot for practice). \r\n\r\n<br>\r\n</span>\r\n<button onclick=\"\"Phase.submit()\"\">Proceed</button>\",,text,,,,,,,,,,\r\n0,,user,\"Please look at the cross.<br />A video will follow.<br /><br />Do not move your head, <br />only use your eyes.\",off,webgazer_3,13,yes,stimuli,gaze_practice4.csv,4,1100px,400px,off,image_1,\r\n0,,user,\"<style><br>\r\n#instructions{<br>\r\n  margin:auto;<br>\r\n  width:500px;<br>\r\n  padding:50px;<br>\r\n  height:600px;<br>\r\n  text-align: center;    <br>\r\n}<br>\r\n</style><br>\r\n<br>\r\n<div id=\"\"instructions\"\">This is the end of the practice, we will now proceed to the task.<br>\r\nPlease do not move your body or head.</div><br>\r\n</div><br>\r\n<br>\r\n<button onclick=\"\"Phase.submit()\"\">Proceed</button>\",,text,,,,,,,,,,\r\n0,,user,\"Please look at the cross.<br />A video will follow.<br /><br />Do not move your head, <br />only use your eyes.\",off,webgazer_3,13,no,stimuli,gaze_actual_list4a.csv,80,1100px,400px,off,image_1,\r\n0,,user,\"<style>\r\n#instructions{\r\n  margin:auto;\r\n  width:500px;\r\n  padding:50px;\r\n  height:600px;\r\n  text-align: center;    \r\n}\r\n</style>\r\n\r\n<div id=\"\"instructions\"\">Please take a break, we have one session left.</div>\r\n\r\n\r\n<button onclick=\"\"Phase.submit()\"\">Proceed</button>\",,text,,,,,,,,,,\r\n0,,user,\"Please look at the cross.<br />A video will follow.<br /><br />Do not move your head, <br />only use your eyes.\",off,webgazer_3,13,no,stimuli,gaze_actual_list4b.csv,80,1100px,400px,off,image_1,\r\n0,,user,\"<style><br>\r\n#instructions{<br>\r\n  margin:auto;<br>\r\n  width:500px;<br>\r\n  padding:50px;<br>\r\n  height:600px;<br>\r\n  text-align: center;    <br>\r\n}<br>\r\n</style><br>\r\n<br>\r\n<div id=\"\"instructions\"\">This is the end of first part, please take a break.<br>\r\nIn the second part we will ask you some questions.</div><br>\r\n<br>\r\n<br>\r\n<button onclick=\"\"Phase.submit()\"\">Proceed</button>\",,text,,,,,,,,,,\r\n0,urop_demographics.csv,user,,off,survey,,,,,,,,,,\r\n0,autism_quotient.csv,user,,off,survey,,,,,,,,,,\r\n0,urop_panas.csv,user,,off,survey,,,,,,,,,,"
   },
   "all_stims": {
-    "stimuli_1.csv": "cue,answer,emotion_picture,\r\na,ant,../User/KDEF_top5/all/AM35SUS.JPG,\r\nb,bug,../User/KDEF_top5/all/AF01SUS.JPG,\r\n,,../User/KDEF_top5/all/AF05NES.JPG,\r\n,,../User/KDEF_top5/all/AF05SAS.JPG,\r\n,,../User/KDEF_top5/all/AF06HAS.JPG,\r\n,,../User/KDEF_top5/all/AF06NES.JPG,\r\n,,../User/KDEF_top5/all/AF09DIS.JPG,\r\n,,../User/KDEF_top5/all/AF09SAS.JPG,\r\n,,../User/KDEF_top5/all/AF11HAS.JPG,\r\n,,../User/KDEF_top5/all/AF12DIS.JPG,\r\n,,../User/KDEF_top5/all/AF13DIS.JPG,\r\n,,../User/KDEF_top5/all/AF13NES.JPG,\r\n,,../User/KDEF_top5/all/AF13SAS.JPG,\r\n,,../User/KDEF_top5/all/AF14AFS.JPG,\r\n,,../User/KDEF_top5/all/AF14ANS.JPG,\r\n,,../User/KDEF_top5/all/AF16AFS.JPG,\r\n,,../User/KDEF_top5/all/AF17DIS.JPG,\r\n,,../User/KDEF_top5/all/AF19NES.JPG,\r\n,,../User/KDEF_top5/all/AF20ANS.JPG,\r\n,,../User/KDEF_top5/all/AF20HAS.JPG,\r\n,,../User/KDEF_top5/all/AF20SAS.JPG,\r\n,,../User/KDEF_top5/all/AF21DIS.JPG,\r\n,,../User/KDEF_top5/all/AF22AFS.JPG,\r\n,,../User/KDEF_top5/all/AF22ANS.JPG,\r\n,,../User/KDEF_top5/all/AF22HAS.JPG,\r\n,,../User/KDEF_top5/all/AF22SUS.JPG,\r\n,,../User/KDEF_top5/all/AF23ANS.JPG,\r\n,,../User/KDEF_top5/all/AF23SUS.JPG,\r\n,,../User/KDEF_top5/all/AF28AFS.JPG,\r\n,,../User/KDEF_top5/all/AF29NES.JPG,\r\n,,../User/KDEF_top5/all/AF31ANS.JPG,\r\n,,../User/KDEF_top5/all/AF32SAS.JPG,\r\n,,../User/KDEF_top5/all/AF32SUS.JPG,\r\n,,../User/KDEF_top5/all/AF33AFS.JPG,\r\n,,../User/KDEF_top5/all/AF33HAS.JPG,\r\n,,../User/KDEF_top5/all/AF35SUS.JPG,\r\n,,../User/KDEF_top5/all/AM01NES.JPG,\r\n,,../User/KDEF_top5/all/AM05ANS.JPG,\r\n,,../User/KDEF_top5/all/AM05SAS.JPG,\r\n,,../User/KDEF_top5/all/AM07HAS.JPG,\r\n,,../User/KDEF_top5/all/AM09ANS.JPG,\r\n,,../User/KDEF_top5/all/AM09SUS.JPG,\r\n,,../User/KDEF_top5/all/AM10ANS.JPG,\r\n,,../User/KDEF_top5/all/AM10NES.JPG,\r\n,,../User/KDEF_top5/all/AM11AFS.JPG,\r\n,,../User/KDEF_top5/all/AM11ANS.JPG,\r\n,,../User/KDEF_top5/all/AM11NES.JPG,\r\n,,../User/KDEF_top5/all/AM11SAS.JPG,\r\n,,../User/KDEF_top5/all/AM11SUS.JPG,\r\n,,../User/KDEF_top5/all/AM12DIS.JPG,\r\n,,../User/KDEF_top5/all/AM13NES.JPG,\r\n,,../User/KDEF_top5/all/AM14AFS.JPG,\r\n,,../User/KDEF_top5/all/AM16SAS.JPG,\r\n,,../User/KDEF_top5/all/AM16SUS.JPG,\r\n,,../User/KDEF_top5/all/AM17AFS.JPG,\r\n,,../User/KDEF_top5/all/AM17ANS.JPG,\r\n,,../User/KDEF_top5/all/AM17HAS.JPG,\r\n,,../User/KDEF_top5/all/AM18DIS.JPG,\r\n,,../User/KDEF_top5/all/AM19AFS.JPG,\r\n,,../User/KDEF_top5/all/AM19SAS.JPG,\r\n,,../User/KDEF_top5/all/AM24DIS.JPG,\r\n,,../User/KDEF_top5/all/AM25AFS.JPG,\r\n,,../User/KDEF_top5/all/AM25HAS.JPG,\r\n,,../User/KDEF_top5/all/AM26HAS.JPG,\r\n,,../User/KDEF_top5/all/AM27DIS.JPG,\r\n,,../User/KDEF_top5/all/AM28SUS.JPG,\r\n,,../User/KDEF_top5/all/AM31DIS.JPG,\r\n,,../User/KDEF_top5/all/AM31NES.JPG,\r\n,,../User/KDEF_top5/all/AM32HAS.JPG,\r\n,,../User/KDEF_top5/all/AM32SAS.JPG,\r\n,,,",
+    "stimuli_1.csv": "cue,answer,emotion_picture,\r\na,ant,../User/KDEF_top5/all/U_AF01SUS.JPG,\r\nb,bug,../User/KDEF_top5/all/U_AF05NES.JPG,\r\n,,../User/KDEF_top5/all/U_AF05SAS.JPG,\r\n,,../User/KDEF_top5/all/U_AF06HAS.JPG,\r\n,,../User/KDEF_top5/all/U_AF06NES.JPG,\r\n,,../User/KDEF_top5/all/U_AF09DIS.JPG,\r\n,,../User/KDEF_top5/all/U_AF09SAS.JPG,\r\n,,../User/KDEF_top5/all/U_AF11HAS.JPG,\r\n,,../User/KDEF_top5/all/U_AF12DIS.JPG,\r\n,,../User/KDEF_top5/all/U_AF13DIS.JPG,\r\n,,../User/KDEF_top5/all/U_AF13NES.JPG,\r\n,,../User/KDEF_top5/all/U_AF13SAS.JPG,\r\n,,../User/KDEF_top5/all/U_AF14AFS.JPG,\r\n,,../User/KDEF_top5/all/U_AF14ANS.JPG,\r\n,,../User/KDEF_top5/all/U_AF16AFS.JPG,\r\n,,../User/KDEF_top5/all/U_AF17DIS.JPG,\r\n,,../User/KDEF_top5/all/U_AF19NES.JPG,\r\n,,../User/KDEF_top5/all/U_AF20ANS.JPG,\r\n,,../User/KDEF_top5/all/U_AF20HAS.JPG,\r\n,,../User/KDEF_top5/all/U_AF20SAS.JPG,\r\n,,../User/KDEF_top5/all/U_AF21DIS.JPG,\r\n,,../User/KDEF_top5/all/U_AF22AFS.JPG,\r\n,,../User/KDEF_top5/all/U_AF22ANS.JPG,\r\n,,../User/KDEF_top5/all/U_AF22HAS.JPG,\r\n,,../User/KDEF_top5/all/U_AF22SUS.JPG,\r\n,,../User/KDEF_top5/all/U_AF23ANS.JPG,\r\n,,../User/KDEF_top5/all/U_AF23SUS.JPG,\r\n,,../User/KDEF_top5/all/U_AF28AFS.JPG,\r\n,,../User/KDEF_top5/all/U_AF29NES.JPG,\r\n,,../User/KDEF_top5/all/U_AF31ANS.JPG,\r\n,,../User/KDEF_top5/all/U_AF32SAS.JPG,\r\n,,../User/KDEF_top5/all/U_AF32SUS.JPG,\r\n,,../User/KDEF_top5/all/U_AF33AFS.JPG,\r\n,,../User/KDEF_top5/all/U_AF33HAS.JPG,\r\n,,../User/KDEF_top5/all/U_AF35SUS.JPG,\r\n,,../User/KDEF_top5/all/U_AM01NES.JPG,\r\n,,../User/KDEF_top5/all/U_AM05ANS.JPG,\r\n,,../User/KDEF_top5/all/U_AM05SAS.JPG,\r\n,,../User/KDEF_top5/all/U_AM07HAS.JPG,\r\n,,../User/KDEF_top5/all/U_AM09ANS.JPG,\r\n,,../User/KDEF_top5/all/U_AM09SUS.JPG,\r\n,,../User/KDEF_top5/all/U_AM10ANS.JPG,\r\n,,../User/KDEF_top5/all/U_AM10NES.JPG,\r\n,,../User/KDEF_top5/all/U_AM11AFS.JPG,\r\n,,../User/KDEF_top5/all/U_AM11ANS.JPG,\r\n,,../User/KDEF_top5/all/U_AM11NES.JPG,\r\n,,../User/KDEF_top5/all/U_AM11SAS.JPG,\r\n,,../User/KDEF_top5/all/U_AM11SUS.JPG,\r\n,,../User/KDEF_top5/all/U_AM12DIS.JPG,\r\n,,../User/KDEF_top5/all/U_AM13NES.JPG,\r\n,,../User/KDEF_top5/all/U_AM14AFS.JPG,\r\n,,../User/KDEF_top5/all/U_AM16SAS.JPG,\r\n,,../User/KDEF_top5/all/U_AM16SUS.JPG,\r\n,,../User/KDEF_top5/all/U_AM17AFS.JPG,\r\n,,../User/KDEF_top5/all/U_AM17ANS.JPG,\r\n,,../User/KDEF_top5/all/U_AM17HAS.JPG,\r\n,,../User/KDEF_top5/all/U_AM18DIS.JPG,\r\n,,../User/KDEF_top5/all/U_AM19AFS.JPG,\r\n,,../User/KDEF_top5/all/U_AM19SAS.JPG,\r\n,,../User/KDEF_top5/all/U_AM24DIS.JPG,\r\n,,../User/KDEF_top5/all/U_AM25AFS.JPG,\r\n,,../User/KDEF_top5/all/U_AM25HAS.JPG,\r\n,,../User/KDEF_top5/all/U_AM26HAS.JPG,\r\n,,../User/KDEF_top5/all/U_AM27DIS.JPG,\r\n,,../User/KDEF_top5/all/U_AM28SUS.JPG,\r\n,,../User/KDEF_top5/all/U_AM31DIS.JPG,\r\n,,../User/KDEF_top5/all/U_AM31NES.JPG,\r\n,,../User/KDEF_top5/all/U_AM32HAS.JPG,\r\n,,../User/KDEF_top5/all/U_AM32SAS.JPG,\r\n,,../User/KDEF_top5/all/U_AM35SUS.JPG,\r\n,,,",
     "gaze_pairs_a_sn.csv": "Name_1,Name_2,video_1,audio_1,video_1_height,video_1_width,duration,video_1_x,video_1_y,\r\nUnopened_1_Target_A.png,Unopened_1_Control_A.png,../User/Stimuli/V_M21_A_Sp_D_N1.mp4,../User/Stimuli/A_M21_A_Sp_D.wav,300,400,5000,0,0,\r\nUnopened_1_Target_A.png,Unopened_1_Control_A.png,../User/Stimuli/V_M21_A_Sp_D_N1.mp4,../User/Stimuli/A_M21_A_Sp_D.wav,300,400,5000,0,0,\r\n,,,,,,,,,",
     "gaze_practice.csv": "trial,actor,emotion,channel,sentence,auditory_noise_level,video_1,audio_1,text_1,keys_1,video_1.src,audio_1.src,elements,\r\n1,M21,Angry,Speech,Dog,High,\"{\n  \"\"type\"\": \"\"video\"\",\n  \"\"height\"\": 590,\n  \"\"width\"\": 885,\n  \"\"onset\"\": 0,\n  \"\"duration\"\": \"\"end\"\",\n  \"\"x\"\" : 0,\n  \"\"y\"\" : 0\n}\",\"{\n  \"\"type\"\": \"\"audio\"\",\n  \"\"onset\"\": 0,\n  \"\"duration\"\": \"\"end\"\"\n}\",\"{\n  \"\"type\"\": \"\"text\"\",\n  \"\"text\"\": \"\"<h5>Please only use your free hand to select the emotions as follows:</h5><h5>U = Angry | I = Fear | O = Happy | P = Neutral</h5>\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"x\"\": 0,\n  \"\"y\"\": 0,\n  \"\"duration\"\": \"\"keys_1.response\"\",\n  \"\"width\"\": \"\"500px\"\"\n}\",\"{\r\n  \"\"type\"\": \"\"keys\"\",\r\n  \"\"onset\"\": \"\"video_1.ended\"\",\r\n  \"\"keys\"\": \"\"u|i|o|p\"\",\r\n  \"\"duration\"\": 2000,\r\n  \"\"end_trial\"\": \"\"yes\"\",\r\n  \"\"answers\"\":\"\"angry|fear|happy|neutral\"\"\r\n}\",../User/Stimuli/V_M21_A_Sp_D_N1.mp4,../User/Stimuli/A_M21_A_Sp_D_-5.wav,\"video_1,audio_1,text_1,keys_1\",\r\n2,F14,Happy,Song,Dog,no,\"{\n  \"\"type\"\": \"\"video\"\",\n  \"\"height\"\": 590,\n  \"\"width\"\": 885,\n  \"\"onset\"\": 0,\n  \"\"duration\"\": \"\"end\"\",\n  \"\"x\"\" : 0,\n  \"\"y\"\" : 0\n}\",\"{\n  \"\"type\"\": \"\"audio\"\",\n  \"\"onset\"\": 0,\n  \"\"duration\"\": \"\"end\"\"\n}\",\"{\n  \"\"type\"\": \"\"text\"\",\n  \"\"text\"\": \"\"<h5>Please only use your free hand to select the emotions as follows:</h5><h5>U = Angry | I = Fear | O = Happy | P = Neutral</h5>\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"x\"\": 0,\n  \"\"y\"\": 0,\n  \"\"duration\"\": \"\"keys_1.response\"\",\n  \"\"width\"\": \"\"500px\"\"\n}\",\"{\n  \"\"type\"\": \"\"keys\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"keys\"\": \"\"u|i|o|p\"\",\n  \"\"duration\"\": 2000,\n  \"\"end_trial\"\": \"\"yes\"\",\n  \"\"answers\"\":\"\"angry|fear|happy|neutral\"\"\n}\",../User/Stimuli/V_W14_H_So_D_N1.mp4,../User/Stimuli/A_W14_H_So_D.wav,\"video_1,audio_1,text_1,keys_1\",\r\n3,F14,Fearful,Speech,Kid,High,\"{\n  \"\"type\"\": \"\"video\"\",\n  \"\"height\"\": 590,\n  \"\"width\"\": 885,\n  \"\"onset\"\": 0,\n  \"\"duration\"\": \"\"end\"\",\n  \"\"x\"\" : 0,\n  \"\"y\"\" : 0\n}\",\"{\n  \"\"type\"\": \"\"audio\"\",\n  \"\"onset\"\": 0,\n  \"\"duration\"\": \"\"end\"\"\n}\",\"{\n  \"\"type\"\": \"\"text\"\",\n  \"\"text\"\": \"\"<h5>Please only use your free hand to select the emotions as follows:</h5><h5>U = Angry | I = Fear | O = Happy | P = Neutral</h5>\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"x\"\": 0,\n  \"\"y\"\": 0,\n  \"\"duration\"\": \"\"keys_1.response\"\",\n  \"\"width\"\": \"\"500px\"\"\n}\",\"{\n  \"\"type\"\": \"\"keys\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"keys\"\": \"\"u|i|o|p\"\",\n  \"\"duration\"\": 2000,\n  \"\"end_trial\"\": \"\"yes\"\",\n  \"\"answers\"\":\"\"angry|fear|happy|neutral\"\"\n}\",../User/Stimuli/V_W14_F_Sp_K_N1.mp4,../User/Stimuli/A_W14_F_Sp_K_-5.wav,\"video_1,audio_1,text_1,keys_1\",\r\n4,M21,Neutral,Song,Kid,no,\"{\n  \"\"type\"\": \"\"video\"\",\n  \"\"height\"\": 590,\n  \"\"width\"\": 885,\n  \"\"onset\"\": 0,\n  \"\"duration\"\": \"\"end\"\",\n  \"\"x\"\" : 0,\n  \"\"y\"\" : 0\n}\",\"{\n  \"\"type\"\": \"\"audio\"\",\n  \"\"onset\"\": 0,\n  \"\"duration\"\": \"\"end\"\"\n}\",\"{\n  \"\"type\"\": \"\"text\"\",\n  \"\"text\"\": \"\"<h5>Please only use your free hand to select the emotions as follows:</h5><h5>U = Angry | I = Fear | O = Happy | P = Neutral</h5>\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"x\"\": 0,\n  \"\"y\"\": 0,\n  \"\"duration\"\": \"\"keys_1.response\"\",\n  \"\"width\"\": \"\"500px\"\"\n}\",\"{\n  \"\"type\"\": \"\"keys\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"keys\"\": \"\"u|i|o|p\"\",\n  \"\"duration\"\": 2000,\n  \"\"end_trial\"\": \"\"yes\"\",\n  \"\"answers\"\":\"\"angry|fear|happy|neutral\"\"\n}\",../User/Stimuli/V_M21_N_So_K_N1.mp4,../User/Stimuli/A_M21_N_So_K.wav,\"video_1,audio_1,text_1,keys_1\",\r\n,,,,,,,,,,,,,",
     "gaze_actual_list1a.csv": "trial,actor,emotion,channel,sentence,auditory_noise_level,video_1,audio_1,text_1,keys_1,video_1.src,audio_1.src,elements,\r\n1,W8,Neutral,Song,Kid,High,\"{\n  \"\"type\"\": \"\"video\"\",\n  \"\"height\"\": 590,\n  \"\"width\"\": 885,\n  \"\"onset\"\": 0,\n  \"\"duration\"\": \"\"end\"\",\n  \"\"x\"\" : 0,\n  \"\"y\"\" : 0\n}\",\"{\n  \"\"type\"\": \"\"audio\"\",\n  \"\"onset\"\": 0,\n  \"\"duration\"\": \"\"end\"\"\n}\",\"{\n  \"\"type\"\": \"\"text\"\",\n  \"\"text\"\": \"\"<h5>Please only use your free hand to select the emotions as follows:</h5><h5>U = Angry | I = Fear | O = Happy | P = Neutral</h5>\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"x\"\": 0,\n  \"\"y\"\": 0,\n  \"\"duration\"\": \"\"keys_1.response\"\",\n  \"\"width\"\": \"\"500px\"\"\n}\",\"{\n  \"\"type\"\": \"\"keys\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"keys\"\": \"\"u|i|o|p\"\",\n  \"\"duration\"\": 2000,\n  \"\"end_trial\"\": \"\"yes\"\",\n  \"\"answers\"\":\"\"angry|fear|happy|neutral\"\"\n}\",../User/Stimuli/AV_W8_N_So_K_-51.mp4,,\"video_1,text_1,keys_1\",\r\n2,M7,Neutral,Speech,Dog,Baseline,\"{\n  \"\"type\"\": \"\"video\"\",\n  \"\"height\"\": 590,\n  \"\"width\"\": 885,\n  \"\"onset\"\": 0,\n  \"\"duration\"\": \"\"end\"\",\n  \"\"x\"\" : 0,\n  \"\"y\"\" : 0\n}\",,\"{\n  \"\"type\"\": \"\"text\"\",\n  \"\"text\"\": \"\"<h5>Please only use your free hand to select the emotions as follows:</h5><h5>U = Angry | I = Fear | O = Happy | P = Neutral</h5>\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"x\"\": 0,\n  \"\"y\"\": 0,\n  \"\"duration\"\": \"\"keys_1.response\"\",\n  \"\"width\"\": \"\"500px\"\"\n}\",\"{\n  \"\"type\"\": \"\"keys\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"keys\"\": \"\"u|i|o|p\"\",\n  \"\"duration\"\": 2000,\n  \"\"end_trial\"\": \"\"yes\"\",\n  \"\"answers\"\":\"\"angry|fear|happy|neutral\"\"\n}\",../User/Stimuli/AV_M7_N_Sp_D0.mp4,,\"video_1,text_1,keys_1\",\r\n3,W8,Angry,Song,Dog,No,\"{\n  \"\"type\"\": \"\"video\"\",\n  \"\"height\"\": 590,\n  \"\"width\"\": 885,\n  \"\"onset\"\": 0,\n  \"\"duration\"\": \"\"end\"\",\n  \"\"x\"\" : 0,\n  \"\"y\"\" : 0\n}\",\"{\n  \"\"type\"\": \"\"audio\"\",\n  \"\"onset\"\": 0,\n  \"\"duration\"\": \"\"end\"\"\n}\",\"{\n  \"\"type\"\": \"\"text\"\",\n  \"\"text\"\": \"\"<h5>Please only use your free hand to select the emotions as follows:</h5><h5>U = Angry | I = Fear | O = Happy | P = Neutral</h5>\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"x\"\": 0,\n  \"\"y\"\": 0,\n  \"\"duration\"\": \"\"keys_1.response\"\",\n  \"\"width\"\": \"\"500px\"\"\n}\",\"{\n  \"\"type\"\": \"\"keys\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"keys\"\": \"\"u|i|o|p\"\",\n  \"\"duration\"\": 2000,\n  \"\"end_trial\"\": \"\"yes\"\",\n  \"\"answers\"\":\"\"angry|fear|happy|neutral\"\"\n}\",../User/Stimuli/AV_W8_A_So_D1.mp4,,\"video_1,text_1,keys_1\",\r\n4,W6,Neutral,Speech,Dog,High,\"{\n  \"\"type\"\": \"\"video\"\",\n  \"\"height\"\": 590,\n  \"\"width\"\": 885,\n  \"\"onset\"\": 0,\n  \"\"duration\"\": \"\"end\"\",\n  \"\"x\"\" : 0,\n  \"\"y\"\" : 0\n}\",\"{\n  \"\"type\"\": \"\"audio\"\",\n  \"\"onset\"\": 0,\n  \"\"duration\"\": \"\"end\"\"\n}\",\"{\n  \"\"type\"\": \"\"text\"\",\n  \"\"text\"\": \"\"<h5>Please only use your free hand to select the emotions as follows:</h5><h5>U = Angry | I = Fear | O = Happy | P = Neutral</h5>\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"x\"\": 0,\n  \"\"y\"\": 0,\n  \"\"duration\"\": \"\"keys_1.response\"\",\n  \"\"width\"\": \"\"500px\"\"\n}\",\"{\n  \"\"type\"\": \"\"keys\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"keys\"\": \"\"u|i|o|p\"\",\n  \"\"duration\"\": 2000,\n  \"\"end_trial\"\": \"\"yes\"\",\n  \"\"answers\"\":\"\"angry|fear|happy|neutral\"\"\n}\",../User/Stimuli/AV_W6_N_Sp_D_-51.mp4,,\"video_1,text_1,keys_1\",\r\n5,W8,Happy,Speech,Kid,Baseline,\"{\n  \"\"type\"\": \"\"video\"\",\n  \"\"height\"\": 590,\n  \"\"width\"\": 885,\n  \"\"onset\"\": 0,\n  \"\"duration\"\": \"\"end\"\",\n  \"\"x\"\" : 0,\n  \"\"y\"\" : 0\n}\",,\"{\n  \"\"type\"\": \"\"text\"\",\n  \"\"text\"\": \"\"<h5>Please only use your free hand to select the emotions as follows:</h5><h5>U = Angry | I = Fear | O = Happy | P = Neutral</h5>\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"x\"\": 0,\n  \"\"y\"\": 0,\n  \"\"duration\"\": \"\"keys_1.response\"\",\n  \"\"width\"\": \"\"500px\"\"\n}\",\"{\n  \"\"type\"\": \"\"keys\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"keys\"\": \"\"u|i|o|p\"\",\n  \"\"duration\"\": 2000,\n  \"\"end_trial\"\": \"\"yes\"\",\n  \"\"answers\"\":\"\"angry|fear|happy|neutral\"\"\n}\",../User/Stimuli/AV_W8_H_Sp_K0.mp4,,\"video_1,text_1,keys_1\",\r\n6,M7,Happy,Song,Kid,High,\"{\n  \"\"type\"\": \"\"video\"\",\n  \"\"height\"\": 590,\n  \"\"width\"\": 885,\n  \"\"onset\"\": 0,\n  \"\"duration\"\": \"\"end\"\",\n  \"\"x\"\" : 0,\n  \"\"y\"\" : 0\n}\",\"{\n  \"\"type\"\": \"\"audio\"\",\n  \"\"onset\"\": 0,\n  \"\"duration\"\": \"\"end\"\"\n}\",\"{\n  \"\"type\"\": \"\"text\"\",\n  \"\"text\"\": \"\"<h5>Please only use your free hand to select the emotions as follows:</h5><h5>U = Angry | I = Fear | O = Happy | P = Neutral</h5>\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"x\"\": 0,\n  \"\"y\"\": 0,\n  \"\"duration\"\": \"\"keys_1.response\"\",\n  \"\"width\"\": \"\"500px\"\"\n}\",\"{\n  \"\"type\"\": \"\"keys\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"keys\"\": \"\"u|i|o|p\"\",\n  \"\"duration\"\": 2000,\n  \"\"end_trial\"\": \"\"yes\"\",\n  \"\"answers\"\":\"\"angry|fear|happy|neutral\"\"\n}\",../User/Stimuli/AV_M7_H_So_K_-51.mp4,,\"video_1,text_1,keys_1\",\r\n7,W6,Angry,Song,Dog,Medium,\"{\n  \"\"type\"\": \"\"video\"\",\n  \"\"height\"\": 590,\n  \"\"width\"\": 885,\n  \"\"onset\"\": 0,\n  \"\"duration\"\": \"\"end\"\",\n  \"\"x\"\" : 0,\n  \"\"y\"\" : 0\n}\",\"{\n  \"\"type\"\": \"\"audio\"\",\n  \"\"onset\"\": 0,\n  \"\"duration\"\": \"\"end\"\"\n}\",\"{\n  \"\"type\"\": \"\"text\"\",\n  \"\"text\"\": \"\"<h5>Please only use your free hand to select the emotions as follows:</h5><h5>U = Angry | I = Fear | O = Happy | P = Neutral</h5>\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"x\"\": 0,\n  \"\"y\"\": 0,\n  \"\"duration\"\": \"\"keys_1.response\"\",\n  \"\"width\"\": \"\"500px\"\"\n}\",\"{\n  \"\"type\"\": \"\"keys\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"keys\"\": \"\"u|i|o|p\"\",\n  \"\"duration\"\": 2000,\n  \"\"end_trial\"\": \"\"yes\"\",\n  \"\"answers\"\":\"\"angry|fear|happy|neutral\"\"\n}\",../User/Stimuli/AV_W6_A_So_D_01.mp4,,\"video_1,text_1,keys_1\",\r\n8,M7,Angry,Song,Kid,Medium,\"{\n  \"\"type\"\": \"\"video\"\",\n  \"\"height\"\": 590,\n  \"\"width\"\": 885,\n  \"\"onset\"\": 0,\n  \"\"duration\"\": \"\"end\"\",\n  \"\"x\"\" : 0,\n  \"\"y\"\" : 0\n}\",\"{\n  \"\"type\"\": \"\"audio\"\",\n  \"\"onset\"\": 0,\n  \"\"duration\"\": \"\"end\"\"\n}\",\"{\n  \"\"type\"\": \"\"text\"\",\n  \"\"text\"\": \"\"<h5>Please only use your free hand to select the emotions as follows:</h5><h5>U = Angry | I = Fear | O = Happy | P = Neutral</h5>\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"x\"\": 0,\n  \"\"y\"\": 0,\n  \"\"duration\"\": \"\"keys_1.response\"\",\n  \"\"width\"\": \"\"500px\"\"\n}\",\"{\n  \"\"type\"\": \"\"keys\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"keys\"\": \"\"u|i|o|p\"\",\n  \"\"duration\"\": 2000,\n  \"\"end_trial\"\": \"\"yes\"\",\n  \"\"answers\"\":\"\"angry|fear|happy|neutral\"\"\n}\",../User/Stimuli/AV_M7_A_So_K_01.mp4,,\"video_1,text_1,keys_1\",\r\n9,W8,Happy,Song,Dog,Medium,\"{\n  \"\"type\"\": \"\"video\"\",\n  \"\"height\"\": 590,\n  \"\"width\"\": 885,\n  \"\"onset\"\": 0,\n  \"\"duration\"\": \"\"end\"\",\n  \"\"x\"\" : 0,\n  \"\"y\"\" : 0\n}\",\"{\n  \"\"type\"\": \"\"audio\"\",\n  \"\"onset\"\": 0,\n  \"\"duration\"\": \"\"end\"\"\n}\",\"{\n  \"\"type\"\": \"\"text\"\",\n  \"\"text\"\": \"\"<h5>Please only use your free hand to select the emotions as follows:</h5><h5>U = Angry | I = Fear | O = Happy | P = Neutral</h5>\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"x\"\": 0,\n  \"\"y\"\": 0,\n  \"\"duration\"\": \"\"keys_1.response\"\",\n  \"\"width\"\": \"\"500px\"\"\n}\",\"{\n  \"\"type\"\": \"\"keys\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"keys\"\": \"\"u|i|o|p\"\",\n  \"\"duration\"\": 2000,\n  \"\"end_trial\"\": \"\"yes\"\",\n  \"\"answers\"\":\"\"angry|fear|happy|neutral\"\"\n}\",../User/Stimuli/AV_W8_H_So_D_01.mp4,,\"video_1,text_1,keys_1\",\r\n10,M9,Angry,Speech,Dog,Baseline,\"{\n  \"\"type\"\": \"\"video\"\",\n  \"\"height\"\": 590,\n  \"\"width\"\": 885,\n  \"\"onset\"\": 0,\n  \"\"duration\"\": \"\"end\"\",\n  \"\"x\"\" : 0,\n  \"\"y\"\" : 0\n}\",,\"{\n  \"\"type\"\": \"\"text\"\",\n  \"\"text\"\": \"\"<h5>Please only use your free hand to select the emotions as follows:</h5><h5>U = Angry | I = Fear | O = Happy | P = Neutral</h5>\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"x\"\": 0,\n  \"\"y\"\": 0,\n  \"\"duration\"\": \"\"keys_1.response\"\",\n  \"\"width\"\": \"\"500px\"\"\n}\",\"{\n  \"\"type\"\": \"\"keys\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"keys\"\": \"\"u|i|o|p\"\",\n  \"\"duration\"\": 2000,\n  \"\"end_trial\"\": \"\"yes\"\",\n  \"\"answers\"\":\"\"angry|fear|happy|neutral\"\"\n}\",../User/Stimuli/AV_M9_A_Sp_D0.mp4,,\"video_1,text_1,keys_1\",\r\n11,W6,Angry,Song,Dog,No,\"{\n  \"\"type\"\": \"\"video\"\",\n  \"\"height\"\": 590,\n  \"\"width\"\": 885,\n  \"\"onset\"\": 0,\n  \"\"duration\"\": \"\"end\"\",\n  \"\"x\"\" : 0,\n  \"\"y\"\" : 0\n}\",\"{\n  \"\"type\"\": \"\"audio\"\",\n  \"\"onset\"\": 0,\n  \"\"duration\"\": \"\"end\"\"\n}\",\"{\n  \"\"type\"\": \"\"text\"\",\n  \"\"text\"\": \"\"<h5>Please only use your free hand to select the emotions as follows:</h5><h5>U = Angry | I = Fear | O = Happy | P = Neutral</h5>\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"x\"\": 0,\n  \"\"y\"\": 0,\n  \"\"duration\"\": \"\"keys_1.response\"\",\n  \"\"width\"\": \"\"500px\"\"\n}\",\"{\n  \"\"type\"\": \"\"keys\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"keys\"\": \"\"u|i|o|p\"\",\n  \"\"duration\"\": 2000,\n  \"\"end_trial\"\": \"\"yes\"\",\n  \"\"answers\"\":\"\"angry|fear|happy|neutral\"\"\n}\",../User/Stimuli/AV_W6_A_So_D1.mp4,,\"video_1,text_1,keys_1\",\r\n12,M7,Fearful,Speech,Kid,High,\"{\n  \"\"type\"\": \"\"video\"\",\n  \"\"height\"\": 590,\n  \"\"width\"\": 885,\n  \"\"onset\"\": 0,\n  \"\"duration\"\": \"\"end\"\",\n  \"\"x\"\" : 0,\n  \"\"y\"\" : 0\n}\",\"{\n  \"\"type\"\": \"\"audio\"\",\n  \"\"onset\"\": 0,\n  \"\"duration\"\": \"\"end\"\"\n}\",\"{\n  \"\"type\"\": \"\"text\"\",\n  \"\"text\"\": \"\"<h5>Please only use your free hand to select the emotions as follows:</h5><h5>U = Angry | I = Fear | O = Happy | P = Neutral</h5>\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"x\"\": 0,\n  \"\"y\"\": 0,\n  \"\"duration\"\": \"\"keys_1.response\"\",\n  \"\"width\"\": \"\"500px\"\"\n}\",\"{\n  \"\"type\"\": \"\"keys\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"keys\"\": \"\"u|i|o|p\"\",\n  \"\"duration\"\": 2000,\n  \"\"end_trial\"\": \"\"yes\"\",\n  \"\"answers\"\":\"\"angry|fear|happy|neutral\"\"\n}\",../User/Stimuli/AV_M7_F_Sp_K_-51.mp4,,\"video_1,text_1,keys_1\",\r\n13,W6,Neutral,Song,Kid,Baseline,\"{\n  \"\"type\"\": \"\"video\"\",\n  \"\"height\"\": 590,\n  \"\"width\"\": 885,\n  \"\"onset\"\": 0,\n  \"\"duration\"\": \"\"end\"\",\n  \"\"x\"\" : 0,\n  \"\"y\"\" : 0\n}\",,\"{\n  \"\"type\"\": \"\"text\"\",\n  \"\"text\"\": \"\"<h5>Please only use your free hand to select the emotions as follows:</h5><h5>U = Angry | I = Fear | O = Happy | P = Neutral</h5>\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"x\"\": 0,\n  \"\"y\"\": 0,\n  \"\"duration\"\": \"\"keys_1.response\"\",\n  \"\"width\"\": \"\"500px\"\"\n}\",\"{\n  \"\"type\"\": \"\"keys\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"keys\"\": \"\"u|i|o|p\"\",\n  \"\"duration\"\": 2000,\n  \"\"end_trial\"\": \"\"yes\"\",\n  \"\"answers\"\":\"\"angry|fear|happy|neutral\"\"\n}\",../User/Stimuli/AV_W6_N_So_K0.mp4,,\"video_1,text_1,keys_1\",\r\n14,M9,Angry,Speech,Dog,High,\"{\n  \"\"type\"\": \"\"video\"\",\n  \"\"height\"\": 590,\n  \"\"width\"\": 885,\n  \"\"onset\"\": 0,\n  \"\"duration\"\": \"\"end\"\",\n  \"\"x\"\" : 0,\n  \"\"y\"\" : 0\n}\",\"{\n  \"\"type\"\": \"\"audio\"\",\n  \"\"onset\"\": 0,\n  \"\"duration\"\": \"\"end\"\"\n}\",\"{\n  \"\"type\"\": \"\"text\"\",\n  \"\"text\"\": \"\"<h5>Please only use your free hand to select the emotions as follows:</h5><h5>U = Angry | I = Fear | O = Happy | P = Neutral</h5>\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"x\"\": 0,\n  \"\"y\"\": 0,\n  \"\"duration\"\": \"\"keys_1.response\"\",\n  \"\"width\"\": \"\"500px\"\"\n}\",\"{\n  \"\"type\"\": \"\"keys\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"keys\"\": \"\"u|i|o|p\"\",\n  \"\"duration\"\": 2000,\n  \"\"end_trial\"\": \"\"yes\"\",\n  \"\"answers\"\":\"\"angry|fear|happy|neutral\"\"\n}\",../User/Stimuli/AV_M9_A_Sp_D_-51.mp4,,\"video_1,text_1,keys_1\",\r\n15,W8,Angry,Speech,Kid,Baseline,\"{\n  \"\"type\"\": \"\"video\"\",\n  \"\"height\"\": 590,\n  \"\"width\"\": 885,\n  \"\"onset\"\": 0,\n  \"\"duration\"\": \"\"end\"\",\n  \"\"x\"\" : 0,\n  \"\"y\"\" : 0\n}\",,\"{\n  \"\"type\"\": \"\"text\"\",\n  \"\"text\"\": \"\"<h5>Please only use your free hand to select the emotions as follows:</h5><h5>U = Angry | I = Fear | O = Happy | P = Neutral</h5>\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"x\"\": 0,\n  \"\"y\"\": 0,\n  \"\"duration\"\": \"\"keys_1.response\"\",\n  \"\"width\"\": \"\"500px\"\"\n}\",\"{\n  \"\"type\"\": \"\"keys\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"keys\"\": \"\"u|i|o|p\"\",\n  \"\"duration\"\": 2000,\n  \"\"end_trial\"\": \"\"yes\"\",\n  \"\"answers\"\":\"\"angry|fear|happy|neutral\"\"\n}\",../User/Stimuli/AV_W8_A_Sp_K0.mp4,,\"video_1,text_1,keys_1\",\r\n16,M7,Happy,Speech,Dog,Medium,\"{\n  \"\"type\"\": \"\"video\"\",\n  \"\"height\"\": 590,\n  \"\"width\"\": 885,\n  \"\"onset\"\": 0,\n  \"\"duration\"\": \"\"end\"\",\n  \"\"x\"\" : 0,\n  \"\"y\"\" : 0\n}\",\"{\n  \"\"type\"\": \"\"audio\"\",\n  \"\"onset\"\": 0,\n  \"\"duration\"\": \"\"end\"\"\n}\",\"{\n  \"\"type\"\": \"\"text\"\",\n  \"\"text\"\": \"\"<h5>Please only use your free hand to select the emotions as follows:</h5><h5>U = Angry | I = Fear | O = Happy | P = Neutral</h5>\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"x\"\": 0,\n  \"\"y\"\": 0,\n  \"\"duration\"\": \"\"keys_1.response\"\",\n  \"\"width\"\": \"\"500px\"\"\n}\",\"{\n  \"\"type\"\": \"\"keys\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"keys\"\": \"\"u|i|o|p\"\",\n  \"\"duration\"\": 2000,\n  \"\"end_trial\"\": \"\"yes\"\",\n  \"\"answers\"\":\"\"angry|fear|happy|neutral\"\"\n}\",../User/Stimuli/AV_M7_H_Sp_D_01.mp4,,\"video_1,text_1,keys_1\",\r\n17,M9,Happy,Speech,Dog,Baseline,\"{\n  \"\"type\"\": \"\"video\"\",\n  \"\"height\"\": 590,\n  \"\"width\"\": 885,\n  \"\"onset\"\": 0,\n  \"\"duration\"\": \"\"end\"\",\n  \"\"x\"\" : 0,\n  \"\"y\"\" : 0\n}\",,\"{\n  \"\"type\"\": \"\"text\"\",\n  \"\"text\"\": \"\"<h5>Please only use your free hand to select the emotions as follows:</h5><h5>U = Angry | I = Fear | O = Happy | P = Neutral</h5>\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"x\"\": 0,\n  \"\"y\"\": 0,\n  \"\"duration\"\": \"\"keys_1.response\"\",\n  \"\"width\"\": \"\"500px\"\"\n}\",\"{\n  \"\"type\"\": \"\"keys\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"keys\"\": \"\"u|i|o|p\"\",\n  \"\"duration\"\": 2000,\n  \"\"end_trial\"\": \"\"yes\"\",\n  \"\"answers\"\":\"\"angry|fear|happy|neutral\"\"\n}\",../User/Stimuli/AV_M9_H_Sp_D0.mp4,,\"video_1,text_1,keys_1\",\r\n18,W8,Happy,Speech,Kid,High,\"{\n  \"\"type\"\": \"\"video\"\",\n  \"\"height\"\": 590,\n  \"\"width\"\": 885,\n  \"\"onset\"\": 0,\n  \"\"duration\"\": \"\"end\"\",\n  \"\"x\"\" : 0,\n  \"\"y\"\" : 0\n}\",\"{\n  \"\"type\"\": \"\"audio\"\",\n  \"\"onset\"\": 0,\n  \"\"duration\"\": \"\"end\"\"\n}\",\"{\n  \"\"type\"\": \"\"text\"\",\n  \"\"text\"\": \"\"<h5>Please only use your free hand to select the emotions as follows:</h5><h5>U = Angry | I = Fear | O = Happy | P = Neutral</h5>\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"x\"\": 0,\n  \"\"y\"\": 0,\n  \"\"duration\"\": \"\"keys_1.response\"\",\n  \"\"width\"\": \"\"500px\"\"\n}\",\"{\n  \"\"type\"\": \"\"keys\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"keys\"\": \"\"u|i|o|p\"\",\n  \"\"duration\"\": 2000,\n  \"\"end_trial\"\": \"\"yes\"\",\n  \"\"answers\"\":\"\"angry|fear|happy|neutral\"\"\n}\",../User/Stimuli/AV_W8_H_Sp_K_-51.mp4,,\"video_1,text_1,keys_1\",\r\n19,W6,Happy,Speech,Kid,No,\"{\n  \"\"type\"\": \"\"video\"\",\n  \"\"height\"\": 590,\n  \"\"width\"\": 885,\n  \"\"onset\"\": 0,\n  \"\"duration\"\": \"\"end\"\",\n  \"\"x\"\" : 0,\n  \"\"y\"\" : 0\n}\",\"{\n  \"\"type\"\": \"\"audio\"\",\n  \"\"onset\"\": 0,\n  \"\"duration\"\": \"\"end\"\"\n}\",\"{\n  \"\"type\"\": \"\"text\"\",\n  \"\"text\"\": \"\"<h5>Please only use your free hand to select the emotions as follows:</h5><h5>U = Angry | I = Fear | O = Happy | P = Neutral</h5>\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"x\"\": 0,\n  \"\"y\"\": 0,\n  \"\"duration\"\": \"\"keys_1.response\"\",\n  \"\"width\"\": \"\"500px\"\"\n}\",\"{\n  \"\"type\"\": \"\"keys\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"keys\"\": \"\"u|i|o|p\"\",\n  \"\"duration\"\": 2000,\n  \"\"end_trial\"\": \"\"yes\"\",\n  \"\"answers\"\":\"\"angry|fear|happy|neutral\"\"\n}\",../User/Stimuli/AV_W6_H_Sp_K1.mp4,,\"video_1,text_1,keys_1\",\r\n20,W8,Neutral,Song,Dog,Baseline,\"{\n  \"\"type\"\": \"\"video\"\",\n  \"\"height\"\": 590,\n  \"\"width\"\": 885,\n  \"\"onset\"\": 0,\n  \"\"duration\"\": \"\"end\"\",\n  \"\"x\"\" : 0,\n  \"\"y\"\" : 0\n}\",,\"{\n  \"\"type\"\": \"\"text\"\",\n  \"\"text\"\": \"\"<h5>Please only use your free hand to select the emotions as follows:</h5><h5>U = Angry | I = Fear | O = Happy | P = Neutral</h5>\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"x\"\": 0,\n  \"\"y\"\": 0,\n  \"\"duration\"\": \"\"keys_1.response\"\",\n  \"\"width\"\": \"\"500px\"\"\n}\",\"{\n  \"\"type\"\": \"\"keys\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"keys\"\": \"\"u|i|o|p\"\",\n  \"\"duration\"\": 2000,\n  \"\"end_trial\"\": \"\"yes\"\",\n  \"\"answers\"\":\"\"angry|fear|happy|neutral\"\"\n}\",../User/Stimuli/AV_W8_N_So_D0.mp4,,\"video_1,text_1,keys_1\",\r\n21,M7,Happy,Speech,Dog,No,\"{\n  \"\"type\"\": \"\"video\"\",\n  \"\"height\"\": 590,\n  \"\"width\"\": 885,\n  \"\"onset\"\": 0,\n  \"\"duration\"\": \"\"end\"\",\n  \"\"x\"\" : 0,\n  \"\"y\"\" : 0\n}\",\"{\n  \"\"type\"\": \"\"audio\"\",\n  \"\"onset\"\": 0,\n  \"\"duration\"\": \"\"end\"\"\n}\",\"{\n  \"\"type\"\": \"\"text\"\",\n  \"\"text\"\": \"\"<h5>Please only use your free hand to select the emotions as follows:</h5><h5>U = Angry | I = Fear | O = Happy | P = Neutral</h5>\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"x\"\": 0,\n  \"\"y\"\": 0,\n  \"\"duration\"\": \"\"keys_1.response\"\",\n  \"\"width\"\": \"\"500px\"\"\n}\",\"{\n  \"\"type\"\": \"\"keys\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"keys\"\": \"\"u|i|o|p\"\",\n  \"\"duration\"\": 2000,\n  \"\"end_trial\"\": \"\"yes\"\",\n  \"\"answers\"\":\"\"angry|fear|happy|neutral\"\"\n}\",../User/Stimuli/AV_M7_H_Sp_D1.mp4,,\"video_1,text_1,keys_1\",\r\n22,W6,Happy,Speech,Dog,Baseline,\"{\n  \"\"type\"\": \"\"video\"\",\n  \"\"height\"\": 590,\n  \"\"width\"\": 885,\n  \"\"onset\"\": 0,\n  \"\"duration\"\": \"\"end\"\",\n  \"\"x\"\" : 0,\n  \"\"y\"\" : 0\n}\",,\"{\n  \"\"type\"\": \"\"text\"\",\n  \"\"text\"\": \"\"<h5>Please only use your free hand to select the emotions as follows:</h5><h5>U = Angry | I = Fear | O = Happy | P = Neutral</h5>\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"x\"\": 0,\n  \"\"y\"\": 0,\n  \"\"duration\"\": \"\"keys_1.response\"\",\n  \"\"width\"\": \"\"500px\"\"\n}\",\"{\n  \"\"type\"\": \"\"keys\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"keys\"\": \"\"u|i|o|p\"\",\n  \"\"duration\"\": 2000,\n  \"\"end_trial\"\": \"\"yes\"\",\n  \"\"answers\"\":\"\"angry|fear|happy|neutral\"\"\n}\",../User/Stimuli/AV_W6_H_Sp_D0.mp4,,\"video_1,text_1,keys_1\",\r\n23,W6,Fearful,Speech,Dog,Medium,\"{\n  \"\"type\"\": \"\"video\"\",\n  \"\"height\"\": 590,\n  \"\"width\"\": 885,\n  \"\"onset\"\": 0,\n  \"\"duration\"\": \"\"end\"\",\n  \"\"x\"\" : 0,\n  \"\"y\"\" : 0\n}\",\"{\n  \"\"type\"\": \"\"audio\"\",\n  \"\"onset\"\": 0,\n  \"\"duration\"\": \"\"end\"\"\n}\",\"{\n  \"\"type\"\": \"\"text\"\",\n  \"\"text\"\": \"\"<h5>Please only use your free hand to select the emotions as follows:</h5><h5>U = Angry | I = Fear | O = Happy | P = Neutral</h5>\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"x\"\": 0,\n  \"\"y\"\": 0,\n  \"\"duration\"\": \"\"keys_1.response\"\",\n  \"\"width\"\": \"\"500px\"\"\n}\",\"{\n  \"\"type\"\": \"\"keys\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"keys\"\": \"\"u|i|o|p\"\",\n  \"\"duration\"\": 2000,\n  \"\"end_trial\"\": \"\"yes\"\",\n  \"\"answers\"\":\"\"angry|fear|happy|neutral\"\"\n}\",../User/Stimuli/AV_W6_F_Sp_D_01.mp4,,\"video_1,text_1,keys_1\",\r\n24,W8,Neutral,Speech,Dog,Baseline,\"{\n  \"\"type\"\": \"\"video\"\",\n  \"\"height\"\": 590,\n  \"\"width\"\": 885,\n  \"\"onset\"\": 0,\n  \"\"duration\"\": \"\"end\"\",\n  \"\"x\"\" : 0,\n  \"\"y\"\" : 0\n}\",,\"{\n  \"\"type\"\": \"\"text\"\",\n  \"\"text\"\": \"\"<h5>Please only use your free hand to select the emotions as follows:</h5><h5>U = Angry | I = Fear | O = Happy | P = Neutral</h5>\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"x\"\": 0,\n  \"\"y\"\": 0,\n  \"\"duration\"\": \"\"keys_1.response\"\",\n  \"\"width\"\": \"\"500px\"\"\n}\",\"{\n  \"\"type\"\": \"\"keys\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"keys\"\": \"\"u|i|o|p\"\",\n  \"\"duration\"\": 2000,\n  \"\"end_trial\"\": \"\"yes\"\",\n  \"\"answers\"\":\"\"angry|fear|happy|neutral\"\"\n}\",../User/Stimuli/AV_W8_N_Sp_D0.mp4,,\"video_1,text_1,keys_1\",\r\n25,W8,Happy,Speech,Kid,No,\"{\n  \"\"type\"\": \"\"video\"\",\n  \"\"height\"\": 590,\n  \"\"width\"\": 885,\n  \"\"onset\"\": 0,\n  \"\"duration\"\": \"\"end\"\",\n  \"\"x\"\" : 0,\n  \"\"y\"\" : 0\n}\",\"{\n  \"\"type\"\": \"\"audio\"\",\n  \"\"onset\"\": 0,\n  \"\"duration\"\": \"\"end\"\"\n}\",\"{\n  \"\"type\"\": \"\"text\"\",\n  \"\"text\"\": \"\"<h5>Please only use your free hand to select the emotions as follows:</h5><h5>U = Angry | I = Fear | O = Happy | P = Neutral</h5>\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"x\"\": 0,\n  \"\"y\"\": 0,\n  \"\"duration\"\": \"\"keys_1.response\"\",\n  \"\"width\"\": \"\"500px\"\"\n}\",\"{\n  \"\"type\"\": \"\"keys\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"keys\"\": \"\"u|i|o|p\"\",\n  \"\"duration\"\": 2000,\n  \"\"end_trial\"\": \"\"yes\"\",\n  \"\"answers\"\":\"\"angry|fear|happy|neutral\"\"\n}\",../User/Stimuli/AV_W8_H_Sp_K1.mp4,,\"video_1,text_1,keys_1\",\r\n26,M7,Angry,Speech,Dog,High,\"{\n  \"\"type\"\": \"\"video\"\",\n  \"\"height\"\": 590,\n  \"\"width\"\": 885,\n  \"\"onset\"\": 0,\n  \"\"duration\"\": \"\"end\"\",\n  \"\"x\"\" : 0,\n  \"\"y\"\" : 0\n}\",\"{\n  \"\"type\"\": \"\"audio\"\",\n  \"\"onset\"\": 0,\n  \"\"duration\"\": \"\"end\"\"\n}\",\"{\n  \"\"type\"\": \"\"text\"\",\n  \"\"text\"\": \"\"<h5>Please only use your free hand to select the emotions as follows:</h5><h5>U = Angry | I = Fear | O = Happy | P = Neutral</h5>\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"x\"\": 0,\n  \"\"y\"\": 0,\n  \"\"duration\"\": \"\"keys_1.response\"\",\n  \"\"width\"\": \"\"500px\"\"\n}\",\"{\n  \"\"type\"\": \"\"keys\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"keys\"\": \"\"u|i|o|p\"\",\n  \"\"duration\"\": 2000,\n  \"\"end_trial\"\": \"\"yes\"\",\n  \"\"answers\"\":\"\"angry|fear|happy|neutral\"\"\n}\",../User/Stimuli/AV_M7_A_Sp_D_-51.mp4,,\"video_1,text_1,keys_1\",\r\n27,M9,Angry,Song,Dog,Baseline,\"{\n  \"\"type\"\": \"\"video\"\",\n  \"\"height\"\": 590,\n  \"\"width\"\": 885,\n  \"\"onset\"\": 0,\n  \"\"duration\"\": \"\"end\"\",\n  \"\"x\"\" : 0,\n  \"\"y\"\" : 0\n}\",,\"{\n  \"\"type\"\": \"\"text\"\",\n  \"\"text\"\": \"\"<h5>Please only use your free hand to select the emotions as follows:</h5><h5>U = Angry | I = Fear | O = Happy | P = Neutral</h5>\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"x\"\": 0,\n  \"\"y\"\": 0,\n  \"\"duration\"\": \"\"keys_1.response\"\",\n  \"\"width\"\": \"\"500px\"\"\n}\",\"{\n  \"\"type\"\": \"\"keys\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"keys\"\": \"\"u|i|o|p\"\",\n  \"\"duration\"\": 2000,\n  \"\"end_trial\"\": \"\"yes\"\",\n  \"\"answers\"\":\"\"angry|fear|happy|neutral\"\"\n}\",../User/Stimuli/AV_M9_A_So_D0.mp4,,\"video_1,text_1,keys_1\",\r\n28,W8,Fearful,Speech,Dog,Medium,\"{\n  \"\"type\"\": \"\"video\"\",\n  \"\"height\"\": 590,\n  \"\"width\"\": 885,\n  \"\"onset\"\": 0,\n  \"\"duration\"\": \"\"end\"\",\n  \"\"x\"\" : 0,\n  \"\"y\"\" : 0\n}\",\"{\n  \"\"type\"\": \"\"audio\"\",\n  \"\"onset\"\": 0,\n  \"\"duration\"\": \"\"end\"\"\n}\",\"{\n  \"\"type\"\": \"\"text\"\",\n  \"\"text\"\": \"\"<h5>Please only use your free hand to select the emotions as follows:</h5><h5>U = Angry | I = Fear | O = Happy | P = Neutral</h5>\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"x\"\": 0,\n  \"\"y\"\": 0,\n  \"\"duration\"\": \"\"keys_1.response\"\",\n  \"\"width\"\": \"\"500px\"\"\n}\",\"{\n  \"\"type\"\": \"\"keys\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"keys\"\": \"\"u|i|o|p\"\",\n  \"\"duration\"\": 2000,\n  \"\"end_trial\"\": \"\"yes\"\",\n  \"\"answers\"\":\"\"angry|fear|happy|neutral\"\"\n}\",../User/Stimuli/AV_W8_F_Sp_D_01.mp4,,\"video_1,text_1,keys_1\",\r\n29,M9,Happy,Speech,Dog,No,\"{\n  \"\"type\"\": \"\"video\"\",\n  \"\"height\"\": 590,\n  \"\"width\"\": 885,\n  \"\"onset\"\": 0,\n  \"\"duration\"\": \"\"end\"\",\n  \"\"x\"\" : 0,\n  \"\"y\"\" : 0\n}\",\"{\n  \"\"type\"\": \"\"audio\"\",\n  \"\"onset\"\": 0,\n  \"\"duration\"\": \"\"end\"\"\n}\",\"{\n  \"\"type\"\": \"\"text\"\",\n  \"\"text\"\": \"\"<h5>Please only use your free hand to select the emotions as follows:</h5><h5>U = Angry | I = Fear | O = Happy | P = Neutral</h5>\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"x\"\": 0,\n  \"\"y\"\": 0,\n  \"\"duration\"\": \"\"keys_1.response\"\",\n  \"\"width\"\": \"\"500px\"\"\n}\",\"{\n  \"\"type\"\": \"\"keys\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"keys\"\": \"\"u|i|o|p\"\",\n  \"\"duration\"\": 2000,\n  \"\"end_trial\"\": \"\"yes\"\",\n  \"\"answers\"\":\"\"angry|fear|happy|neutral\"\"\n}\",../User/Stimuli/AV_M9_H_Sp_D1.mp4,,\"video_1,text_1,keys_1\",\r\n30,M7,Angry,Song,Dog,Baseline,\"{\n  \"\"type\"\": \"\"video\"\",\n  \"\"height\"\": 590,\n  \"\"width\"\": 885,\n  \"\"onset\"\": 0,\n  \"\"duration\"\": \"\"end\"\",\n  \"\"x\"\" : 0,\n  \"\"y\"\" : 0\n}\",,\"{\n  \"\"type\"\": \"\"text\"\",\n  \"\"text\"\": \"\"<h5>Please only use your free hand to select the emotions as follows:</h5><h5>U = Angry | I = Fear | O = Happy | P = Neutral</h5>\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"x\"\": 0,\n  \"\"y\"\": 0,\n  \"\"duration\"\": \"\"keys_1.response\"\",\n  \"\"width\"\": \"\"500px\"\"\n}\",\"{\n  \"\"type\"\": \"\"keys\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"keys\"\": \"\"u|i|o|p\"\",\n  \"\"duration\"\": 2000,\n  \"\"end_trial\"\": \"\"yes\"\",\n  \"\"answers\"\":\"\"angry|fear|happy|neutral\"\"\n}\",../User/Stimuli/AV_M7_A_So_D0.mp4,,\"video_1,text_1,keys_1\",\r\n31,W8,Angry,Song,Dog,Medium,\"{\n  \"\"type\"\": \"\"video\"\",\n  \"\"height\"\": 590,\n  \"\"width\"\": 885,\n  \"\"onset\"\": 0,\n  \"\"duration\"\": \"\"end\"\",\n  \"\"x\"\" : 0,\n  \"\"y\"\" : 0\n}\",\"{\n  \"\"type\"\": \"\"audio\"\",\n  \"\"onset\"\": 0,\n  \"\"duration\"\": \"\"end\"\"\n}\",\"{\n  \"\"type\"\": \"\"text\"\",\n  \"\"text\"\": \"\"<h5>Please only use your free hand to select the emotions as follows:</h5><h5>U = Angry | I = Fear | O = Happy | P = Neutral</h5>\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"x\"\": 0,\n  \"\"y\"\": 0,\n  \"\"duration\"\": \"\"keys_1.response\"\",\n  \"\"width\"\": \"\"500px\"\"\n}\",\"{\n  \"\"type\"\": \"\"keys\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"keys\"\": \"\"u|i|o|p\"\",\n  \"\"duration\"\": 2000,\n  \"\"end_trial\"\": \"\"yes\"\",\n  \"\"answers\"\":\"\"angry|fear|happy|neutral\"\"\n}\",../User/Stimuli/AV_W8_A_So_D_01.mp4,,\"video_1,text_1,keys_1\",\r\n32,W8,Fearful,Speech,Kid,Baseline,\"{\n  \"\"type\"\": \"\"video\"\",\n  \"\"height\"\": 590,\n  \"\"width\"\": 885,\n  \"\"onset\"\": 0,\n  \"\"duration\"\": \"\"end\"\",\n  \"\"x\"\" : 0,\n  \"\"y\"\" : 0\n}\",,\"{\n  \"\"type\"\": \"\"text\"\",\n  \"\"text\"\": \"\"<h5>Please only use your free hand to select the emotions as follows:</h5><h5>U = Angry | I = Fear | O = Happy | P = Neutral</h5>\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"x\"\": 0,\n  \"\"y\"\": 0,\n  \"\"duration\"\": \"\"keys_1.response\"\",\n  \"\"width\"\": \"\"500px\"\"\n}\",\"{\n  \"\"type\"\": \"\"keys\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"keys\"\": \"\"u|i|o|p\"\",\n  \"\"duration\"\": 2000,\n  \"\"end_trial\"\": \"\"yes\"\",\n  \"\"answers\"\":\"\"angry|fear|happy|neutral\"\"\n}\",../User/Stimuli/AV_W8_F_Sp_K0.mp4,,\"video_1,text_1,keys_1\",\r\n33,M7,Happy,Speech,Dog,High,\"{\n  \"\"type\"\": \"\"video\"\",\n  \"\"height\"\": 590,\n  \"\"width\"\": 885,\n  \"\"onset\"\": 0,\n  \"\"duration\"\": \"\"end\"\",\n  \"\"x\"\" : 0,\n  \"\"y\"\" : 0\n}\",\"{\n  \"\"type\"\": \"\"audio\"\",\n  \"\"onset\"\": 0,\n  \"\"duration\"\": \"\"end\"\"\n}\",\"{\n  \"\"type\"\": \"\"text\"\",\n  \"\"text\"\": \"\"<h5>Please only use your free hand to select the emotions as follows:</h5><h5>U = Angry | I = Fear | O = Happy | P = Neutral</h5>\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"x\"\": 0,\n  \"\"y\"\": 0,\n  \"\"duration\"\": \"\"keys_1.response\"\",\n  \"\"width\"\": \"\"500px\"\"\n}\",\"{\n  \"\"type\"\": \"\"keys\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"keys\"\": \"\"u|i|o|p\"\",\n  \"\"duration\"\": 2000,\n  \"\"end_trial\"\": \"\"yes\"\",\n  \"\"answers\"\":\"\"angry|fear|happy|neutral\"\"\n}\",../User/Stimuli/AV_M7_H_Sp_D_-51.mp4,,\"video_1,text_1,keys_1\",\r\n34,M9,Happy,Speech,Kid,Baseline,\"{\n  \"\"type\"\": \"\"video\"\",\n  \"\"height\"\": 590,\n  \"\"width\"\": 885,\n  \"\"onset\"\": 0,\n  \"\"duration\"\": \"\"end\"\",\n  \"\"x\"\" : 0,\n  \"\"y\"\" : 0\n}\",,\"{\n  \"\"type\"\": \"\"text\"\",\n  \"\"text\"\": \"\"<h5>Please only use your free hand to select the emotions as follows:</h5><h5>U = Angry | I = Fear | O = Happy | P = Neutral</h5>\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"x\"\": 0,\n  \"\"y\"\": 0,\n  \"\"duration\"\": \"\"keys_1.response\"\",\n  \"\"width\"\": \"\"500px\"\"\n}\",\"{\n  \"\"type\"\": \"\"keys\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"keys\"\": \"\"u|i|o|p\"\",\n  \"\"duration\"\": 2000,\n  \"\"end_trial\"\": \"\"yes\"\",\n  \"\"answers\"\":\"\"angry|fear|happy|neutral\"\"\n}\",../User/Stimuli/AV_M9_H_Sp_K0.mp4,,\"video_1,text_1,keys_1\",\r\n35,M7,Neutral,Song,Dog,High,\"{\n  \"\"type\"\": \"\"video\"\",\n  \"\"height\"\": 590,\n  \"\"width\"\": 885,\n  \"\"onset\"\": 0,\n  \"\"duration\"\": \"\"end\"\",\n  \"\"x\"\" : 0,\n  \"\"y\"\" : 0\n}\",\"{\n  \"\"type\"\": \"\"audio\"\",\n  \"\"onset\"\": 0,\n  \"\"duration\"\": \"\"end\"\"\n}\",\"{\n  \"\"type\"\": \"\"text\"\",\n  \"\"text\"\": \"\"<h5>Please only use your free hand to select the emotions as follows:</h5><h5>U = Angry | I = Fear | O = Happy | P = Neutral</h5>\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"x\"\": 0,\n  \"\"y\"\": 0,\n  \"\"duration\"\": \"\"keys_1.response\"\",\n  \"\"width\"\": \"\"500px\"\"\n}\",\"{\n  \"\"type\"\": \"\"keys\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"keys\"\": \"\"u|i|o|p\"\",\n  \"\"duration\"\": 2000,\n  \"\"end_trial\"\": \"\"yes\"\",\n  \"\"answers\"\":\"\"angry|fear|happy|neutral\"\"\n}\",../User/Stimuli/AV_M7_N_So_D_-51.mp4,,\"video_1,text_1,keys_1\",\r\n36,M7,Angry,Speech,Kid,Baseline,\"{\n  \"\"type\"\": \"\"video\"\",\n  \"\"height\"\": 590,\n  \"\"width\"\": 885,\n  \"\"onset\"\": 0,\n  \"\"duration\"\": \"\"end\"\",\n  \"\"x\"\" : 0,\n  \"\"y\"\" : 0\n}\",,\"{\n  \"\"type\"\": \"\"text\"\",\n  \"\"text\"\": \"\"<h5>Please only use your free hand to select the emotions as follows:</h5><h5>U = Angry | I = Fear | O = Happy | P = Neutral</h5>\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"x\"\": 0,\n  \"\"y\"\": 0,\n  \"\"duration\"\": \"\"keys_1.response\"\",\n  \"\"width\"\": \"\"500px\"\"\n}\",\"{\n  \"\"type\"\": \"\"keys\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"keys\"\": \"\"u|i|o|p\"\",\n  \"\"duration\"\": 2000,\n  \"\"end_trial\"\": \"\"yes\"\",\n  \"\"answers\"\":\"\"angry|fear|happy|neutral\"\"\n}\",../User/Stimuli/AV_M7_A_Sp_K0.mp4,,\"video_1,text_1,keys_1\",\r\n37,W8,Angry,Song,Dog,High,\"{\n  \"\"type\"\": \"\"video\"\",\n  \"\"height\"\": 590,\n  \"\"width\"\": 885,\n  \"\"onset\"\": 0,\n  \"\"duration\"\": \"\"end\"\",\n  \"\"x\"\" : 0,\n  \"\"y\"\" : 0\n}\",\"{\n  \"\"type\"\": \"\"audio\"\",\n  \"\"onset\"\": 0,\n  \"\"duration\"\": \"\"end\"\"\n}\",\"{\n  \"\"type\"\": \"\"text\"\",\n  \"\"text\"\": \"\"<h5>Please only use your free hand to select the emotions as follows:</h5><h5>U = Angry | I = Fear | O = Happy | P = Neutral</h5>\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"x\"\": 0,\n  \"\"y\"\": 0,\n  \"\"duration\"\": \"\"keys_1.response\"\",\n  \"\"width\"\": \"\"500px\"\"\n}\",\"{\n  \"\"type\"\": \"\"keys\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"keys\"\": \"\"u|i|o|p\"\",\n  \"\"duration\"\": 2000,\n  \"\"end_trial\"\": \"\"yes\"\",\n  \"\"answers\"\":\"\"angry|fear|happy|neutral\"\"\n}\",../User/Stimuli/AV_W8_A_So_D_-51.mp4,,\"video_1,text_1,keys_1\",\r\n38,M9,Fearful,Speech,Kid,Baseline,\"{\n  \"\"type\"\": \"\"video\"\",\n  \"\"height\"\": 590,\n  \"\"width\"\": 885,\n  \"\"onset\"\": 0,\n  \"\"duration\"\": \"\"end\"\",\n  \"\"x\"\" : 0,\n  \"\"y\"\" : 0\n}\",,\"{\n  \"\"type\"\": \"\"text\"\",\n  \"\"text\"\": \"\"<h5>Please only use your free hand to select the emotions as follows:</h5><h5>U = Angry | I = Fear | O = Happy | P = Neutral</h5>\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"x\"\": 0,\n  \"\"y\"\": 0,\n  \"\"duration\"\": \"\"keys_1.response\"\",\n  \"\"width\"\": \"\"500px\"\"\n}\",\"{\n  \"\"type\"\": \"\"keys\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"keys\"\": \"\"u|i|o|p\"\",\n  \"\"duration\"\": 2000,\n  \"\"end_trial\"\": \"\"yes\"\",\n  \"\"answers\"\":\"\"angry|fear|happy|neutral\"\"\n}\",../User/Stimuli/AV_M9_F_Sp_K0.mp4,,\"video_1,text_1,keys_1\",\r\n39,W6,Happy,Speech,Kid,High,\"{\n  \"\"type\"\": \"\"video\"\",\n  \"\"height\"\": 590,\n  \"\"width\"\": 885,\n  \"\"onset\"\": 0,\n  \"\"duration\"\": \"\"end\"\",\n  \"\"x\"\" : 0,\n  \"\"y\"\" : 0\n}\",\"{\n  \"\"type\"\": \"\"audio\"\",\n  \"\"onset\"\": 0,\n  \"\"duration\"\": \"\"end\"\"\n}\",\"{\n  \"\"type\"\": \"\"text\"\",\n  \"\"text\"\": \"\"<h5>Please only use your free hand to select the emotions as follows:</h5><h5>U = Angry | I = Fear | O = Happy | P = Neutral</h5>\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"x\"\": 0,\n  \"\"y\"\": 0,\n  \"\"duration\"\": \"\"keys_1.response\"\",\n  \"\"width\"\": \"\"500px\"\"\n}\",\"{\n  \"\"type\"\": \"\"keys\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"keys\"\": \"\"u|i|o|p\"\",\n  \"\"duration\"\": 2000,\n  \"\"end_trial\"\": \"\"yes\"\",\n  \"\"answers\"\":\"\"angry|fear|happy|neutral\"\"\n}\",../User/Stimuli/AV_W6_H_Sp_K_-51.mp4,,\"video_1,text_1,keys_1\",\r\n40,M7,Fearful,Speech,Dog,Baseline,\"{\n  \"\"type\"\": \"\"video\"\",\n  \"\"height\"\": 590,\n  \"\"width\"\": 885,\n  \"\"onset\"\": 0,\n  \"\"duration\"\": \"\"end\"\",\n  \"\"x\"\" : 0,\n  \"\"y\"\" : 0\n}\",,\"{\n  \"\"type\"\": \"\"text\"\",\n  \"\"text\"\": \"\"<h5>Please only use your free hand to select the emotions as follows:</h5><h5>U = Angry | I = Fear | O = Happy | P = Neutral</h5>\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"x\"\": 0,\n  \"\"y\"\": 0,\n  \"\"duration\"\": \"\"keys_1.response\"\",\n  \"\"width\"\": \"\"500px\"\"\n}\",\"{\n  \"\"type\"\": \"\"keys\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"keys\"\": \"\"u|i|o|p\"\",\n  \"\"duration\"\": 2000,\n  \"\"end_trial\"\": \"\"yes\"\",\n  \"\"answers\"\":\"\"angry|fear|happy|neutral\"\"\n}\",../User/Stimuli/AV_M7_F_Sp_D0.mp4,,\"video_1,text_1,keys_1\",\r\n41,M9,Fearful,Speech,Kid,No,\"{\n  \"\"type\"\": \"\"video\"\",\n  \"\"height\"\": 590,\n  \"\"width\"\": 885,\n  \"\"onset\"\": 0,\n  \"\"duration\"\": \"\"end\"\",\n  \"\"x\"\" : 0,\n  \"\"y\"\" : 0\n}\",\"{\n  \"\"type\"\": \"\"audio\"\",\n  \"\"onset\"\": 0,\n  \"\"duration\"\": \"\"end\"\"\n}\",\"{\n  \"\"type\"\": \"\"text\"\",\n  \"\"text\"\": \"\"<h5>Please only use your free hand to select the emotions as follows:</h5><h5>U = Angry | I = Fear | O = Happy | P = Neutral</h5>\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"x\"\": 0,\n  \"\"y\"\": 0,\n  \"\"duration\"\": \"\"keys_1.response\"\",\n  \"\"width\"\": \"\"500px\"\"\n}\",\"{\n  \"\"type\"\": \"\"keys\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"keys\"\": \"\"u|i|o|p\"\",\n  \"\"duration\"\": 2000,\n  \"\"end_trial\"\": \"\"yes\"\",\n  \"\"answers\"\":\"\"angry|fear|happy|neutral\"\"\n}\",../User/Stimuli/AV_M9_F_Sp_K1.mp4,,\"video_1,text_1,keys_1\",\r\n42,W8,Angry,Speech,Kid,No,\"{\n  \"\"type\"\": \"\"video\"\",\n  \"\"height\"\": 590,\n  \"\"width\"\": 885,\n  \"\"onset\"\": 0,\n  \"\"duration\"\": \"\"end\"\",\n  \"\"x\"\" : 0,\n  \"\"y\"\" : 0\n}\",\"{\n  \"\"type\"\": \"\"audio\"\",\n  \"\"onset\"\": 0,\n  \"\"duration\"\": \"\"end\"\"\n}\",\"{\n  \"\"type\"\": \"\"text\"\",\n  \"\"text\"\": \"\"<h5>Please only use your free hand to select the emotions as follows:</h5><h5>U = Angry | I = Fear | O = Happy | P = Neutral</h5>\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"x\"\": 0,\n  \"\"y\"\": 0,\n  \"\"duration\"\": \"\"keys_1.response\"\",\n  \"\"width\"\": \"\"500px\"\"\n}\",\"{\n  \"\"type\"\": \"\"keys\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"keys\"\": \"\"u|i|o|p\"\",\n  \"\"duration\"\": 2000,\n  \"\"end_trial\"\": \"\"yes\"\",\n  \"\"answers\"\":\"\"angry|fear|happy|neutral\"\"\n}\",../User/Stimuli/AV_W8_A_Sp_K1.mp4,,\"video_1,text_1,keys_1\",\r\n43,M9,Neutral,Speech,Kid,Baseline,\"{\n  \"\"type\"\": \"\"video\"\",\n  \"\"height\"\": 590,\n  \"\"width\"\": 885,\n  \"\"onset\"\": 0,\n  \"\"duration\"\": \"\"end\"\",\n  \"\"x\"\" : 0,\n  \"\"y\"\" : 0\n}\",,\"{\n  \"\"type\"\": \"\"text\"\",\n  \"\"text\"\": \"\"<h5>Please only use your free hand to select the emotions as follows:</h5><h5>U = Angry | I = Fear | O = Happy | P = Neutral</h5>\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"x\"\": 0,\n  \"\"y\"\": 0,\n  \"\"duration\"\": \"\"keys_1.response\"\",\n  \"\"width\"\": \"\"500px\"\"\n}\",\"{\n  \"\"type\"\": \"\"keys\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"keys\"\": \"\"u|i|o|p\"\",\n  \"\"duration\"\": 2000,\n  \"\"end_trial\"\": \"\"yes\"\",\n  \"\"answers\"\":\"\"angry|fear|happy|neutral\"\"\n}\",../User/Stimuli/AV_M9_N_Sp_K0.mp4,,\"video_1,text_1,keys_1\",\r\n44,W6,Neutral,Speech,Dog,No,\"{\n  \"\"type\"\": \"\"video\"\",\n  \"\"height\"\": 590,\n  \"\"width\"\": 885,\n  \"\"onset\"\": 0,\n  \"\"duration\"\": \"\"end\"\",\n  \"\"x\"\" : 0,\n  \"\"y\"\" : 0\n}\",\"{\n  \"\"type\"\": \"\"audio\"\",\n  \"\"onset\"\": 0,\n  \"\"duration\"\": \"\"end\"\"\n}\",\"{\n  \"\"type\"\": \"\"text\"\",\n  \"\"text\"\": \"\"<h5>Please only use your free hand to select the emotions as follows:</h5><h5>U = Angry | I = Fear | O = Happy | P = Neutral</h5>\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"x\"\": 0,\n  \"\"y\"\": 0,\n  \"\"duration\"\": \"\"keys_1.response\"\",\n  \"\"width\"\": \"\"500px\"\"\n}\",\"{\n  \"\"type\"\": \"\"keys\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"keys\"\": \"\"u|i|o|p\"\",\n  \"\"duration\"\": 2000,\n  \"\"end_trial\"\": \"\"yes\"\",\n  \"\"answers\"\":\"\"angry|fear|happy|neutral\"\"\n}\",../User/Stimuli/AV_W6_N_Sp_D1.mp4,,\"video_1,text_1,keys_1\",\r\n45,W8,Happy,Speech,Dog,Baseline,\"{\n  \"\"type\"\": \"\"video\"\",\n  \"\"height\"\": 590,\n  \"\"width\"\": 885,\n  \"\"onset\"\": 0,\n  \"\"duration\"\": \"\"end\"\",\n  \"\"x\"\" : 0,\n  \"\"y\"\" : 0\n}\",,\"{\n  \"\"type\"\": \"\"text\"\",\n  \"\"text\"\": \"\"<h5>Please only use your free hand to select the emotions as follows:</h5><h5>U = Angry | I = Fear | O = Happy | P = Neutral</h5>\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"x\"\": 0,\n  \"\"y\"\": 0,\n  \"\"duration\"\": \"\"keys_1.response\"\",\n  \"\"width\"\": \"\"500px\"\"\n}\",\"{\n  \"\"type\"\": \"\"keys\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"keys\"\": \"\"u|i|o|p\"\",\n  \"\"duration\"\": 2000,\n  \"\"end_trial\"\": \"\"yes\"\",\n  \"\"answers\"\":\"\"angry|fear|happy|neutral\"\"\n}\",../User/Stimuli/AV_W8_H_Sp_D0.mp4,,\"video_1,text_1,keys_1\",\r\n46,M7,Fearful,Speech,Kid,No,\"{\n  \"\"type\"\": \"\"video\"\",\n  \"\"height\"\": 590,\n  \"\"width\"\": 885,\n  \"\"onset\"\": 0,\n  \"\"duration\"\": \"\"end\"\",\n  \"\"x\"\" : 0,\n  \"\"y\"\" : 0\n}\",\"{\n  \"\"type\"\": \"\"audio\"\",\n  \"\"onset\"\": 0,\n  \"\"duration\"\": \"\"end\"\"\n}\",\"{\n  \"\"type\"\": \"\"text\"\",\n  \"\"text\"\": \"\"<h5>Please only use your free hand to select the emotions as follows:</h5><h5>U = Angry | I = Fear | O = Happy | P = Neutral</h5>\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"x\"\": 0,\n  \"\"y\"\": 0,\n  \"\"duration\"\": \"\"keys_1.response\"\",\n  \"\"width\"\": \"\"500px\"\"\n}\",\"{\n  \"\"type\"\": \"\"keys\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"keys\"\": \"\"u|i|o|p\"\",\n  \"\"duration\"\": 2000,\n  \"\"end_trial\"\": \"\"yes\"\",\n  \"\"answers\"\":\"\"angry|fear|happy|neutral\"\"\n}\",../User/Stimuli/AV_M7_F_Sp_K1.mp4,,\"video_1,text_1,keys_1\",\r\n47,W8,Happy,Song,Dog,High,\"{\n  \"\"type\"\": \"\"video\"\",\n  \"\"height\"\": 590,\n  \"\"width\"\": 885,\n  \"\"onset\"\": 0,\n  \"\"duration\"\": \"\"end\"\",\n  \"\"x\"\" : 0,\n  \"\"y\"\" : 0\n}\",\"{\n  \"\"type\"\": \"\"audio\"\",\n  \"\"onset\"\": 0,\n  \"\"duration\"\": \"\"end\"\"\n}\",\"{\n  \"\"type\"\": \"\"text\"\",\n  \"\"text\"\": \"\"<h5>Please only use your free hand to select the emotions as follows:</h5><h5>U = Angry | I = Fear | O = Happy | P = Neutral</h5>\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"x\"\": 0,\n  \"\"y\"\": 0,\n  \"\"duration\"\": \"\"keys_1.response\"\",\n  \"\"width\"\": \"\"500px\"\"\n}\",\"{\n  \"\"type\"\": \"\"keys\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"keys\"\": \"\"u|i|o|p\"\",\n  \"\"duration\"\": 2000,\n  \"\"end_trial\"\": \"\"yes\"\",\n  \"\"answers\"\":\"\"angry|fear|happy|neutral\"\"\n}\",../User/Stimuli/AV_W8_H_So_D_-51.mp4,,\"video_1,text_1,keys_1\",\r\n48,M7,Angry,Song,Kid,Baseline,\"{\n  \"\"type\"\": \"\"video\"\",\n  \"\"height\"\": 590,\n  \"\"width\"\": 885,\n  \"\"onset\"\": 0,\n  \"\"duration\"\": \"\"end\"\",\n  \"\"x\"\" : 0,\n  \"\"y\"\" : 0\n}\",,\"{\n  \"\"type\"\": \"\"text\"\",\n  \"\"text\"\": \"\"<h5>Please only use your free hand to select the emotions as follows:</h5><h5>U = Angry | I = Fear | O = Happy | P = Neutral</h5>\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"x\"\": 0,\n  \"\"y\"\": 0,\n  \"\"duration\"\": \"\"keys_1.response\"\",\n  \"\"width\"\": \"\"500px\"\"\n}\",\"{\n  \"\"type\"\": \"\"keys\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"keys\"\": \"\"u|i|o|p\"\",\n  \"\"duration\"\": 2000,\n  \"\"end_trial\"\": \"\"yes\"\",\n  \"\"answers\"\":\"\"angry|fear|happy|neutral\"\"\n}\",../User/Stimuli/AV_M7_A_So_K0.mp4,,\"video_1,text_1,keys_1\",\r\n49,M9,Fearful,Speech,Kid,High,\"{\n  \"\"type\"\": \"\"video\"\",\n  \"\"height\"\": 590,\n  \"\"width\"\": 885,\n  \"\"onset\"\": 0,\n  \"\"duration\"\": \"\"end\"\",\n  \"\"x\"\" : 0,\n  \"\"y\"\" : 0\n}\",\"{\n  \"\"type\"\": \"\"audio\"\",\n  \"\"onset\"\": 0,\n  \"\"duration\"\": \"\"end\"\"\n}\",\"{\n  \"\"type\"\": \"\"text\"\",\n  \"\"text\"\": \"\"<h5>Please only use your free hand to select the emotions as follows:</h5><h5>U = Angry | I = Fear | O = Happy | P = Neutral</h5>\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"x\"\": 0,\n  \"\"y\"\": 0,\n  \"\"duration\"\": \"\"keys_1.response\"\",\n  \"\"width\"\": \"\"500px\"\"\n}\",\"{\n  \"\"type\"\": \"\"keys\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"keys\"\": \"\"u|i|o|p\"\",\n  \"\"duration\"\": 2000,\n  \"\"end_trial\"\": \"\"yes\"\",\n  \"\"answers\"\":\"\"angry|fear|happy|neutral\"\"\n}\",../User/Stimuli/AV_M9_F_Sp_K_-51.mp4,,\"video_1,text_1,keys_1\",\r\n50,W8,Happy,Song,Dog,Baseline,\"{\n  \"\"type\"\": \"\"video\"\",\n  \"\"height\"\": 590,\n  \"\"width\"\": 885,\n  \"\"onset\"\": 0,\n  \"\"duration\"\": \"\"end\"\",\n  \"\"x\"\" : 0,\n  \"\"y\"\" : 0\n}\",,\"{\n  \"\"type\"\": \"\"text\"\",\n  \"\"text\"\": \"\"<h5>Please only use your free hand to select the emotions as follows:</h5><h5>U = Angry | I = Fear | O = Happy | P = Neutral</h5>\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"x\"\": 0,\n  \"\"y\"\": 0,\n  \"\"duration\"\": \"\"keys_1.response\"\",\n  \"\"width\"\": \"\"500px\"\"\n}\",\"{\n  \"\"type\"\": \"\"keys\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"keys\"\": \"\"u|i|o|p\"\",\n  \"\"duration\"\": 2000,\n  \"\"end_trial\"\": \"\"yes\"\",\n  \"\"answers\"\":\"\"angry|fear|happy|neutral\"\"\n}\",../User/Stimuli/AV_W8_H_So_D0.mp4,,\"video_1,text_1,keys_1\",\r\n51,W6,Fearful,Song,Kid,High,\"{\n  \"\"type\"\": \"\"video\"\",\n  \"\"height\"\": 590,\n  \"\"width\"\": 885,\n  \"\"onset\"\": 0,\n  \"\"duration\"\": \"\"end\"\",\n  \"\"x\"\" : 0,\n  \"\"y\"\" : 0\n}\",\"{\n  \"\"type\"\": \"\"audio\"\",\n  \"\"onset\"\": 0,\n  \"\"duration\"\": \"\"end\"\"\n}\",\"{\n  \"\"type\"\": \"\"text\"\",\n  \"\"text\"\": \"\"<h5>Please only use your free hand to select the emotions as follows:</h5><h5>U = Angry | I = Fear | O = Happy | P = Neutral</h5>\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"x\"\": 0,\n  \"\"y\"\": 0,\n  \"\"duration\"\": \"\"keys_1.response\"\",\n  \"\"width\"\": \"\"500px\"\"\n}\",\"{\n  \"\"type\"\": \"\"keys\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"keys\"\": \"\"u|i|o|p\"\",\n  \"\"duration\"\": 2000,\n  \"\"end_trial\"\": \"\"yes\"\",\n  \"\"answers\"\":\"\"angry|fear|happy|neutral\"\"\n}\",../User/Stimuli/AV_W6_F_So_K_-51.mp4,,\"video_1,text_1,keys_1\",\r\n52,M9,Angry,Song,Kid,High,\"{\n  \"\"type\"\": \"\"video\"\",\n  \"\"height\"\": 590,\n  \"\"width\"\": 885,\n  \"\"onset\"\": 0,\n  \"\"duration\"\": \"\"end\"\",\n  \"\"x\"\" : 0,\n  \"\"y\"\" : 0\n}\",\"{\n  \"\"type\"\": \"\"audio\"\",\n  \"\"onset\"\": 0,\n  \"\"duration\"\": \"\"end\"\"\n}\",\"{\n  \"\"type\"\": \"\"text\"\",\n  \"\"text\"\": \"\"<h5>Please only use your free hand to select the emotions as follows:</h5><h5>U = Angry | I = Fear | O = Happy | P = Neutral</h5>\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"x\"\": 0,\n  \"\"y\"\": 0,\n  \"\"duration\"\": \"\"keys_1.response\"\",\n  \"\"width\"\": \"\"500px\"\"\n}\",\"{\n  \"\"type\"\": \"\"keys\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"keys\"\": \"\"u|i|o|p\"\",\n  \"\"duration\"\": 2000,\n  \"\"end_trial\"\": \"\"yes\"\",\n  \"\"answers\"\":\"\"angry|fear|happy|neutral\"\"\n}\",../User/Stimuli/AV_M9_A_So_K_-51.mp4,,\"video_1,text_1,keys_1\",\r\n53,W6,Neutral,Speech,Kid,Baseline,\"{\n  \"\"type\"\": \"\"video\"\",\n  \"\"height\"\": 590,\n  \"\"width\"\": 885,\n  \"\"onset\"\": 0,\n  \"\"duration\"\": \"\"end\"\",\n  \"\"x\"\" : 0,\n  \"\"y\"\" : 0\n}\",,\"{\n  \"\"type\"\": \"\"text\"\",\n  \"\"text\"\": \"\"<h5>Please only use your free hand to select the emotions as follows:</h5><h5>U = Angry | I = Fear | O = Happy | P = Neutral</h5>\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"x\"\": 0,\n  \"\"y\"\": 0,\n  \"\"duration\"\": \"\"keys_1.response\"\",\n  \"\"width\"\": \"\"500px\"\"\n}\",\"{\n  \"\"type\"\": \"\"keys\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"keys\"\": \"\"u|i|o|p\"\",\n  \"\"duration\"\": 2000,\n  \"\"end_trial\"\": \"\"yes\"\",\n  \"\"answers\"\":\"\"angry|fear|happy|neutral\"\"\n}\",../User/Stimuli/AV_W6_N_Sp_K0.mp4,,\"video_1,text_1,keys_1\",\r\n54,W8,Fearful,Speech,Dog,No,\"{\n  \"\"type\"\": \"\"video\"\",\n  \"\"height\"\": 590,\n  \"\"width\"\": 885,\n  \"\"onset\"\": 0,\n  \"\"duration\"\": \"\"end\"\",\n  \"\"x\"\" : 0,\n  \"\"y\"\" : 0\n}\",\"{\n  \"\"type\"\": \"\"audio\"\",\n  \"\"onset\"\": 0,\n  \"\"duration\"\": \"\"end\"\"\n}\",\"{\n  \"\"type\"\": \"\"text\"\",\n  \"\"text\"\": \"\"<h5>Please only use your free hand to select the emotions as follows:</h5><h5>U = Angry | I = Fear | O = Happy | P = Neutral</h5>\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"x\"\": 0,\n  \"\"y\"\": 0,\n  \"\"duration\"\": \"\"keys_1.response\"\",\n  \"\"width\"\": \"\"500px\"\"\n}\",\"{\n  \"\"type\"\": \"\"keys\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"keys\"\": \"\"u|i|o|p\"\",\n  \"\"duration\"\": 2000,\n  \"\"end_trial\"\": \"\"yes\"\",\n  \"\"answers\"\":\"\"angry|fear|happy|neutral\"\"\n}\",../User/Stimuli/AV_W8_F_Sp_D1.mp4,,\"video_1,text_1,keys_1\",\r\n55,M7,Neutral,Song,Dog,Baseline,\"{\n  \"\"type\"\": \"\"video\"\",\n  \"\"height\"\": 590,\n  \"\"width\"\": 885,\n  \"\"onset\"\": 0,\n  \"\"duration\"\": \"\"end\"\",\n  \"\"x\"\" : 0,\n  \"\"y\"\" : 0\n}\",,\"{\n  \"\"type\"\": \"\"text\"\",\n  \"\"text\"\": \"\"<h5>Please only use your free hand to select the emotions as follows:</h5><h5>U = Angry | I = Fear | O = Happy | P = Neutral</h5>\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"x\"\": 0,\n  \"\"y\"\": 0,\n  \"\"duration\"\": \"\"keys_1.response\"\",\n  \"\"width\"\": \"\"500px\"\"\n}\",\"{\n  \"\"type\"\": \"\"keys\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"keys\"\": \"\"u|i|o|p\"\",\n  \"\"duration\"\": 2000,\n  \"\"end_trial\"\": \"\"yes\"\",\n  \"\"answers\"\":\"\"angry|fear|happy|neutral\"\"\n}\",../User/Stimuli/AV_M7_N_So_D0.mp4,,\"video_1,text_1,keys_1\",\r\n56,M9,Neutral,Speech,Kid,High,\"{\n  \"\"type\"\": \"\"video\"\",\n  \"\"height\"\": 590,\n  \"\"width\"\": 885,\n  \"\"onset\"\": 0,\n  \"\"duration\"\": \"\"end\"\",\n  \"\"x\"\" : 0,\n  \"\"y\"\" : 0\n}\",\"{\n  \"\"type\"\": \"\"audio\"\",\n  \"\"onset\"\": 0,\n  \"\"duration\"\": \"\"end\"\"\n}\",\"{\n  \"\"type\"\": \"\"text\"\",\n  \"\"text\"\": \"\"<h5>Please only use your free hand to select the emotions as follows:</h5><h5>U = Angry | I = Fear | O = Happy | P = Neutral</h5>\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"x\"\": 0,\n  \"\"y\"\": 0,\n  \"\"duration\"\": \"\"keys_1.response\"\",\n  \"\"width\"\": \"\"500px\"\"\n}\",\"{\n  \"\"type\"\": \"\"keys\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"keys\"\": \"\"u|i|o|p\"\",\n  \"\"duration\"\": 2000,\n  \"\"end_trial\"\": \"\"yes\"\",\n  \"\"answers\"\":\"\"angry|fear|happy|neutral\"\"\n}\",../User/Stimuli/AV_M9_N_Sp_K_-51.mp4,,\"video_1,text_1,keys_1\",\r\n57,W6,Fearful,Song,Dog,Baseline,\"{\n  \"\"type\"\": \"\"video\"\",\n  \"\"height\"\": 590,\n  \"\"width\"\": 885,\n  \"\"onset\"\": 0,\n  \"\"duration\"\": \"\"end\"\",\n  \"\"x\"\" : 0,\n  \"\"y\"\" : 0\n}\",,\"{\n  \"\"type\"\": \"\"text\"\",\n  \"\"text\"\": \"\"<h5>Please only use your free hand to select the emotions as follows:</h5><h5>U = Angry | I = Fear | O = Happy | P = Neutral</h5>\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"x\"\": 0,\n  \"\"y\"\": 0,\n  \"\"duration\"\": \"\"keys_1.response\"\",\n  \"\"width\"\": \"\"500px\"\"\n}\",\"{\n  \"\"type\"\": \"\"keys\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"keys\"\": \"\"u|i|o|p\"\",\n  \"\"duration\"\": 2000,\n  \"\"end_trial\"\": \"\"yes\"\",\n  \"\"answers\"\":\"\"angry|fear|happy|neutral\"\"\n}\",../User/Stimuli/AV_W6_F_So_D0.mp4,,\"video_1,text_1,keys_1\",\r\n58,M7,Neutral,Song,Dog,Medium,\"{\n  \"\"type\"\": \"\"video\"\",\n  \"\"height\"\": 590,\n  \"\"width\"\": 885,\n  \"\"onset\"\": 0,\n  \"\"duration\"\": \"\"end\"\",\n  \"\"x\"\" : 0,\n  \"\"y\"\" : 0\n}\",\"{\n  \"\"type\"\": \"\"audio\"\",\n  \"\"onset\"\": 0,\n  \"\"duration\"\": \"\"end\"\"\n}\",\"{\n  \"\"type\"\": \"\"text\"\",\n  \"\"text\"\": \"\"<h5>Please only use your free hand to select the emotions as follows:</h5><h5>U = Angry | I = Fear | O = Happy | P = Neutral</h5>\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"x\"\": 0,\n  \"\"y\"\": 0,\n  \"\"duration\"\": \"\"keys_1.response\"\",\n  \"\"width\"\": \"\"500px\"\"\n}\",\"{\n  \"\"type\"\": \"\"keys\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"keys\"\": \"\"u|i|o|p\"\",\n  \"\"duration\"\": 2000,\n  \"\"end_trial\"\": \"\"yes\"\",\n  \"\"answers\"\":\"\"angry|fear|happy|neutral\"\"\n}\",../User/Stimuli/AV_M7_N_So_D_01.mp4,,\"video_1,text_1,keys_1\",\r\n59,M9,Happy,Song,Kid,No,\"{\n  \"\"type\"\": \"\"video\"\",\n  \"\"height\"\": 590,\n  \"\"width\"\": 885,\n  \"\"onset\"\": 0,\n  \"\"duration\"\": \"\"end\"\",\n  \"\"x\"\" : 0,\n  \"\"y\"\" : 0\n}\",\"{\n  \"\"type\"\": \"\"audio\"\",\n  \"\"onset\"\": 0,\n  \"\"duration\"\": \"\"end\"\"\n}\",\"{\n  \"\"type\"\": \"\"text\"\",\n  \"\"text\"\": \"\"<h5>Please only use your free hand to select the emotions as follows:</h5><h5>U = Angry | I = Fear | O = Happy | P = Neutral</h5>\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"x\"\": 0,\n  \"\"y\"\": 0,\n  \"\"duration\"\": \"\"keys_1.response\"\",\n  \"\"width\"\": \"\"500px\"\"\n}\",\"{\n  \"\"type\"\": \"\"keys\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"keys\"\": \"\"u|i|o|p\"\",\n  \"\"duration\"\": 2000,\n  \"\"end_trial\"\": \"\"yes\"\",\n  \"\"answers\"\":\"\"angry|fear|happy|neutral\"\"\n}\",../User/Stimuli/AV_M9_H_So_K1.mp4,,\"video_1,text_1,keys_1\",\r\n60,W8,Happy,Song,Dog,No,\"{\n  \"\"type\"\": \"\"video\"\",\n  \"\"height\"\": 590,\n  \"\"width\"\": 885,\n  \"\"onset\"\": 0,\n  \"\"duration\"\": \"\"end\"\",\n  \"\"x\"\" : 0,\n  \"\"y\"\" : 0\n}\",\"{\n  \"\"type\"\": \"\"audio\"\",\n  \"\"onset\"\": 0,\n  \"\"duration\"\": \"\"end\"\"\n}\",\"{\n  \"\"type\"\": \"\"text\"\",\n  \"\"text\"\": \"\"<h5>Please only use your free hand to select the emotions as follows:</h5><h5>U = Angry | I = Fear | O = Happy | P = Neutral</h5>\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"x\"\": 0,\n  \"\"y\"\": 0,\n  \"\"duration\"\": \"\"keys_1.response\"\",\n  \"\"width\"\": \"\"500px\"\"\n}\",\"{\n  \"\"type\"\": \"\"keys\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"keys\"\": \"\"u|i|o|p\"\",\n  \"\"duration\"\": 2000,\n  \"\"end_trial\"\": \"\"yes\"\",\n  \"\"answers\"\":\"\"angry|fear|happy|neutral\"\"\n}\",../User/Stimuli/AV_W8_H_So_D1.mp4,,\"video_1,text_1,keys_1\",\r\n61,M9,Angry,Song,Kid,Baseline,\"{\n  \"\"type\"\": \"\"video\"\",\n  \"\"height\"\": 590,\n  \"\"width\"\": 885,\n  \"\"onset\"\": 0,\n  \"\"duration\"\": \"\"end\"\",\n  \"\"x\"\" : 0,\n  \"\"y\"\" : 0\n}\",,\"{\n  \"\"type\"\": \"\"text\"\",\n  \"\"text\"\": \"\"<h5>Please only use your free hand to select the emotions as follows:</h5><h5>U = Angry | I = Fear | O = Happy | P = Neutral</h5>\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"x\"\": 0,\n  \"\"y\"\": 0,\n  \"\"duration\"\": \"\"keys_1.response\"\",\n  \"\"width\"\": \"\"500px\"\"\n}\",\"{\n  \"\"type\"\": \"\"keys\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"keys\"\": \"\"u|i|o|p\"\",\n  \"\"duration\"\": 2000,\n  \"\"end_trial\"\": \"\"yes\"\",\n  \"\"answers\"\":\"\"angry|fear|happy|neutral\"\"\n}\",../User/Stimuli/AV_M9_A_So_K0.mp4,,\"video_1,text_1,keys_1\",\r\n62,M7,Neutral,Speech,Kid,No,\"{\n  \"\"type\"\": \"\"video\"\",\n  \"\"height\"\": 590,\n  \"\"width\"\": 885,\n  \"\"onset\"\": 0,\n  \"\"duration\"\": \"\"end\"\",\n  \"\"x\"\" : 0,\n  \"\"y\"\" : 0\n}\",\"{\n  \"\"type\"\": \"\"audio\"\",\n  \"\"onset\"\": 0,\n  \"\"duration\"\": \"\"end\"\"\n}\",\"{\n  \"\"type\"\": \"\"text\"\",\n  \"\"text\"\": \"\"<h5>Please only use your free hand to select the emotions as follows:</h5><h5>U = Angry | I = Fear | O = Happy | P = Neutral</h5>\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"x\"\": 0,\n  \"\"y\"\": 0,\n  \"\"duration\"\": \"\"keys_1.response\"\",\n  \"\"width\"\": \"\"500px\"\"\n}\",\"{\n  \"\"type\"\": \"\"keys\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"keys\"\": \"\"u|i|o|p\"\",\n  \"\"duration\"\": 2000,\n  \"\"end_trial\"\": \"\"yes\"\",\n  \"\"answers\"\":\"\"angry|fear|happy|neutral\"\"\n}\",../User/Stimuli/AV_M7_N_Sp_K1.mp4,,\"video_1,text_1,keys_1\",\r\n63,W8,Fearful,Song,Kid,No,\"{\n  \"\"type\"\": \"\"video\"\",\n  \"\"height\"\": 590,\n  \"\"width\"\": 885,\n  \"\"onset\"\": 0,\n  \"\"duration\"\": \"\"end\"\",\n  \"\"x\"\" : 0,\n  \"\"y\"\" : 0\n}\",\"{\n  \"\"type\"\": \"\"audio\"\",\n  \"\"onset\"\": 0,\n  \"\"duration\"\": \"\"end\"\"\n}\",\"{\n  \"\"type\"\": \"\"text\"\",\n  \"\"text\"\": \"\"<h5>Please only use your free hand to select the emotions as follows:</h5><h5>U = Angry | I = Fear | O = Happy | P = Neutral</h5>\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"x\"\": 0,\n  \"\"y\"\": 0,\n  \"\"duration\"\": \"\"keys_1.response\"\",\n  \"\"width\"\": \"\"500px\"\"\n}\",\"{\n  \"\"type\"\": \"\"keys\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"keys\"\": \"\"u|i|o|p\"\",\n  \"\"duration\"\": 2000,\n  \"\"end_trial\"\": \"\"yes\"\",\n  \"\"answers\"\":\"\"angry|fear|happy|neutral\"\"\n}\",../User/Stimuli/AV_W8_F_So_K1.mp4,,\"video_1,text_1,keys_1\",\r\n64,M9,Happy,Speech,Dog,High,\"{\n  \"\"type\"\": \"\"video\"\",\n  \"\"height\"\": 590,\n  \"\"width\"\": 885,\n  \"\"onset\"\": 0,\n  \"\"duration\"\": \"\"end\"\",\n  \"\"x\"\" : 0,\n  \"\"y\"\" : 0\n}\",\"{\n  \"\"type\"\": \"\"audio\"\",\n  \"\"onset\"\": 0,\n  \"\"duration\"\": \"\"end\"\"\n}\",\"{\n  \"\"type\"\": \"\"text\"\",\n  \"\"text\"\": \"\"<h5>Please only use your free hand to select the emotions as follows:</h5><h5>U = Angry | I = Fear | O = Happy | P = Neutral</h5>\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"x\"\": 0,\n  \"\"y\"\": 0,\n  \"\"duration\"\": \"\"keys_1.response\"\",\n  \"\"width\"\": \"\"500px\"\"\n}\",\"{\n  \"\"type\"\": \"\"keys\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"keys\"\": \"\"u|i|o|p\"\",\n  \"\"duration\"\": 2000,\n  \"\"end_trial\"\": \"\"yes\"\",\n  \"\"answers\"\":\"\"angry|fear|happy|neutral\"\"\n}\",../User/Stimuli/AV_M9_H_Sp_D_-51.mp4,,\"video_1,text_1,keys_1\",\r\n65,W6,Fearful,Song,Kid,Baseline,\"{\n  \"\"type\"\": \"\"video\"\",\n  \"\"height\"\": 590,\n  \"\"width\"\": 885,\n  \"\"onset\"\": 0,\n  \"\"duration\"\": \"\"end\"\",\n  \"\"x\"\" : 0,\n  \"\"y\"\" : 0\n}\",,\"{\n  \"\"type\"\": \"\"text\"\",\n  \"\"text\"\": \"\"<h5>Please only use your free hand to select the emotions as follows:</h5><h5>U = Angry | I = Fear | O = Happy | P = Neutral</h5>\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"x\"\": 0,\n  \"\"y\"\": 0,\n  \"\"duration\"\": \"\"keys_1.response\"\",\n  \"\"width\"\": \"\"500px\"\"\n}\",\"{\n  \"\"type\"\": \"\"keys\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"keys\"\": \"\"u|i|o|p\"\",\n  \"\"duration\"\": 2000,\n  \"\"end_trial\"\": \"\"yes\"\",\n  \"\"answers\"\":\"\"angry|fear|happy|neutral\"\"\n}\",../User/Stimuli/AV_W6_F_So_K0.mp4,,\"video_1,text_1,keys_1\",\r\n66,W8,Neutral,Song,Kid,No,\"{\n  \"\"type\"\": \"\"video\"\",\n  \"\"height\"\": 590,\n  \"\"width\"\": 885,\n  \"\"onset\"\": 0,\n  \"\"duration\"\": \"\"end\"\",\n  \"\"x\"\" : 0,\n  \"\"y\"\" : 0\n}\",\"{\n  \"\"type\"\": \"\"audio\"\",\n  \"\"onset\"\": 0,\n  \"\"duration\"\": \"\"end\"\"\n}\",\"{\n  \"\"type\"\": \"\"text\"\",\n  \"\"text\"\": \"\"<h5>Please only use your free hand to select the emotions as follows:</h5><h5>U = Angry | I = Fear | O = Happy | P = Neutral</h5>\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"x\"\": 0,\n  \"\"y\"\": 0,\n  \"\"duration\"\": \"\"keys_1.response\"\",\n  \"\"width\"\": \"\"500px\"\"\n}\",\"{\n  \"\"type\"\": \"\"keys\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"keys\"\": \"\"u|i|o|p\"\",\n  \"\"duration\"\": 2000,\n  \"\"end_trial\"\": \"\"yes\"\",\n  \"\"answers\"\":\"\"angry|fear|happy|neutral\"\"\n}\",../User/Stimuli/AV_W8_N_So_K1.mp4,,\"video_1,text_1,keys_1\",\r\n67,W6,Neutral,Song,Dog,Baseline,\"{\n  \"\"type\"\": \"\"video\"\",\n  \"\"height\"\": 590,\n  \"\"width\"\": 885,\n  \"\"onset\"\": 0,\n  \"\"duration\"\": \"\"end\"\",\n  \"\"x\"\" : 0,\n  \"\"y\"\" : 0\n}\",,\"{\n  \"\"type\"\": \"\"text\"\",\n  \"\"text\"\": \"\"<h5>Please only use your free hand to select the emotions as follows:</h5><h5>U = Angry | I = Fear | O = Happy | P = Neutral</h5>\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"x\"\": 0,\n  \"\"y\"\": 0,\n  \"\"duration\"\": \"\"keys_1.response\"\",\n  \"\"width\"\": \"\"500px\"\"\n}\",\"{\n  \"\"type\"\": \"\"keys\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"keys\"\": \"\"u|i|o|p\"\",\n  \"\"duration\"\": 2000,\n  \"\"end_trial\"\": \"\"yes\"\",\n  \"\"answers\"\":\"\"angry|fear|happy|neutral\"\"\n}\",../User/Stimuli/AV_W6_N_So_D0.mp4,,\"video_1,text_1,keys_1\",\r\n68,M9,Happy,Song,Kid,High,\"{\n  \"\"type\"\": \"\"video\"\",\n  \"\"height\"\": 590,\n  \"\"width\"\": 885,\n  \"\"onset\"\": 0,\n  \"\"duration\"\": \"\"end\"\",\n  \"\"x\"\" : 0,\n  \"\"y\"\" : 0\n}\",\"{\n  \"\"type\"\": \"\"audio\"\",\n  \"\"onset\"\": 0,\n  \"\"duration\"\": \"\"end\"\"\n}\",\"{\n  \"\"type\"\": \"\"text\"\",\n  \"\"text\"\": \"\"<h5>Please only use your free hand to select the emotions as follows:</h5><h5>U = Angry | I = Fear | O = Happy | P = Neutral</h5>\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"x\"\": 0,\n  \"\"y\"\": 0,\n  \"\"duration\"\": \"\"keys_1.response\"\",\n  \"\"width\"\": \"\"500px\"\"\n}\",\"{\n  \"\"type\"\": \"\"keys\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"keys\"\": \"\"u|i|o|p\"\",\n  \"\"duration\"\": 2000,\n  \"\"end_trial\"\": \"\"yes\"\",\n  \"\"answers\"\":\"\"angry|fear|happy|neutral\"\"\n}\",../User/Stimuli/AV_M9_H_So_K_-51.mp4,,\"video_1,text_1,keys_1\",\r\n69,M7,Happy,Speech,Kid,Baseline,\"{\n  \"\"type\"\": \"\"video\"\",\n  \"\"height\"\": 590,\n  \"\"width\"\": 885,\n  \"\"onset\"\": 0,\n  \"\"duration\"\": \"\"end\"\",\n  \"\"x\"\" : 0,\n  \"\"y\"\" : 0\n}\",,\"{\n  \"\"type\"\": \"\"text\"\",\n  \"\"text\"\": \"\"<h5>Please only use your free hand to select the emotions as follows:</h5><h5>U = Angry | I = Fear | O = Happy | P = Neutral</h5>\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"x\"\": 0,\n  \"\"y\"\": 0,\n  \"\"duration\"\": \"\"keys_1.response\"\",\n  \"\"width\"\": \"\"500px\"\"\n}\",\"{\n  \"\"type\"\": \"\"keys\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"keys\"\": \"\"u|i|o|p\"\",\n  \"\"duration\"\": 2000,\n  \"\"end_trial\"\": \"\"yes\"\",\n  \"\"answers\"\":\"\"angry|fear|happy|neutral\"\"\n}\",../User/Stimuli/AV_M7_H_Sp_K0.mp4,,\"video_1,text_1,keys_1\",\r\n70,W6,Angry,Speech,Kid,Medium,\"{\n  \"\"type\"\": \"\"video\"\",\n  \"\"height\"\": 590,\n  \"\"width\"\": 885,\n  \"\"onset\"\": 0,\n  \"\"duration\"\": \"\"end\"\",\n  \"\"x\"\" : 0,\n  \"\"y\"\" : 0\n}\",\"{\n  \"\"type\"\": \"\"audio\"\",\n  \"\"onset\"\": 0,\n  \"\"duration\"\": \"\"end\"\"\n}\",\"{\n  \"\"type\"\": \"\"text\"\",\n  \"\"text\"\": \"\"<h5>Please only use your free hand to select the emotions as follows:</h5><h5>U = Angry | I = Fear | O = Happy | P = Neutral</h5>\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"x\"\": 0,\n  \"\"y\"\": 0,\n  \"\"duration\"\": \"\"keys_1.response\"\",\n  \"\"width\"\": \"\"500px\"\"\n}\",\"{\n  \"\"type\"\": \"\"keys\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"keys\"\": \"\"u|i|o|p\"\",\n  \"\"duration\"\": 2000,\n  \"\"end_trial\"\": \"\"yes\"\",\n  \"\"answers\"\":\"\"angry|fear|happy|neutral\"\"\n}\",../User/Stimuli/AV_W6_A_Sp_K_01.mp4,,\"video_1,text_1,keys_1\",\r\n71,W8,Happy,Song,Kid,Baseline,\"{\n  \"\"type\"\": \"\"video\"\",\n  \"\"height\"\": 590,\n  \"\"width\"\": 885,\n  \"\"onset\"\": 0,\n  \"\"duration\"\": \"\"end\"\",\n  \"\"x\"\" : 0,\n  \"\"y\"\" : 0\n}\",,\"{\n  \"\"type\"\": \"\"text\"\",\n  \"\"text\"\": \"\"<h5>Please only use your free hand to select the emotions as follows:</h5><h5>U = Angry | I = Fear | O = Happy | P = Neutral</h5>\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"x\"\": 0,\n  \"\"y\"\": 0,\n  \"\"duration\"\": \"\"keys_1.response\"\",\n  \"\"width\"\": \"\"500px\"\"\n}\",\"{\n  \"\"type\"\": \"\"keys\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"keys\"\": \"\"u|i|o|p\"\",\n  \"\"duration\"\": 2000,\n  \"\"end_trial\"\": \"\"yes\"\",\n  \"\"answers\"\":\"\"angry|fear|happy|neutral\"\"\n}\",../User/Stimuli/AV_W8_H_So_K0.mp4,,\"video_1,text_1,keys_1\",\r\n72,M7,Angry,Speech,Dog,Medium,\"{\n  \"\"type\"\": \"\"video\"\",\n  \"\"height\"\": 590,\n  \"\"width\"\": 885,\n  \"\"onset\"\": 0,\n  \"\"duration\"\": \"\"end\"\",\n  \"\"x\"\" : 0,\n  \"\"y\"\" : 0\n}\",\"{\n  \"\"type\"\": \"\"audio\"\",\n  \"\"onset\"\": 0,\n  \"\"duration\"\": \"\"end\"\"\n}\",\"{\n  \"\"type\"\": \"\"text\"\",\n  \"\"text\"\": \"\"<h5>Please only use your free hand to select the emotions as follows:</h5><h5>U = Angry | I = Fear | O = Happy | P = Neutral</h5>\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"x\"\": 0,\n  \"\"y\"\": 0,\n  \"\"duration\"\": \"\"keys_1.response\"\",\n  \"\"width\"\": \"\"500px\"\"\n}\",\"{\n  \"\"type\"\": \"\"keys\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"keys\"\": \"\"u|i|o|p\"\",\n  \"\"duration\"\": 2000,\n  \"\"end_trial\"\": \"\"yes\"\",\n  \"\"answers\"\":\"\"angry|fear|happy|neutral\"\"\n}\",../User/Stimuli/AV_M7_A_Sp_D_01.mp4,,\"video_1,text_1,keys_1\",\r\n73,W6,Fearful,Speech,Dog,Baseline,\"{\n  \"\"type\"\": \"\"video\"\",\n  \"\"height\"\": 590,\n  \"\"width\"\": 885,\n  \"\"onset\"\": 0,\n  \"\"duration\"\": \"\"end\"\",\n  \"\"x\"\" : 0,\n  \"\"y\"\" : 0\n}\",,\"{\n  \"\"type\"\": \"\"text\"\",\n  \"\"text\"\": \"\"<h5>Please only use your free hand to select the emotions as follows:</h5><h5>U = Angry | I = Fear | O = Happy | P = Neutral</h5>\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"x\"\": 0,\n  \"\"y\"\": 0,\n  \"\"duration\"\": \"\"keys_1.response\"\",\n  \"\"width\"\": \"\"500px\"\"\n}\",\"{\n  \"\"type\"\": \"\"keys\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"keys\"\": \"\"u|i|o|p\"\",\n  \"\"duration\"\": 2000,\n  \"\"end_trial\"\": \"\"yes\"\",\n  \"\"answers\"\":\"\"angry|fear|happy|neutral\"\"\n}\",../User/Stimuli/AV_W6_F_Sp_D0.mp4,,\"video_1,text_1,keys_1\",\r\n74,M9,Neutral,Song,Dog,High,\"{\n  \"\"type\"\": \"\"video\"\",\n  \"\"height\"\": 590,\n  \"\"width\"\": 885,\n  \"\"onset\"\": 0,\n  \"\"duration\"\": \"\"end\"\",\n  \"\"x\"\" : 0,\n  \"\"y\"\" : 0\n}\",\"{\n  \"\"type\"\": \"\"audio\"\",\n  \"\"onset\"\": 0,\n  \"\"duration\"\": \"\"end\"\"\n}\",\"{\n  \"\"type\"\": \"\"text\"\",\n  \"\"text\"\": \"\"<h5>Please only use your free hand to select the emotions as follows:</h5><h5>U = Angry | I = Fear | O = Happy | P = Neutral</h5>\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"x\"\": 0,\n  \"\"y\"\": 0,\n  \"\"duration\"\": \"\"keys_1.response\"\",\n  \"\"width\"\": \"\"500px\"\"\n}\",\"{\n  \"\"type\"\": \"\"keys\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"keys\"\": \"\"u|i|o|p\"\",\n  \"\"duration\"\": 2000,\n  \"\"end_trial\"\": \"\"yes\"\",\n  \"\"answers\"\":\"\"angry|fear|happy|neutral\"\"\n}\",../User/Stimuli/AV_M9_N_So_D_-51.mp4,,\"video_1,text_1,keys_1\",\r\n75,M9,Fearful,Song,Kid,Baseline,\"{\n  \"\"type\"\": \"\"video\"\",\n  \"\"height\"\": 590,\n  \"\"width\"\": 885,\n  \"\"onset\"\": 0,\n  \"\"duration\"\": \"\"end\"\",\n  \"\"x\"\" : 0,\n  \"\"y\"\" : 0\n}\",,\"{\n  \"\"type\"\": \"\"text\"\",\n  \"\"text\"\": \"\"<h5>Please only use your free hand to select the emotions as follows:</h5><h5>U = Angry | I = Fear | O = Happy | P = Neutral</h5>\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"x\"\": 0,\n  \"\"y\"\": 0,\n  \"\"duration\"\": \"\"keys_1.response\"\",\n  \"\"width\"\": \"\"500px\"\"\n}\",\"{\n  \"\"type\"\": \"\"keys\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"keys\"\": \"\"u|i|o|p\"\",\n  \"\"duration\"\": 2000,\n  \"\"end_trial\"\": \"\"yes\"\",\n  \"\"answers\"\":\"\"angry|fear|happy|neutral\"\"\n}\",../User/Stimuli/AV_M9_F_So_K0.mp4,,\"video_1,text_1,keys_1\",\r\n76,M7,Fearful,Song,Dog,High,\"{\n  \"\"type\"\": \"\"video\"\",\n  \"\"height\"\": 590,\n  \"\"width\"\": 885,\n  \"\"onset\"\": 0,\n  \"\"duration\"\": \"\"end\"\",\n  \"\"x\"\" : 0,\n  \"\"y\"\" : 0\n}\",\"{\n  \"\"type\"\": \"\"audio\"\",\n  \"\"onset\"\": 0,\n  \"\"duration\"\": \"\"end\"\"\n}\",\"{\n  \"\"type\"\": \"\"text\"\",\n  \"\"text\"\": \"\"<h5>Please only use your free hand to select the emotions as follows:</h5><h5>U = Angry | I = Fear | O = Happy | P = Neutral</h5>\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"x\"\": 0,\n  \"\"y\"\": 0,\n  \"\"duration\"\": \"\"keys_1.response\"\",\n  \"\"width\"\": \"\"500px\"\"\n}\",\"{\n  \"\"type\"\": \"\"keys\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"keys\"\": \"\"u|i|o|p\"\",\n  \"\"duration\"\": 2000,\n  \"\"end_trial\"\": \"\"yes\"\",\n  \"\"answers\"\":\"\"angry|fear|happy|neutral\"\"\n}\",../User/Stimuli/AV_M7_F_So_D_-51.mp4,,\"video_1,text_1,keys_1\",\r\n77,M9,Neutral,Song,Dog,Baseline,\"{\n  \"\"type\"\": \"\"video\"\",\n  \"\"height\"\": 590,\n  \"\"width\"\": 885,\n  \"\"onset\"\": 0,\n  \"\"duration\"\": \"\"end\"\",\n  \"\"x\"\" : 0,\n  \"\"y\"\" : 0\n}\",,\"{\n  \"\"type\"\": \"\"text\"\",\n  \"\"text\"\": \"\"<h5>Please only use your free hand to select the emotions as follows:</h5><h5>U = Angry | I = Fear | O = Happy | P = Neutral</h5>\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"x\"\": 0,\n  \"\"y\"\": 0,\n  \"\"duration\"\": \"\"keys_1.response\"\",\n  \"\"width\"\": \"\"500px\"\"\n}\",\"{\n  \"\"type\"\": \"\"keys\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"keys\"\": \"\"u|i|o|p\"\",\n  \"\"duration\"\": 2000,\n  \"\"end_trial\"\": \"\"yes\"\",\n  \"\"answers\"\":\"\"angry|fear|happy|neutral\"\"\n}\",../User/Stimuli/AV_M9_N_So_D0.mp4,,\"video_1,text_1,keys_1\",\r\n78,W6,Happy,Song,Dog,No,\"{\n  \"\"type\"\": \"\"video\"\",\n  \"\"height\"\": 590,\n  \"\"width\"\": 885,\n  \"\"onset\"\": 0,\n  \"\"duration\"\": \"\"end\"\",\n  \"\"x\"\" : 0,\n  \"\"y\"\" : 0\n}\",\"{\n  \"\"type\"\": \"\"audio\"\",\n  \"\"onset\"\": 0,\n  \"\"duration\"\": \"\"end\"\"\n}\",\"{\n  \"\"type\"\": \"\"text\"\",\n  \"\"text\"\": \"\"<h5>Please only use your free hand to select the emotions as follows:</h5><h5>U = Angry | I = Fear | O = Happy | P = Neutral</h5>\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"x\"\": 0,\n  \"\"y\"\": 0,\n  \"\"duration\"\": \"\"keys_1.response\"\",\n  \"\"width\"\": \"\"500px\"\"\n}\",\"{\n  \"\"type\"\": \"\"keys\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"keys\"\": \"\"u|i|o|p\"\",\n  \"\"duration\"\": 2000,\n  \"\"end_trial\"\": \"\"yes\"\",\n  \"\"answers\"\":\"\"angry|fear|happy|neutral\"\"\n}\",../User/Stimuli/AV_W6_H_So_D1.mp4,,\"video_1,text_1,keys_1\",\r\n79,W8,Fearful,Song,Kid,Baseline,\"{\n  \"\"type\"\": \"\"video\"\",\n  \"\"height\"\": 590,\n  \"\"width\"\": 885,\n  \"\"onset\"\": 0,\n  \"\"duration\"\": \"\"end\"\",\n  \"\"x\"\" : 0,\n  \"\"y\"\" : 0\n}\",,\"{\n  \"\"type\"\": \"\"text\"\",\n  \"\"text\"\": \"\"<h5>Please only use your free hand to select the emotions as follows:</h5><h5>U = Angry | I = Fear | O = Happy | P = Neutral</h5>\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"x\"\": 0,\n  \"\"y\"\": 0,\n  \"\"duration\"\": \"\"keys_1.response\"\",\n  \"\"width\"\": \"\"500px\"\"\n}\",\"{\n  \"\"type\"\": \"\"keys\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"keys\"\": \"\"u|i|o|p\"\",\n  \"\"duration\"\": 2000,\n  \"\"end_trial\"\": \"\"yes\"\",\n  \"\"answers\"\":\"\"angry|fear|happy|neutral\"\"\n}\",../User/Stimuli/AV_W8_F_So_K0.mp4,,\"video_1,text_1,keys_1\",\r\n80,M9,Angry,Speech,Dog,Medium,\"{\n  \"\"type\"\": \"\"video\"\",\n  \"\"height\"\": 590,\n  \"\"width\"\": 885,\n  \"\"onset\"\": 0,\n  \"\"duration\"\": \"\"end\"\",\n  \"\"x\"\" : 0,\n  \"\"y\"\" : 0\n}\",\"{\n  \"\"type\"\": \"\"audio\"\",\n  \"\"onset\"\": 0,\n  \"\"duration\"\": \"\"end\"\"\n}\",\"{\n  \"\"type\"\": \"\"text\"\",\n  \"\"text\"\": \"\"<h5>Please only use your free hand to select the emotions as follows:</h5><h5>U = Angry | I = Fear | O = Happy | P = Neutral</h5>\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"x\"\": 0,\n  \"\"y\"\": 0,\n  \"\"duration\"\": \"\"keys_1.response\"\",\n  \"\"width\"\": \"\"500px\"\"\n}\",\"{\n  \"\"type\"\": \"\"keys\"\",\n  \"\"onset\"\": \"\"video_1.ended\"\",\n  \"\"keys\"\": \"\"u|i|o|p\"\",\n  \"\"duration\"\": 2000,\n  \"\"end_trial\"\": \"\"yes\"\",\n  \"\"answers\"\":\"\"angry|fear|happy|neutral\"\"\n}\",../User/Stimuli/AV_M9_A_Sp_D_01.mp4,,\"video_1,text_1,keys_1\",\r\n,,,,,,,,,,,,,",
@@ -3622,7 +3626,11 @@
         ""
       ]
     ],
+<<<<<<< HEAD
+    "eyetracking_demo.csv": [
+=======
     "demographics_2022.csv": [
+>>>>>>> a5e5c9201c0725c8de30d30fea5a8ea12d6cc0d1
       [
         "item_name",
         "text",
@@ -3632,17 +3640,32 @@
         "values",
         "side_by_side",
         "btn_width",
+<<<<<<< HEAD
+        "other",
+        "question_width",
+=======
+>>>>>>> a5e5c9201c0725c8de30d30fea5a8ea12d6cc0d1
         ""
       ],
       [
         "Gender",
         "Gender",
+<<<<<<< HEAD
+        "radio",
+        "Male|Female|Other",
+=======
         "likert",
         "Female|Male|Other",
+>>>>>>> a5e5c9201c0725c8de30d30fea5a8ea12d6cc0d1
         "No",
         "",
         "yes",
         "100px",
+<<<<<<< HEAD
+        "",
+        "75%",
+=======
+>>>>>>> a5e5c9201c0725c8de30d30fea5a8ea12d6cc0d1
         ""
       ],
       [
@@ -3654,6 +3677,11 @@
         "",
         "",
         "",
+<<<<<<< HEAD
+        "",
+        "75%",
+=======
+>>>>>>> a5e5c9201c0725c8de30d30fea5a8ea12d6cc0d1
         ""
       ],
       [
@@ -3665,10 +3693,91 @@
         "",
         "",
         "",
+<<<<<<< HEAD
+        "",
+        "75%",
+        ""
+      ],
+      [
+        "Country_residence",
+        "What is your current country of residence?",
+        "text",
+        "",
+        "No",
+        "",
+        "",
+        "",
+        "",
+        "75%",
+        ""
+      ],
+      [
+        "Country_childhood",
+        "Please state the country where you spent the most of your childhood",
+        "text",
+        "",
+        "No",
+        "",
+        "",
+        "",
+        "",
+        "75%",
+        ""
+      ],
+      [
+        "Nationality",
+        "What is your nationality?",
+        "checkbox",
+        "British|Malaysian",
+        "No",
+        "",
+        "",
+        "",
+        "yes",
+        "75%",
+        ""
+      ],
+      [
+        "Ethnicity",
+        "Please state your ethnicity",
+        "checkbox",
+        "Asian|Black|Mixed|White",
+        "No",
+        "",
+        "",
+        "",
+        "yes",
+        "75%",
+        ""
+      ],
+      [
+        "EastAsian",
+        "Do you identify as East Asian (i.e., Chinese, Japanese, Korean, etc.)? This includes East Asians born overseas (e.g., Malaysian Chinese, Singaporean Chinese, etc.)",
+        "radio",
+        "Yes|No",
+        "No",
+        "",
+        "",
+        "",
+        "",
+        "75%",
+=======
+>>>>>>> a5e5c9201c0725c8de30d30fea5a8ea12d6cc0d1
         ""
       ],
       [
         "English_Fluency",
+<<<<<<< HEAD
+        "Please rate how well you speak and understand English.",
+        "dropdown",
+        "Not fluent at all|Somewhat fluent|Fluent|Very fluent/Native-like",
+        "No",
+        "",
+        "",
+        "",
+        "",
+        "75%",
+=======
         "Do you speak English fluently?",
         "likert",
         "Yes|No",
@@ -3676,6 +3785,7 @@
         "",
         "yes",
         "200px",
+>>>>>>> a5e5c9201c0725c8de30d30fea5a8ea12d6cc0d1
         ""
       ],
       [
@@ -3687,6 +3797,17 @@
         "",
         "",
         "",
+<<<<<<< HEAD
+        "",
+        "75%",
+        ""
+      ],
+      [
+        "Vision",
+        "Do you have normal or corrected-to-normal vision?",
+        "radio",
+        "Yes|No",
+=======
         ""
       ],
       [
@@ -3716,10 +3837,28 @@
         "What is your preferred hand?",
         "likert",
         "Left|Right|Both",
+>>>>>>> a5e5c9201c0725c8de30d30fea5a8ea12d6cc0d1
         "No",
         "",
         "yes",
         "100px",
+<<<<<<< HEAD
+        "",
+        "75%",
+        ""
+      ],
+      [
+        "AS_diagnosis",
+        "Do you have a clinical diagnosis of autism? This includes all the previous DSM 'subtypes' such as 'Asperger Syndrome', 'High-Functioning Autism (HFA)', etc.",
+        "radio",
+        "Yes|No|Don't Know",
+        "No",
+        "",
+        "",
+        "",
+        "",
+        "75%",
+=======
         ""
       ],
       [
@@ -3731,6 +3870,7 @@
         "",
         "",
         "",
+>>>>>>> a5e5c9201c0725c8de30d30fea5a8ea12d6cc0d1
         ""
       ],
       [
@@ -3742,6 +3882,445 @@
         "",
         "",
         "",
+<<<<<<< HEAD
+        "",
+        "",
+        ""
+      ]
+    ],
+    "perth_alexithymia.csv": [
+      [
+        "item_name",
+        "text",
+        "type",
+        "answers",
+        "values",
+        "score:paq_total",
+        "score:paq_ndif",
+        "score:paq_pdif",
+        "score:paq_nddf",
+        "score:paq_pddf",
+        "score:paq_geot",
+        "optional",
+        "side_text",
+        ""
+      ],
+      [
+        "instructions1",
+        "<span style='color:#006699'><span style='font-size:20px'>This questionnaire asks about how you perceive and experience your emotions. Please score the following statements according to how much you agree or disagree that the statement is true of you. Circle one answer for each statement.<br>\n<br>Some questions mention <b><u>bad</u></b> or <b><u>unpleasant</u></b> emotions, this means emotions like sadness, anger, or fear. Some questions mention <b><u>good</u></b> or <b><u>pleasant</u></b> emotions, this means emotions like happiness, amusement, or excitement.</span></span>",
+        "instruct",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "paq1",
+        "When I’m feeling <i>bad</i> (feeling an unpleasant emotion), I can’t find the right words to describe those feelings.",
+        "likert",
+        "1|2|3|4|5|6|7",
+        "1|2|3|4|5|6|7",
+        "1",
+        "",
+        "",
+        "1",
+        "",
+        "",
+        "no",
+        "Strongly Disagree|Strongly Agree",
+        ""
+      ],
+      [
+        "paq2",
+        "When I’m feeling <i>bad</i>, I can’t tell whether\nI’m sad, angry, or scared.",
+        "likert",
+        "1|2|3|4|5|6|7",
+        "1|2|3|4|5|6|7",
+        "1",
+        "1",
+        "",
+        "",
+        "",
+        "",
+        "no",
+        "Strongly Disagree|Strongly Agree",
+        ""
+      ],
+      [
+        "paq3",
+        "I tend to ignore how I feel.",
+        "likert",
+        "1|2|3|4|5|6|7",
+        "1|2|3|4|5|6|7",
+        "1",
+        "",
+        "",
+        "",
+        "",
+        "1",
+        "no",
+        "Strongly Disagree|Strongly Agree",
+        ""
+      ],
+      [
+        "paq4",
+        "When I’m feeling <i>good</i> (feeling a pleasant\nemotion), I can’t find the right words todescribe those feelings.",
+        "likert",
+        "1|2|3|4|5|6|7",
+        "1|2|3|4|5|6|7",
+        "1",
+        "",
+        "",
+        "",
+        "1",
+        "",
+        "no",
+        "Strongly Disagree|Strongly Agree",
+        ""
+      ],
+      [
+        "paq5",
+        "When I’m feeling <i>good</i>, I can’t tell whether I’m happy, excited, or amused.",
+        "likert",
+        "1|2|3|4|5|6|7",
+        "1|2|3|4|5|6|7",
+        "1",
+        "",
+        "1",
+        "",
+        "",
+        "",
+        "no",
+        "Strongly Disagree|Strongly Agree",
+        ""
+      ],
+      [
+        "paq6",
+        "I prefer to just let my feelings happen in the background, rather than focus on them.",
+        "likert",
+        "1|2|3|4|5|6|7",
+        "1|2|3|4|5|6|7",
+        "1",
+        "",
+        "",
+        "",
+        "",
+        "1",
+        "no",
+        "Strongly Disagree|Strongly Agree",
+        ""
+      ],
+      [
+        "paq7",
+        "When I’m feeling <i>bad</i>, I can’t talk about those feelings in much depth or detail.",
+        "likert",
+        "1|2|3|4|5|6|7",
+        "1|2|3|4|5|6|7",
+        "1",
+        "",
+        "",
+        "1",
+        "",
+        "",
+        "no",
+        "Strongly Disagree|Strongly Agree",
+        ""
+      ],
+      [
+        "paq8",
+        "When I’m feeling <i>bad</i>, I can’t make sense of those feelings.",
+        "likert",
+        "1|2|3|4|5|6|7",
+        "1|2|3|4|5|6|7",
+        "1",
+        "1",
+        "",
+        "",
+        "",
+        "",
+        "no",
+        "Strongly Disagree|Strongly Agree",
+        ""
+      ],
+      [
+        "paq9",
+        "I don’t pay attention to my emotions.",
+        "likert",
+        "1|2|3|4|5|6|7",
+        "1|2|3|4|5|6|7",
+        "1",
+        "",
+        "",
+        "",
+        "",
+        "1",
+        "no",
+        "Strongly Disagree|Strongly Agree",
+        ""
+      ],
+      [
+        "paq10",
+        "When I’m feeling <i>good</i>, I can’t talk about those feelings in much depth or detail.",
+        "likert",
+        "1|2|3|4|5|6|7",
+        "1|2|3|4|5|6|7",
+        "1",
+        "",
+        "",
+        "",
+        "1",
+        "",
+        "no",
+        "Strongly Disagree|Strongly Agree",
+        ""
+      ],
+      [
+        "paq11",
+        "When I’m feeling <i>good</i>, I can’t make sense of those feelings.",
+        "likert",
+        "1|2|3|4|5|6|7",
+        "1|2|3|4|5|6|7",
+        "1",
+        "",
+        "1",
+        "",
+        "",
+        "",
+        "no",
+        "Strongly Disagree|Strongly Agree",
+        ""
+      ],
+      [
+        "paq12",
+        "Usually, I try to avoid thinking about what\nI’m feeling.",
+        "likert",
+        "1|2|3|4|5|6|7",
+        "1|2|3|4|5|6|7",
+        "1",
+        "",
+        "",
+        "",
+        "",
+        "1",
+        "no",
+        "Strongly Disagree|Strongly Agree",
+        ""
+      ],
+      [
+        "paq13",
+        "When something <i>bad</i> happens, it’s hard for me to put into words how I’m feeling.",
+        "likert",
+        "1|2|3|4|5|6|7",
+        "1|2|3|4|5|6|7",
+        "1",
+        "",
+        "",
+        "1",
+        "",
+        "",
+        "no",
+        "Strongly Disagree|Strongly Agree",
+        ""
+      ],
+      [
+        "paq14",
+        "When I’m feeling <i>bad</i>, I get confused about what emotion it is.",
+        "likert",
+        "1|2|3|4|5|6|7",
+        "1|2|3|4|5|6|7",
+        "1",
+        "1",
+        "",
+        "",
+        "",
+        "",
+        "no",
+        "Strongly Disagree|Strongly Agree",
+        ""
+      ],
+      [
+        "paq15",
+        "I prefer to focus on things I can actually see\nor touch, rather than my emotions.",
+        "likert",
+        "1|2|3|4|5|6|7",
+        "1|2|3|4|5|6|7",
+        "1",
+        "",
+        "",
+        "",
+        "",
+        "1",
+        "no",
+        "Strongly Disagree|Strongly Agree",
+        ""
+      ],
+      [
+        "paq16",
+        "When something <i>good</i> happens, it’s hard for me to put into words how I’m feeling.",
+        "likert",
+        "1|2|3|4|5|6|7",
+        "1|2|3|4|5|6|7",
+        "1",
+        "",
+        "",
+        "",
+        "1",
+        "",
+        "no",
+        "Strongly Disagree|Strongly Agree",
+        ""
+      ],
+      [
+        "paq17",
+        "When I’m feeling <i>good</i>, I get confused about what emotion it is.",
+        "likert",
+        "1|2|3|4|5|6|7",
+        "1|2|3|4|5|6|7",
+        "1",
+        "",
+        "1",
+        "",
+        "",
+        "",
+        "no",
+        "Strongly Disagree|Strongly Agree",
+        ""
+      ],
+      [
+        "paq18",
+        "I don’t try to be ‘in touch’ with my\nemotions.",
+        "likert",
+        "1|2|3|4|5|6|7",
+        "1|2|3|4|5|6|7",
+        "1",
+        "",
+        "",
+        "",
+        "",
+        "1",
+        "no",
+        "Strongly Disagree|Strongly Agree",
+        ""
+      ],
+      [
+        "paq19",
+        "When I’m feeling <i>bad</i>, if I try to describe how I’m feeling I don’t know what to say.",
+        "likert",
+        "1|2|3|4|5|6|7",
+        "1|2|3|4|5|6|7",
+        "1",
+        "",
+        "",
+        "1",
+        "",
+        "",
+        "no",
+        "Strongly Disagree|Strongly Agree",
+        ""
+      ],
+      [
+        "paq20",
+        "When I’m feeling <i>bad</i>, I’m puzzled by those\nfeelings.",
+        "likert",
+        "1|2|3|4|5|6|7",
+        "1|2|3|4|5|6|7",
+        "1",
+        "1",
+        "",
+        "",
+        "",
+        "",
+        "no",
+        "Strongly Disagree|Strongly Agree",
+        ""
+      ],
+      [
+        "paq21",
+        "It’s not important for me to know what I’m\nfeeling.",
+        "likert",
+        "1|2|3|4|5|6|7",
+        "1|2|3|4|5|6|7",
+        "1",
+        "",
+        "",
+        "",
+        "",
+        "1",
+        "no",
+        "Strongly Disagree|Strongly Agree",
+        ""
+      ],
+      [
+        "paq22",
+        "When I’m feeling <i>good</i>, if I try to describe how I’m feeling I don’t know what to say.",
+        "likert",
+        "1|2|3|4|5|6|7",
+        "1|2|3|4|5|6|7",
+        "1",
+        "",
+        "",
+        "",
+        "1",
+        "",
+        "no",
+        "Strongly Disagree|Strongly Agree",
+        ""
+      ],
+      [
+        "paq23",
+        "When I’m feeling <i>good</i>, I’m puzzled by those feelings.",
+        "likert",
+        "1|2|3|4|5|6|7",
+        "1|2|3|4|5|6|7",
+        "1",
+        "",
+        "1",
+        "",
+        "",
+        "",
+        "no",
+        "Strongly Disagree|Strongly Agree",
+        ""
+      ],
+      [
+        "paq24",
+        "It’s strange for me to think about my\nemotions.",
+        "likert",
+        "1|2|3|4|5|6|7",
+        "1|2|3|4|5|6|7",
+        "1",
+        "",
+        "",
+        "",
+        "",
+        "1",
+        "no",
+        "Strongly Disagree|Strongly Agree",
+        ""
+      ],
+      [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+=======
+>>>>>>> a5e5c9201c0725c8de30d30fea5a8ea12d6cc0d1
         ""
       ]
     ]
