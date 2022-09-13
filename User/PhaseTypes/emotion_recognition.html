@@ -2,6 +2,16 @@
 .update_name:focus{
   border:0;
 }
+#start_button{
+  height: 50px;
+  width: 100px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
 #trial_contents{
   height:   600px;
   width:    600px;
@@ -11,6 +21,7 @@
   left: 0;
   right: 0;
   margin: auto;
+  display:none;
   
   /*
   position: absolute;
@@ -140,11 +151,12 @@ body{
   z-index:0;
 }
 </style>
-<input type='hidden' id='keyboard_response' name='keyboard_response'/>
+<button id="start_button" class="btn btn-primary">Start</button>
+<input type='hidden' id='emotion_rt' name='emotion_rt'/>
 <div id='trial_contents'>
   <input id='happy_response'      class='end_trial emotion_response update_name' type='button' value='Happy' />
   <input id='sad_response'        class='end_trial emotion_response update_name' type='button' value='Sad' />
-  <input id='surprised_response'    class='end_trial emotion_response update_name' type='button' value='Surprised' />
+  <input id='surprised_response'  class='end_trial emotion_response update_name' type='button' value='Surprised' />
   <input id='neutral_response'    class='end_trial emotion_response update_name' type='button' value='Neutral' />
   <input id='fearful_response'    class='end_trial emotion_response update_name' type='button' value='Fearful' />
   <input id='angry_response'      class='end_trial emotion_response update_name' type='button' value='Angry' />
@@ -154,7 +166,27 @@ body{
 <input type='hidden' name='emotion_response' />
 <input type='hidden' name='image_response' />
 <script>
+
+/*
+ * create a global baseline time variable, and then set it when the trial starts manually
+ */
+var baseline_time_manual;
+/*
+ * add at the start of each trial where the participants have to click on the center to start the trial (just a button in the middle)
+ * start the timer when they click on the start button
+ * store the response time relative to when they clicked on the start button
+ */
+
+$("#start_button").on("click", function(){
+  $("#trial_contents").show();
+  $("#start_button").hide();
+  baseline_time_manual = (new Date()).getTime();
+});
+
+
 $('.update_name').on('click',function(){
+  var rt_manual = (new Date()).getTime() - baseline_time_manual;
+  $("#emotion_rt").val(rt_manual);
   var class_list = this.className.split(' ');
   var end_trial = false;
   if(class_list.indexOf('end_trial') !== -1){
@@ -162,7 +194,7 @@ $('.update_name').on('click',function(){
 	 }
   class_list.splice(class_list.indexOf('end_trial'),1);
   class_list.splice(class_list.indexOf('update_name'),1);
-  $('input[name = "' + class_list + '"]').val(this.value);
+  $('input[name = "emotion_response"]').val(this.value);
   if(end_trial){
     Phase.submit();
   }
