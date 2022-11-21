@@ -1,4 +1,5 @@
 item,survey,max_time,text,shuffle_1,weight,phasetype,calibrations,calibration_skip,design_type,image_file,trials,min_width,min_height,skip_instruct,left_side,trial_order,
+0,info_2022.csv,user,,,1,survey,,,,,,,,,,,
 0,,user,"<h2>General Instructions</h2>
 <span style='font-size:23'>Thank you for taking part in this eye-tracking emotion study. Your participation is extremely valued, and will help us to better understand how we process facial expressions.<br>
 <br>

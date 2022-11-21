@@ -1,0 +1,54 @@
+item_name,text,type,answers,values,optional,side_by_side,
+Instructions1,"<h2>University of Reading</h2><br>
+<div align=""right"">School of Psychology and Clinical Language Sciences
+<br>Whiteknights<br>Reading RG6 6AL</div><br>
+
+<h2>Title of Study: Investigating attentional biases to pairs of images: An eye-tracking study</h2>
+
+<table class=""table"">
+  <tr>
+    <td><b>Reserachers:</b></td>
+    <td><b>Email:</b></td>
+    <td><b>Telephone:</b></td>
+  </tr>
+  <tr>
+    <td><span>Dr. Anthony Haffey</span></td>
+    <td><span>a.haffey@reading.ac.uk</td>
+    <td><span>0118 378 8850</span></td>
+  </tr>
+  <tr>
+    <td><span>Dr Jia Ong</span></td>
+    <td><span></span></td>
+    <td><span></span></td>
+  </tr>
+</table>
+
+<h1>PARTICIPANT INFORMATION SHEET </h1>
+<h2>What is the study investigating?</h2>
+We are investigating behaviour related to perception of faces, and so we will present you with a variety of faces in this study. You will also be asked questions about your feelings and emotions afterwards. Eye-tracking will use the web-camera on your device and does not require wearing any device. The task tends to work much better on laptops than desktops with mounted cameras so we would recommend continuing or restarting this task on a laptop. Your participation in this study will require one 30-minute session.   
+
+<h2>What data will be stored?</h2>
+We will use your webcam to track where you are looking during the eye tracking task. You do not need any specialist equipment for this task – just a webcam. Furthermore, and most importantly, we will not record any videos or pictures, but only the co-ordinates of where we think you are looking. We will also store your questionnaire results. We will not be storing personally identifiable information such as your name or date of birth, but we will be asking you your age in years.
+
+<h2>How will my data be stored?</h2>
+We have asked you for your SONA ID to allow us to give you SONA credit and thus the listed researchers will have access to the raw data with these identification numbers for this purpose. However, we will be replacing these identification numbers with generic participant numbers to further anonymise your data. The fully anonymised data collected from this study will be preserved with the University of Reading and made publicly available, so that data can be re-used by others. No video data will be collected or stored, your webcam will only be used to estimate where you are looking on the screen.
+
+The data will be stored using University of Reading servers securely in
+accordance GDPR.
+<h2>Are there any risks associated with taking part?</h2>
+Some of the questionnaires include questions about your experience of feelings and emotions. If you think this is likely to cause you distress, you should consider carefully whether you wish to participate.
+
+<h2>Do I have to take part?</h2>
+Taking part in this study is completely voluntary; you may withdraw at any time without having to give any reason.
+
+<h2>Will I be compensated?</h2>
+You will receive 0.5 credits through SONA.
+This application has been reviewed by the University Research Ethics Committee and has been given a favourable ethical opinion for conduct ([UREC NUMBER])
+
+If you have any questions or concerns about the research, please feel free to contact Anthony Haffey using the details above.
+Thank you for your help.",instruct,,,,,
+consent1,I understand that my participation in this study is voluntary and that I may withdraw any time without giving any reason.,checkbox,,,no,,
+consent2,I have read the information sheet about this study and the procedure of the study has been explained to me.,checkbox,,,no,,
+consent3,I have been given the opportunity to ask any questions that I may have about the study and these have been answered to my satisfaction.,checkbox,,,no,,
+consent4,"I understand that the data collected from me in this study will be preserved and made available in anonymised form, so that they can be consulted and re-used by others.",checkbox,,,no,,
+,,,,,,,
