@@ -230,13 +230,6 @@ Project = {
     } else {
       project_json.post_no++;
       var start_time = new Date().getTime();
-      
-      $("#phase" + project_json.phase_no)
-        .contents()
-        .children()
-        .find("iframe")
-        .hide();
-      Project.start_post(go_to_info);
       project_json.this_phase[
         "post_" + project_json.post_no + "_phase_start_ms"
       ] = new Date().getTime();
@@ -244,6 +237,12 @@ Project = {
         "post_" + project_json.post_no + "_phase_start_date"
       ] = new Date(parseInt(start_time, 10)).toString("MM/dd/yy HH:mm:ss");
 
+      $("#phase" + project_json.phase_no)
+        .contents()
+        .children()
+        .find("iframe")
+        .hide();
+      Project.start_post(go_to_info);
     }
 
     /*
@@ -429,6 +428,9 @@ Project = {
         "window.addEventListener('blur', function(){ var focus_val = $('#window_switch').val();  $('#window_switch').val(focus_val + 'leave-' + (new Date()).getTime() + ';')}); window.addEventListener('focus', function(){ var focus_val = $('#window_switch').val(); $('#window_switch').val(focus_val + 'focus-' + (new Date()).getTime() + ';')}); "
       )[0].outerHTML;
 
+    /*
+project_json.this_phase["post_"+project_json.post_no+"_phase_start_ms"] = (new Date()).getTime();
+*/
 
     //baseline_time
 
@@ -525,6 +527,9 @@ Project = {
     if (typeof project_json.responses[project_json.phase_no] === "undefined") {
       project_json.responses[project_json.phase_no] = {};
     }
+    project_json.this_phase[
+      "post_" + project_json.post_no + "_phase_start_ms"
+    ] = new Date().getTime();
     if (
       $("#phase" + project_json.phase_no)
         .contents()
@@ -638,9 +643,6 @@ Project = {
         //no timers on this phase?
       }
     }
-    project_json.this_phase[
-      "post_" + project_json.post_no + "_phase_start_ms"
-    ] = new Date().getTime();
   },
 };
 

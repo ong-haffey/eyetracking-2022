@@ -1,42 +1,44 @@
 item,survey,max_time,text,shuffle_1,weight,phasetype,calibrations,calibration_skip,design_type,image_file,trials,min_width,min_height,skip_instruct,left_side,trial_order,
-0,,user,"<h2>Debrief </h2>
-<span style='font-size:23'>Thank you for taking part in the CAASD lab eye-tracking emotion study. Your participation is extremely valued, and will help us to better understand how we process emotional voices and facial expressions.<br>
-This study consists of two parts. In the first part, you will hear  emotional voices and see short videos, you will have to make the judgement of what emotion you perceive. We will use the webcam to track your attention, your video will not be saved, the location where you look will be saved anonymously. In the second part, we will ask you for some basic demographic details and to rate some statements that best describe you and how you feel.</span>
-<br><br>
+0,,user,"<h2>General Instructions</h2>
+<span style='font-size:23'>Thank you for taking part in this eye-tracking emotion study. Your participation is extremely valued, and will help us to better understand how we process facial expressions.<br>
 <br>
+This study consists of three parts. In the first part, you will see images of people expressing emotions. We will use the webcam to track your attention. Your video itself will not be saved. The location where you look will be saved anonymously. In the second part, you will see images of people expressing emotions and you'll have to judge which emotion they are expressing. Then finally, in the third part, we will ask you for some basic demographic details and to rate some statements that best describe you and how you feel.<br>
 <br>
-This study, conducted by Dr Fang Liu, Dr Chen Zhao, Dr Anthony Haffey, and Kiera Stevens. School of Psychology & Clinical Language Sciences, University of Reading, has been reviewed by the University Research Ethics Committee and has been given a favourable ethical opinion for conduct. <br>
-If you have any questions or wish to withdraw from the study, please contact us at: caasd@reading.ac.uk
+It is important that you use a laptop (as opposed to a desktop or a tablet) for this study.</span><br>
+<br>
+This study, conducted by Dr Anthony Haffey and Dr Jia Hoong Ong from the School of Psychology & Clinical Language Sciences, University of Reading, has been reviewed by the School Research Ethics Committee and has been given a favourable ethical opinion for conduct. <br>
+<br>
+If you have any questions or wish to withdraw from the study, please contact us at: a.haffey@reading.ac.uk<br>
+<br>
 
-<a href=""../User/Stimuli/SONA_ParticipantInfo.pdf"">Please download and read this information </a>
+<a href=""../User/Stimuli/SONA_ParticipantInfo.pdf"">Please download and read this Information Sheet </a>
+<br>
 <br>
 <button onclick=""Phase.submit()"">Proceed</button>",,1,text,,,,,,,,,,,
-0,,user,"<span style='font-size:20'>Please choose a quiet and well-lit place to take part in the study so you can concentrate, as the quality of the data is very important to us. <br /><br>
-<span style='font-size:20'>In this part, you will hear emotional voices and see facial expressions. You will have to make judgements of what emotion you perceive, as quickly and accurately as possible, by pressing the key. We will go through some practice trials to familarise the procedure.
+0,,user,"<h2>Part 1</h2>
+<span style='font-size:20'>Please choose a quiet and well-lit place to take part in the study so you can concentrate, as the quality of the data is very important to us. <br /><br>
+<span style='font-size:20'>In this part, you will see images of people expressing emotions. We will go through some practice trials to familarise the procedure.
 <br>
 <br>After the calibration, please keep your head and body as still as possible, this is to ensure we have captured your attention accurately. When there is a cross on the screen please look at the centre of the cross.<br>
 <br>
-Please use your headphones once you are ready to start. Here is a sound example, please adjust the volume to a comfortable level and <b>keep the same volume throughout the study</b>.<br> Note: this sound has added noise, so you should expect to hear a static-like sound. <br /><br></span>
-<audio controls>
-  <source src=""../User/Stimuli/A_W14_N_Sp_D_-5.wav"" type=""audio/wav"">
-  Your browser does not support the audio tag.
-</audio><br>
-<br>
-
 <span style='font-size:20'>Please note that you will be given opportunities to have breaks, please only take breaks when the instruction shows on the screen, as any interruption of the study will require calibration for attention tracking.
 <br>
 <br>
 Now we will start a short practice (there is no calibration dot for practice). 
 
 <br>
+<br>
 </span>
 <button onclick=""Phase.submit()"">Proceed</button>",,1,text,,,,,,,,,,,
-0,,user,THESE INSTRUCTIONS CAN BE CHANGED IN THE PROCEDURE SHEET IN THE TEXI COLUMN OF THE WEBGAZER ROW,eyetracking,1,webgazer_3,13,yes,stimuli,stim_block1.csv,3,1100px,400px,off,image_1,random,
-0,,user,THESE INSTRUCTIONS CAN BE CHANGED IN THE PROCEDURE SHEET IN THE TEXI COLUMN OF THE WEBGAZER ROW,eyetracking,1,webgazer_3,13,yes,stimuli,stim_block2.csv,3,1100px,400px,off,image_1,random,
-0,,user,THESE INSTRUCTIONS CAN BE CHANGED IN THE PROCEDURE SHEET IN THE TEXI COLUMN OF THE WEBGAZER ROW,eyetracking,1,webgazer_3,13,yes,stimuli,stim_block3.csv,3,1100px,400px,off,image_1,random,
-0,,user,THESE INSTRUCTIONS CAN BE CHANGED IN THE PROCEDURE SHEET IN THE TEXI COLUMN OF THE WEBGAZER ROW,eyetracking,1,webgazer_3,13,yes,stimuli,stim_block4.csv,3,1100px,400px,off,image_1,random,
-0,,user,MAKE SURE TO USE A LAPTOP NOT A DESKTOP,off,1,instruct,,,,,,,,,,,
-2 to 71,,user,,emotion_trials,1,emotion_recognition,,,,,,,,,,,
+0,,user,Task will begin shortly.,eyetracking,1,webgazer_3,13,yes,stimuli,stim_block1.csv,3,1100px,400px,off,image_1,random,
+0,,user,Task will begin shortly.,eyetracking,1,webgazer_3,13,yes,stimuli,stim_block2.csv,3,1100px,400px,off,image_1,random,
+0,,user,Task will begin shortly.,eyetracking,1,webgazer_3,13,yes,stimuli,stim_block3.csv,3,1100px,400px,off,image_1,random,
+0,,user,Task will begin shortly.,eyetracking,1,webgazer_3,13,yes,stimuli,stim_block4.csv,3,1100px,400px,off,image_1,random,
+2 to 71,,user,"<h2>Part 2</h2>
+<span style='font-size:20'>Please choose a quiet and well-lit place to take part in the study so you can concentrate, as the quality of the data is very important to us. <br /><br>
+<span style='font-size:20'>In this part, you will see images of people expressing emotions and you'll have to judge which emotion they are expressing..
+<br>
+<br>",emotion_trials,1,emotion_recognition,,,,,,,,,,,
 0,eyetracking_demo.csv,user,,off,1,survey,,,,,,,,,,,
 0,autism_quotient.csv,user,,off,1,survey,,,,,,,,,,,
 0,perth_alexithymia.csv,user,,off,1,survey,,,,,,,,,,,
